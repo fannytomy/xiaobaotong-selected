@@ -1,7 +1,7 @@
 export default function Faq() {
   return ( 
     <section>
-    <div className="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+    <div id="faq" className="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
         <div className="mb-8 text-center md:mb-12 lg:mb-16">
             <h2 className="text-3xl font-semibold md:text-5xl">常见 <span className="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')] bg-cover bg-center px-4 text-white">问题</span></h2>
         </div>
