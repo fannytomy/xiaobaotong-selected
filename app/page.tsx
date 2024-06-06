@@ -2,14 +2,12 @@
 
 import Head from 'next/head';
 import { useState } from 'react';
-import {columns} from '@/data/columns'
-
-const tags = ['全部', '热门', '搞钱', '官方推荐', 'AI', '自媒体', '小红书', '公众号', 'IP', '私域', '超级个体', '电商', '互联网', '编程', '独立开发', '出海', '沟通', '读书', 'RPA', '写作', '心理', '人际', '成长'];
+import {columns, tags} from '@/data/data'
 
 const Page = () => {
   const [selectedTag, setSelectedTag] = useState('全部');
 
-  const filteredData = selectedTag === '全部' ? columns : columns.filter(item => item.title.includes(selectedTag));
+  const filteredData = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -25,19 +23,23 @@ const Page = () => {
         <input type="text" placeholder="搜索小报童专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" />
       </header>
       
-      <nav className="flex justify-center space-x-4 py-4 bg-gray-200">
+      <nav className="flex flex-wrap justify-center space-x-2 space-y-2 py-4 w-4/5 mx-auto my-2">
         {tags.map(tag => (
           <button 
             key={tag} 
             onClick={() => setSelectedTag(tag)} 
-            className={`px-4 py-2 rounded ${selectedTag === tag ? 'bg-blue-500 text-white' : 'bg-white text-gray-800'}`}
+            className={`px-4 py-2 rounded border ${selectedTag === tag ? 'bg-gray-300 text-white' : 'bg-white text-red-500 border-dashed border-red-500'}`}
           >
             {tag}
           </button>
         ))}
       </nav>
 
-      <main className="flex flex-wrap justify-center p-12">
+      <div className="text-center font-bold text-red-800 text-xl my-2">
+        <p>【{selectedTag}】 共有 {filteredData.length} 个专栏</p>
+      </div>
+
+      <main className="flex flex-wrap justify-center p-12 my-0 mx-auto">
         {filteredData.map(item => (
           <div key={item.columnid} className="bg-white p-6 rounded shadow-md m-4 w-80 transition-transform transform hover:scale-105">
           <div className="flex items-center mb-4">
@@ -52,9 +54,7 @@ const Page = () => {
         ))}
       </main>
       
-      {/* <footer className="text-center py-4 bg-white shadow mt-4">
-        <p>当前显示 {filteredData.length} 个专栏</p>
-      </footer> */}
+      
     </div>
   );
 };
