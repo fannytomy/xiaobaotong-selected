@@ -10,16 +10,30 @@ import Header from '@/components/Header'
 
 const Page = () => {
   const [selectedTag, setSelectedTag] = useState('全部');
+  const [inputValue, setInputValue] = useState<string>('');
 
-  const filteredData = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
+  const handlerSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputValue(event.target.value);
+    console.log(event.target.value); // 输出当前输入框的值
+  };
+
+  const tagMatchResult = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
+
+  const filteredData = tagMatchResult.filter(item => {
+    if (inputValue) {
+      const titleMatchResult = item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue)
+      return titleMatchResult
+    }
+    return tagMatchResult;
+  });
 
   return (
     <>
       <Header />
       <div className="min-h-screen bg-gray-100">
 
-        <div className="text-center font-bold text-red-600 text-xl">
-          <input type="text" placeholder="搜索小报童精选专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" />
+        <div className="text-center font-bold text-red-600 text-xl pt-6">
+          <input type="text" placeholder="搜索小报童精选专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" value={inputValue} onChange={handlerSearch}/>
         </div>
 
         <nav className="flex flex-wrap justify-center space-x-2 space-y-2 py-4 w-3/5 mx-auto my-2">
@@ -34,7 +48,7 @@ const Page = () => {
           ))}
         </nav>
 
-        <div className="text-center font-bold text-red-800 text-xl my-2">
+        <div className="text-center font-bold text-red-800 text-xl mt-2">
           <p>【{selectedTag}】 共有 {filteredData.length} 个专栏</p>
         </div>
 
