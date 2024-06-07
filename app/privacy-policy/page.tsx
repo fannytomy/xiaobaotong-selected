@@ -10,7 +10,7 @@ export default async function Page() {
           <h1 className="text-3xl font-extrabold text-black mb-12 -mt-4">
             隐私政策
           </h1>
-          <p className="text-gray-700 mb-6">最后更新日期：2024年6月7日</p>
+          <p className="text-gray-700 mb-6">最后更新日期：2024年6月8日</p>
           <p className="text-gray-700 mb-6">感谢您选择【小报童专栏精选导航站】！本隐私政策概述了您在使用我们的网站时我们如何收集、使用和保护您的个人信息</p>
           <h2 className="text-black font-bold mb-8">1、信息收集:</h2>
           <p className="text-gray-700 mb-4">a. 本网站不收集任何个人信息</p>
