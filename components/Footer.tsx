@@ -14,26 +14,24 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100" aria-labelledby="footer-heading">
+    <footer className="bg-gray-100 w-4/5 mx-auto max-w-5xl pb-12 px-4 sm:px-6 lg:px-8" aria-labelledby="footer-heading">
       <div id="footer-heading" className="sr-only">
         Footer
       </div>
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
           <div className="space-y-6">
-            <div className="flex lg:flex-1">
-              <a href={`/`} className="-m-1.5 p-1.5">
+            <div className="flex items-center lg:flex-1">
+              <Link href={`/`} className="-m-0 p-1.5">
                 <Image
                   className="h-8 w-auto"
-                  src="/appicon.svg"
+                  src="/xiaobot_s.svg"
                   alt="soramagic.co"
                   width={32}
                   height={32}
                 />
-              </a>
-              <p className="text-xl text-black font-bold">
-                小报童专栏精选导航站
-              </p>
+              </Link>
+              <Link href={`/`} className="text-xl text-black font-bold">小报童专栏<br/>精选导航站</Link>
             </div>            
           </div>
           <div className="mt-2 flex grid-cols-1 gap-8 xl:col-span-2 xl:mt-0 justify-end">
