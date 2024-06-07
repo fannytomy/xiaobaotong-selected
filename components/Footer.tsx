@@ -14,11 +14,11 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 w-4/5 mx-auto max-w-5xl pb-12 px-4 sm:px-6 lg:px-8" aria-labelledby="footer-heading">
+    <footer className="bg-gray-100 mx-auto pb-12 px-4 sm:px-6 lg:px-8" aria-labelledby="footer-heading">
       <div id="footer-heading" className="sr-only">
         Footer
       </div>
-      <div className="mx-auto max-w-7xl px-6 py-4">
+      <div className="mx-auto max-w-5xl px-6 py-4 pt-10 border-t border-gray-300 text-sm">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
           <div className="space-y-6">
             <div className="flex items-center lg:flex-1">

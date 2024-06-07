@@ -56,12 +56,11 @@ const Page = () => {
           {filteredData.map(item => (
             <Card cloumn_info={item} />
           ))}
-        </main>
-        
-        <Faq />
-        <Footer />
-        <BackToTopButton />
+        </main>        
       </div>
+      <Faq />
+      <Footer />
+      <BackToTopButton />
     </>
   );
 };
