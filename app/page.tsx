@@ -1,10 +1,11 @@
 "use client";
 
-import Head from 'next/head';
 import { useState } from 'react';
 import {columns, tags} from '@/data/data'
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
+import BackToTopButton from '@/components/Back2Top';
+
 
 const Page = () => {
   const [selectedTag, setSelectedTag] = useState('全部');
@@ -54,6 +55,7 @@ const Page = () => {
       
       <Faq />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };
