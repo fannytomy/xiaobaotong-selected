@@ -13,9 +13,9 @@ const Page = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="text-center py-16">
+      <div className="text-center py-16">
         <h1 className="text-5xl font-bold text-red-800">小报童专栏精选导航站</h1>        
-      </header>
+      </div>
       
       <div className="text-center font-bold text-red-800 text-xl my-2">
         <input type="text" placeholder="搜索小报童精选专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" />

@@ -39,3 +39,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. 卡片添加点击链接
 2. 卡片添加最好更新时间
 3. 卡片专栏数据左右上下处理一下
+4. blog页面；legal页面
+5. 搜索功能

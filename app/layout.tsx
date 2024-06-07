@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "小报童专栏精选导航站",
   description: "小报童专栏精选导航站",
+  icons: ["/favicon.ico"]
 };
 
 export default function RootLayout({
