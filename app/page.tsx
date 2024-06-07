@@ -5,7 +5,7 @@ import {columns, tags} from '@/data/data'
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import BackToTopButton from '@/components/Back2Top';
-
+import Card from '@/components/Card';
 
 const Page = () => {
   const [selectedTag, setSelectedTag] = useState('全部');
@@ -40,16 +40,7 @@ const Page = () => {
 
       <main className="flex flex-wrap justify-center p-12 my-0 mx-auto">
         {filteredData.map(item => (
-          <div key={item.columnid} className="bg-white p-6 rounded shadow-md m-4 w-80 transition-transform transform hover:scale-105">
-          <div className="flex items-center mb-4">
-            <img src={item.image_url} alt={item.title} className="h-16 w-16 rounded-full mr-4" />
-            <div>
-              <p className="text-gray-600 text-lg font-bold">{item.num.readers} 读者 · {item.num.contents} 内容</p>
-            </div>
-          </div>
-          <h2 className="text-red-800 text-xl font-bold mb-2">{item.title}</h2>
-          <p className="text-gray-800 h-60 overflow-hidden text-ellipsis" dangerouslySetInnerHTML={{ __html: item.description }}></p>
-        </div>        
+          <Card cloumn_info={item} />
         ))}
       </main>
       
