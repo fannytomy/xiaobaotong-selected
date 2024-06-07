@@ -31,20 +31,16 @@ export default function Footer() {
                   height={32}
                 />
               </Link>
-              <Link href={`/`} className="text-xl text-black font-bold">小报童专栏<br/>精选导航站</Link>
+              <Link href={`/`} className="text-xl text-red-600 font-bold">小报童专栏<br/>精选导航站</Link>
             </div>            
           </div>
           <div className="mt-2 flex grid-cols-1 gap-8 xl:col-span-2 xl:mt-0 justify-end">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <div className="text-sm font-semibold leading-6 text-black">Blog</div>
+                <div className="text-sm font-semibold leading-6 text-red-600">Blog</div>
                 <ul role="list" className="mt-6 space-y-4">
                   <li>
-                    <Link
-                      href={`/blog`}
-                      target={"_blank"}
-                      className="text-sm leading-6 whitespace-nowrap text-black hover:underline"
-                    >
+                    <Link href={`/blog`} className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline">
                       Blog
                     </Link>
                   </li>
@@ -52,7 +48,7 @@ export default function Footer() {
               </div>
               <div className="md:grid md:grid-cols-1 md:gap-8">
                 <div>
-                  <div className="text-medium font-semibold leading-6 text-black font-bold">
+                  <div className="text-medium font-semibold leading-6 text-red-600 font-bold">
                     Legal
                   </div>
                   <ul role="list" className="mt-6 space-y-2">
@@ -61,7 +57,7 @@ export default function Footer() {
                         <li key={item.name}>
                           <Link
                             href={`${item.href}`}
-                            className="text-sm leading-6 whitespace-nowrap text-black hover:underline"
+                            className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline"
                           >
                             {item.name}
                           </Link>
@@ -75,7 +71,7 @@ export default function Footer() {
           </div>
           <div className="mt-10 md:mt-0">
             <div>
-              <div className="text-medium font-semibold leading-6 text-black">CREDIT TO</div>
+              <div className="text-medium font-semibold leading-6 text-red-600">CREDIT TO</div>
               <ul role="list" className="mt-6 space-y-2">
                 {navigation.credit.map((item) => {
                   return (
@@ -83,7 +79,7 @@ export default function Footer() {
                       <Link
                         href={`${item.href}`}
                         target={"_blank"}
-                        className="text-sm leading-6 whitespace-nowrap text-black hover:underline"
+                        className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline"
                       >
                         {item.name}
                       </Link>
