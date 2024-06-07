@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import {columns, tags} from '@/data/data'
 import Faq from '@/components/Faq';
+import Footer from '@/components/Footer';
 
 const Page = () => {
   const [selectedTag, setSelectedTag] = useState('全部');
@@ -52,7 +53,7 @@ const Page = () => {
       </main>
       
       <Faq />
-
+      <Footer />
     </div>
   );
 };
