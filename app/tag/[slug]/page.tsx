@@ -1,29 +1,33 @@
 "use client";
 
 import { useState } from 'react';
-import {columns} from '@/data/data'
+import {columns, tags, tags_alias} from '@/data/data'
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import BackToTopButton from '@/components/Back2Top';
 import Cards from '@/components/Cards';
 import Header from '@/components/Header'
 import CountColumn from '@/components/CountColumn'
-import Tags from '@/components/Tags';
+import Tags from '@/components/Tags'
 
-const Page = () => {
+export default function TagContentPage({ params }: { params: { slug: string } }) {
+  const tags_alias_index = tags_alias.indexOf(params.slug);
+  const selectedTag = tags_alias_index === -1 ? '全部' : tags[tags_alias_index];
+  
   const [inputValue, setInputValue] = useState<string>('');
   const handlerSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
 
-  const selectedTag = '全部';
-  let filterResult = columns.slice(0, 50);
+  const tagMatchResult = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
 
-  if (inputValue.length > 0) {
-    filterResult = columns.filter(item => item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue));
-  }
+  const filteredData = tagMatchResult.filter(item => {
+    if (inputValue) {
+      return item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue)
+    }
+    return tagMatchResult;
+  });
 
-  const cloumn_size = inputValue.length > 0 ? filterResult.length : columns.length;
   const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
   return (
@@ -36,14 +40,8 @@ const Page = () => {
         </div>
 
         <Tags selectedTag={selectedTag} />
-        <CountColumn name={name} num={cloumn_size} />
-
-        <Cards filteredData={filterResult} />
-        {/* <main className="flex flex-wrap justify-center p-6 mx-auto">
-          {filterResult.map(item => (
-            <Card cloumn_info={item} />
-          ))}
-        </main>         */}
+        <CountColumn name={name} num={filteredData.length} />
+        <Cards filteredData={filteredData} />       
       </div>
       <Faq />
       <Footer />
@@ -51,5 +49,3 @@ const Page = () => {
     </>
   );
 };
-
-export default Page;
