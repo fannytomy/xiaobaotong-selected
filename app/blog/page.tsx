@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 export const metadata = {
   title: '小报童专栏精选导航站 | Blog',
   description: '小报童专栏精选导航站 blog.',
+  keywords: '小报童, 小报童精选, 小报童专栏, 小报童导航, 小报童导航站, 小报童专栏精选导航站'
 }
 
 export default function Page() {

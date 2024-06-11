@@ -10,7 +10,6 @@ import Nav from '@/components/Nav'
 import CountColumn from '@/components/CountColumn'
 import Tags from '@/components/Tags'
 import Header from '@/components/Header';
-import Head from 'next/head'
 
 export default function TagContentPage({ params }: { params: { slug: string } }) {
   const tags_alias_index = tags_alias.indexOf(params.slug);

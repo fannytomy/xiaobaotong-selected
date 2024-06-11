@@ -14,8 +14,8 @@ export default function Nav() {
   return (
       <nav className="top-0 z-20 w-full border-b border-gray-300 bg-gray-100 flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex items-center lg:flex-1 justify-start">
-          <a href={`/`} className="flex items-center mr-2" >
-            <Image className="h-8 w-auto" src="/xiaobot_s.svg" alt="soramagic.co" width={28} height={28}/>
+          <a href={`/`} className="flex items-center mr-2" title="小报童专栏精选导航站">
+            <Image className="h-8 w-auto" src="/xiaobot_s.svg" alt="xiaobaotong.store" width={28} height={28} />
           </a>
           <Link href={`/`} className="text-3xl text-red-600 font-bold">小报童专栏精选导航站</Link>
         </div>

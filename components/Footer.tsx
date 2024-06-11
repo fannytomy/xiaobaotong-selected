@@ -26,7 +26,7 @@ export default function Footer() {
                 <Image
                   className="h-8 w-auto"
                   src="/xiaobot_s.svg"
-                  alt="soramagic.co"
+                  alt="xiaobaotong.store"
                   width={32}
                   height={32}
                 />
