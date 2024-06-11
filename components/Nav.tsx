@@ -5,7 +5,7 @@ import Link from "next/link";
 const navigation = {
   topMenu: [
     {name: 'Home', href: '/'},
-    {name: 'Blog', href: '/blog'},
+    // {name: 'Blog', href: '/blog'},
     {name: 'FAQs', href: '#faqs'},
   ],
 }
