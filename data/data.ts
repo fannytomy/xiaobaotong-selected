@@ -937,10 +937,182 @@ export const columns =
             title: "笔记的方法（原知识资产 · 已完结）",
             owner: "@flomo Team",
             description: "由 flomo 团队出品，感谢大家支持，实体书已经上市，在当当网、得到 App 内搜索《笔记的方法》即可购买。<br><br>为保证创始读者的权益能有效履约（如致谢名单、实体书快递）等工作，故本专栏从 2023 年 8 月 6 日后关闭购买，如有问题请联系微信 plidezus",
-            type: ""
+            type: "读书"
         },
-    ]
-
+        {
+            columnid: "shizhan",
+            image_url: "https://static.xiaobot.net/paper/2024-02-25/98198/abbdb5a96228db79b358e0d32174bdc4.jpeg",
+            num: { readers: 1671, contents: 148 },
+            title: "108个实战项目",
+            owner: "@阿拉丁@叁心笔记",
+            description: "玩转互联网实战项目。<br><br>本专栏主要是分享我本人曾经实战过的，并且正在实战的项目，以及未来将会实战的项目<br><br>本专栏至少会更新108个实战项目。<br><br>让大家在互联网上缩短信息差，去低成本操作项目，最终真的找到适合自己的项目。<br><br>轻资产创业，低成本启动，小成本试错。<br><br>原价998元，限时19.9元。（已从10元涨价到19.9）<br><br>满2000人继续涨价。<br><br>订阅专栏提供免费交流群。<br><br>交流群有什么用，可以扫码查看。<br><br>另本专栏适合所有人想在互联网上干项目的人加入。<br><br>但是不适合啥都不干，老想着天上掉馅饼的人加入。<br><br>订阅三思。",
+            type: "搞钱、副业"
+        },
+        {
+            columnid: "whereisyi",
+            image_url: "https://static.xiaobot.net/paper/2022-05-07/35190/93268d15f6e588705c4e90ae16905290.jpeg",
+            num: { readers: 1048, contents: 103 },
+            title: "李奕在哪儿｜第一季【已完结】",
+            owner: "@李奕",
+            description: "👩🏻‍🌾 在肯尼亚种田！改变非洲农业🌱<br><br>🇰🇪【走进非洲】在肯尼亚创业的奇葩故事和心路历程<br><br>💛【人生课题】聊聊情绪和身体管理，亲密关系和父母沟通<br><br>🔑【职场进阶】百分百的实战干货，职场新老人都能用<br><br>🧠【认知重塑】分享我认为最重要的，可能改变人生的底层信念<br><br>🍅 如果把公众号文章比喻为农场上丰收的番茄，小报童就是让你看到我种番茄的整个过程：育苗，栽种，除草，施肥，收获。虽然每个人都有自己独一无二的农场要去耕耘，但去和隔壁农民取取经，总能带来一些inspiration。<br><br>第一季100篇已完结",
+            type: "成长、职场、心理"
+        },
+        {
+            columnid: "whereisyi2",
+            image_url: "https://static.xiaobot.net/paper/2023-04-10/35190/a180def8e7a09ea080b4d243965cdf00.jpeg",
+            num: { readers: 1467, contents: 92 },
+            title: "李奕在哪儿｜第二季",
+            owner: "@李奕",
+            description: "👩🏻‍🌾<br><br>2016-2021麦肯锡咨询师，洛杉矶、北京、内罗毕办公室<br><br>2021至今辞职创业，肯尼亚农业科技公司FarmWorks<br><br>🍀<br><br>第二季了，让我们一起玩人生这场游戏！<br><br>100篇非洲创业故事，职场实战干货，人生底层信念和关键认知。",
+            type: "成长、职场、心理"
+        },
+        {
+            columnid: "smalltalk",
+            image_url: "https://static.xiaobot.net/paper/smalltalk.jpeg",
+            num: { readers: 930, contents: 181 },
+            title: "SmallTalk · 第一季（已完结）",
+            owner: "@Light",
+            description: "我一贯追求的是：<br><br>1）世界实际上的运转逻辑；<br><br>2）人所能成为的理想形态。<br><br>在这个专栏，写一些对于创业、投资和人生的偏见。",
+            type: "官方推荐、成长"
+        },
+        {
+            columnid: "smalltalk2023",
+            image_url: "https://static.xiaobot.net/paper/2022-12-29/1/0bd29c03cfcd7b90f74531e191d1685c.jpeg",
+            num: { readers: 1209, contents: 110 },
+            title: "SmallTalk · 第二季（连载中）",
+            owner: "@Light",
+            description: "我一贯追求的是：<br><br>1）世界实际上的运转逻辑；<br><br>2）人所能成为的理想形态。<br><br>在这个专栏，写一些对于创业、投资和人生的偏见。<br><br>（本季承诺 120 篇）",
+            type: "官方推荐、成长"
+        },
+        {
+            columnid: "mindset",
+            image_url: "https://static.xiaobot.net/paper/2022-12-31/35190/bea9b73a66eb85c8fbf6f436ff7e2903.jpeg",
+            num: { readers: 1189, contents: 37 },
+            title: "心态大师 1.0【完结啦，来读我】",
+            owner: "@李奕",
+            description: "想到「心态」作为新年小册的主题，是因为我向来觉得心态好是自己的优点，然而在起伏不断的2022年中，我也数度经历过“心态崩了”的时刻。<br><br>哪怕是我自己写下的故事和道理，我自己也会在一些焦虑的当下忘记，自己也做不到。<br><br>我也需要不断回看，不断提醒自己已经走过的路，才能更稳定，松弛，有自信地向前。<br><br>这本小册包含五个小主题：<br><br>* 和自己对话<br><br>* 面对不确定性<br><br>* 职场升级心法<br><br>* 低谷期的锦囊<br><br>* 健康的身心，好心态的本钱<br><br>我会在整个1月份更新，每日一篇，和大家一起开启2023。<br><br>愿我们都可以调整心态，重新出发！",
+            type: "心理、成长、职场"
+        },
+        {
+            columnid: "case",
+            image_url: "https://static.xiaobot.net/paper/2024-01-23/61313/371bce8306b3e26ffc63568285bcdaa6.png",
+            num: { readers: 1079, contents:31  },
+            title: "50个RPA自动化机器人",
+            owner: "@Sitin彭涛",
+            description: "本小册为 大胡子和彭涛共创，<br><br>RPA进阶实战课作者，RPA领域老法师<br><br>帮助RPA新手入门并应用。<br><br>小册：提供了以automa、uibot、影刀等开发的高效RPA工具，场景包含浏览器、桌面软件端的RPA自动化，自媒体职场工作必备神器，帮助大家日常工作中提效。<br><br>原价199，限时优惠11元，满500人涨价<br><br>至少更新50个案例。<br><br>购买后加vx： 257735， 发送支付截图，发 【 #机器 】拉你进交流群<br><br>送你机器人源码，不定期直播分享实战案例。",
+            type: "RPA、超级个体"
+        },
+        {
+            columnid: "mediabrand",
+            image_url: "https://static.xiaobot.net/paper/2022-10-28/14/9c0c2e43a1bd71287d0be6f1c0a212b7.png",
+            num: { readers: 960, contents: 31 },
+            title: "内容即品牌",
+            owner: "@刘飞",
+            description: "写作八年，观察十年，个人对内容和品牌的思考总结。<br><br>内容连载中，购买本专栏可终身阅读。<br><br>创始readers独享权益：<br><br>1. 专属读者群，探讨专栏内容、交流与反馈。<br><br>2. 社群内直播，六场内容或品牌经验丰富的嘉宾访谈。<br><br>3. 签名实体书，连载完成后出版，免费获得。<br><br>具体权益订阅后可在置顶内容中查阅。<br><br>希望和你一起见证这本内容的诞生。",
+            type: "写作、IP"
+        },
+        {
+            columnid: "ip50",
+            image_url: "https://static.xiaobot.net/paper/2023-11-03/7466/87490548dddcee82fe17f9895ed5a85c.jpeg",
+            num: { readers: 923, contents: 33 },
+            title: "一人企业·IP从0到赚钱50问",
+            owner: "@IDO老徐",
+            description: "我是 IDO老徐 。在职场，玩副业，副业超主业。探索「一人企业」的可复制性。<br><br>这个专栏的「IP50问」，内容精选自原价 2999 的 IP实验室。限时最低价开放给各位，看到就是缘分，推荐订阅 。<br><br>* 内容独家发布，在其他地方不可能看到。<br><br>定价，<br><br>限时内测，最低价 36.66<br><br>满 1200 人，涨价至 56.79<br><br>逐步涨价至 199（原价 2999）<br><br>探索「一人企业」，持续商业化，复利，值得 。每个人都可，或大或小。",
+            type: "搞钱、IP、自媒体、副业、IDO老徐"
+        },
+        {
+            columnid: "playchatgpt",
+            image_url: "https://static.xiaobot.net/paper/2023-10-24/88476/045b835ddc690d87ab37df3482269818.png",
+            num: { readers: 638, contents: 32 },
+            title: "公众号爆文AI写作变现",
+            owner: "@志军",
+            description: "1. 专栏分享普通人如何从0到1打造10万+公众号爆款文章以及变现方法<br><br>2. 内容包含爆款案例、工具分享、AI写作调教指令、涨粉、公众号变现等，更新至少50篇。<br><br>3. 原价399，限时最低价25元，一杯奶茶钱 ，专栏开放60%分销。<br><br>4. 订阅福利：爆款交流群+爆款素材库1份。添加军哥微信领取：go2071",
+            type: "搞钱、副业、公众号、AI、写作"
+        },
+        {
+            columnid: "Chat-GPT",
+            image_url: "https://static.xiaobot.net/paper/2023-02-16/8398/e4e75f3da341393a4a9233fc7e1a3217.jpeg",
+            num: { readers: 1981, contents: 75 },
+            title: "ChatGPT应用宝典：新手实战指南",
+            owner: "@成甲",
+            description: "ChatGPT工具有遇强则强，遇弱则弱的特点，好的使用方式，能真正激活ChatGPT的价值。所以我希望把我请教各种人学到的有价值的实操技能分享出来，帮助更多人用好ChatGPT，提升生活效能~<br><br>这里提供了使用ChatGPT解决各种实际问题的具体的、有循序渐进的分步指导，并提供了可视化的清晰解释，用“所见即所得”的方式帮助读者将这些技术应用到自己的工作生活中。<br><br>说明：<br><br>1、所见即所得，保姆级实操案例；<br><br>2、已有内容随着经验丰富，会优化更新；",
+            type: "AI"
+        },
+        {
+            columnid: "xueke",
+            image_url: "https://static.xiaobot.net/paper/2023-12-25/98198/a886058e489a94acc35ca235358239e3.png",
+            num: { readers: 680, contents: 78 },
+            title: "小学教辅项目",
+            owner: "@阿拉丁@叁心笔记",
+            description: "一部手机玩转学科项目！<br><br>什么是学科项目？就是把我们自己整理好的资料，试卷，笔记整理打包，出售给需要的家长，学生，教师等，无任何版权，并且高客单价，一单利润几十上百元。<br><br>本专栏主要教大家如何在抖音，小红书上做流量，以及不对外宣传的绝密截流玩法，快速从0到1开始新的项目，从而在互联网上挣到钱。<br><br>快速学习，精准复制，本项目外面培训收费2980。<br><br>限时118元（一次订阅，永久查看）<br><br>每满100人涨10元（已从68涨到118）<br><br>只订阅本专栏不提供免费交流群<br><br>需要交流群的可以看置顶文章。<br><br>学科系统已对小报童成员开放",
+            type: "搞钱、副业"
+        },
+        {
+            columnid: "Chadandrygoods",
+            image_url: "https://static.xiaobot.net/paper/2023-03-02/198843/34afe787dfd2e36eabfc9ce57bb6fb50.jpeg",
+            num: { readers: 573, contents: 35 },
+            title: "茶蛋干货铺",
+            owner: "@小茶和Frank",
+            description: "<br><br>【作者是谁】@小茶和Frank，一对经营了近10年的职场博主/情侣。一直在外资最头部的科技企业工作，攒了一箩筐的职场经历，同时做了个职场博主当副业，攒了30w粉丝“小朋友”，至今还在营业。<br><br>【为什么开专栏】这么多年做了几千个1对1咨询，开了上百场讲座，一直没有一个地方好好沉淀自己脑子里的方法论。想在这里沉淀思路，一边学习一边输出，同时系统地整理求职和职场发展方法论。<br><br>【读者可以获得什么】<br><br>求职大法：从职业定位，简历，network，面试，谈薪一系列求职方法论；<br><br>职场干货：职场个人成长方法论，包括但不限于：老板沟通管理，工作时间管理，项目管理，工作技巧，职场沟通技巧，个人目标成长规划，职场模版工具等等；<br><br>易懂的行业拆解：定期用大白话拆解行业，帮你拓宽对不同行业的认知；<br><br>茶蛋火箭班精华：总结茶蛋火箭班精华内容，帮助快速学习；<br><br>【了解我们】<br><br>微博@小茶和Frank<br><br>公众号：茶简历和蛋文书<br><br>小宇宙/喜马拉雅/Apple Podcast：茶蛋说",
+            type: "职场"
+        },
+        {
+            columnid: "yunyingren",
+            image_url: "https://static.xiaobot.net/paper/2024-01-05/15580/1a263cfe92c3b992004f6f61afcc374c.png",
+            num: { readers: 533, contents: 31 },
+            title: "小红书投放策略红宝书",
+            owner: "@松月",
+            description: "“做好小红书投放，看这本就够了”！（松月和好多鱼联合出品）<br><br>2024年小红书的机会在于投放！薯条、聚光、达人等投放工具是自然流的放大器，随着平台竞争加剧，只靠自然流的玩法2024年将不再适用！<br><br>适合人群：<br><br>把小红书作为种草平台快消品、消费品的企业一把手和市场营销负责人；负责小红书平台运营操盘手、代运营、和个人博主。<br><br>内容预览：<br><br>扫码进入可看到内容目录，分为新手篇、进阶篇、大师篇、投放案例库、投放资料库和常见问题等板块，且会根据平台的变化趋势做实时更新，保证你拿到信息的及时和准确！给大家开通了3讲进行免费阅读。",
+            type: "搞钱、副业、小红书、营销、运营、投放"
+        },
+        {
+            columnid: "AIGC2024",
+            image_url: "https://static.xiaobot.net/paper/2024-02-18/266337/006b087e1dc7a4770ae6169449318929.png",
+            num: { readers: 429, contents: 20 },
+            title: "Sora掘金手册",
+            owner: "@沐凡AIGC",
+            description: "Open AI发布Sora文生视频模型，超强能力横扫一切文生视频模型，堪称地表最强视频模型！<br><br>我是沐凡，AI研习社合伙人，致力于打破信息差，搜寻整理全网Sora的前沿资讯、变现案例、视频提示词等干货。<br><br>小册子共4个部分：Sora最新资讯、Sora通识干货、Sora变现案例、Sora提示词。<br><br>原价599 元，限时 10元买断，每满100人上涨9.9元。订阅后，大号mufansay123已加满，可加微信xiyou2046 赠送价值399元的AI副业工具包，并拉你进入Sora学习交流群，群里随时更新Sora最新资讯和变现案例。",
+            type: "搞钱、副业、AI"
+        },
+        {
+            columnid: "ppdmn",
+            image_url: "https://static.xiaobot.net/paper/2022-11-24/89732/41e7ccb49155cbced13727e1b6c6e4bf.jpeg",
+            num: { readers: 385, contents: 101 },
+            title: "短视频带货赚钱案例库",
+            owner: "@佩佩",
+            description: "我是佩佩，自媒体从业5年，曾经靠一条短视频赚到30万佣金，短视频带货实战派。<br><br>这个案例库，拆解了100个短视频带货赚钱的案例。在案例库里，你能看见各式各样的“创意”。原来做短视频带货根本不需要真人出镜，不需要卖货给熟人，不需要花钱囤货，门槛低但天花板高，不需要发货和售后。<br><br>里面的每一个账号都在悄悄赚钱，用你想不到的简单方式。1000多粉丝也能日入过万，几十个点赞也能赚几百几千佣金。别人是怎么做到的，案例库里都给你拆解清楚。<br><br>这个案例库，从100个赚钱猛的案例里选择自己能做的，然后干就完了。<br><br>将近4万字啊！别人是怎么赚钱的，我都替你们拆解好了。<br><br>案例库定价69元，看完既能开眼界，还能模仿执行。每满一百人，涨价10元，佩姐案例库，必买不亏。",
+            type: "搞钱、副业、短视频"
+        },
+        {
+            columnid: "kidstalk",
+            image_url: "https://static.xiaobot.net/paper/2023-12-04/222918/fd5587371618a78efae89b37fe6fcba0.png",
+            num: { readers: 235, contents: 57 },
+            title: "AI时代教育思考",
+            owner: "@好奇的文姐",
+            description: "作者文姐Grace，教育+AI博主，全网粉丝60W+。<br><br>希望以全球化视野，通过PBL项目式学习、STEAM学习、跨学科学习等方式，培养孩子的思维、创造力、解决问题的能力、批判性思维，帮助孩子找到自己的热爱。<br><br>小册主要分享以下几部分：<br><br>1、国外优质工具与资源<br><br>2、国外教育信息差<br><br>3、提升父母认知的教育类书摘<br><br>4、省钱的教育方法和配套资源<br><br>购买后加v提供截图：hdmama3 可进群。<br><br>原价399，现价39.9永久买断，300人涨价至49.9。<br><br>我的理念：体验美好，变成智慧，传递价值。<br><br>我的使命：帮少数老师影响多数家庭，交付面向未来的教育<br><br>我的愿景：让更多中国孩子成为思想自由、人格独立、充满好奇并享受科技的世界公民<br><br>我的价值观：只做有价值的事<br><br>Think Different",
+            type: "AI、教育"
+        },
+        {
+            columnid: "MJIP",
+            image_url: "https://static.xiaobot.net/paper/2024-04-01/180520/bbf4ea6f8cf8a3e13f9f59f7f2d1c966.png",
+            num: { readers: 7, contents: 8 },
+            title: "用 Midjourney 做成可售卖商品",
+            owner: "@imluffy",
+            description: "你每天沉迷玩 Midjourney AI 绘画，<br><br>不如把你的作品做成可售卖的样子。<br><br>这里是实践派 AI 创作者，过去一年 2 个月达成一些国人极少办到的成就，坚持200多个视频用不同的AI作品，坚持所有自媒体配图用 AI 生成，坚持上线付费 Prompt 模板 70多个。成功售卖 Prompt 模板、实体画、定制画、台历、挂历、画册等。<br><br>【订阅后你可以收获】<br><br>1 、把 AI 绘画作品做成各种商品。<br><br>2 、把 AI 绘画融入自媒体内容中。<br><br>3 、Prompt 模板自媒体素材库。",
+            type: "搞钱、副业、AI、AI绘画"
+        },
+    ] 
+        
 // tags & tags_alias 需要一对一映射
-export const tags = ['全部', '热门', '搞钱', '官方推荐', 'AI', '自媒体', '小红书', '公众号', 'IP', '私域', '超级个体', '电商', '互联网', '编程', '独立开发', '出海', '沟通', '读书', 'RPA', '写作', '心理', '人际', '成长']; 
-export const tags_alias = ['all', 'hot', 'make-money', 'offical-recommend', 'ai', 'self-media', 'xiaohongshu', 'mp', 'ip', 'private-domain', 'super-individual', 'e-commerce', 'internet', 'programming', 'ind-dev', 'going-global', 'communicate', 'read', 'rpa', 'write', 'psychology', 'relationships', 'learn']; 
+export const tags = ['全部', '热门', '官方推荐', '搞钱', 'AI', 'AI绘画', '自媒体', '职场', '小红书', '超级个体', 'RPA', '公众号', 'IP', '私域', '电商', '出海', '互联网', '编程', '独立开发', '沟通', '读书', '写作', '心理', '人际', '成长']; 
+export const tags_alias = ['all', 'hot', 'offical-recommend', 'make-money', 'ai', 'ai-painting', 'self-media', 'career', 'xiaohongshu', 'super-individual', 'rpa', 'mp', 'ip', 'private-domain', 'e-commerce', 'going-global', 'internet', 'programming', 'ind-dev', 'communicate', 'read', 'write', 'psychology', 'relationships', 'learn']; 
+
+export const last_update_time = '2024-06-10 10:00:00'; 
+
+
+// // 提取columnid
+// const columnids1 = new Set(columns.map(item => item.columnid));
+// const columnids2 = new Set(data.map(item => item.columnid));
+// // 找出data2中有但data1中没有的columnid
+// const uniqueInData2 = Array.from(columnids2).filter(id => !columnids1.has(id));
+// console.log("存在于data2但不存在于data1的columnid:", uniqueInData2);
