@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Nav from "@/components/Nav";
 
 export default async function Page() {
   return (
     <>
-      <Header/>
+      <Nav/>
       <div className="flex justify-center items-center min-h-screen bg-gray-100">
         <div className="mx-auto max-w-5xl -mt-20">
           <h1 className="text-3xl font-extrabold text-black mb-12 -mt-4">

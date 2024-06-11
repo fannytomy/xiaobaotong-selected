@@ -1,5 +1,5 @@
 import { BlogPosts } from '@/components/posts'
-import Header from '@/components/Header'
+import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
 export const metadata = {
@@ -10,7 +10,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section className="bg-gray-100 h-screen">
-      <Header />
+      <Nav />
       <h1 className="flex mx-auto lg:max-w-3xl md:max-w-xl text-3xl font-extrabold text-black mb-12 mt-12">Blog</h1>
       <BlogPosts />
       <Footer />

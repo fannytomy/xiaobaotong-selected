@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from '@/components/mdx'
 import { formatDate, getBlogPosts } from '@/app/blog/utils'
 import { baseUrl } from '@/app/sitemap'
-import Header from '@/components/Header'
+import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
 export async function generateStaticParams() {
@@ -60,7 +60,7 @@ export default function Blog({ params }) {
 
   return (
     <section className='bg-gray-100 h-screen'>
-      <Header />
+      <Nav />
       <script
         type="application/ld+json"
         suppressHydrationWarning

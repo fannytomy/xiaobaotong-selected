@@ -6,7 +6,7 @@ import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import BackToTopButton from '@/components/Back2Top';
 import Cards from '@/components/Cards';
-import Header from '@/components/Header'
+import Nav from '@/components/Nav'
 import CountColumn from '@/components/CountColumn'
 import Tags from '@/components/Tags';
 
@@ -28,7 +28,7 @@ const Page = () => {
 
   return (
     <>
-      <Header />
+      <Nav />
       <div className="min-h-screen bg-gray-100">
 
         <div className="text-center font-bold text-red-600 text-xl pt-6">

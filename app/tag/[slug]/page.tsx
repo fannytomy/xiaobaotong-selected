@@ -6,13 +6,17 @@ import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import BackToTopButton from '@/components/Back2Top';
 import Cards from '@/components/Cards';
-import Header from '@/components/Header'
+import Nav from '@/components/Nav'
 import CountColumn from '@/components/CountColumn'
 import Tags from '@/components/Tags'
+import Header from '@/components/Header';
+import Head from 'next/head'
 
 export default function TagContentPage({ params }: { params: { slug: string } }) {
   const tags_alias_index = tags_alias.indexOf(params.slug);
   const selectedTag = tags_alias_index === -1 ? '全部' : tags[tags_alias_index];
+
+  let new_title = '小报童专栏精选导航站-' + selectedTag
   
   const [inputValue, setInputValue] = useState<string>('');
   const handlerSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -32,7 +36,8 @@ export default function TagContentPage({ params }: { params: { slug: string } })
 
   return (
     <>
-      <Header />
+      <Header title={new_title} desc={new_title}/>
+      <Nav />
       <div className="min-h-screen bg-gray-100">
 
         <div className="text-center font-bold text-red-600 text-xl pt-6">
