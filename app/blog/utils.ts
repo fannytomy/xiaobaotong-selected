@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import {tags_alias, last_update_time} from '@/data/data'
 
 type Metadata = {
   title: string
@@ -47,6 +48,15 @@ function getMDXData(dir) {
       content,
     }
   })
+}
+
+export function getTags() {
+  return tags_alias.map((tag) => {
+    return {
+      name: tag,
+      date: last_update_time,
+    }
+  });
 }
 
 export function getBlogPosts() {

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://xiaobaotong.store
+
+# Sitemaps
+Sitemap: https://xiaobaotong.store/sitemap.xml
