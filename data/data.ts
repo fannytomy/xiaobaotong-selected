@@ -196,7 +196,7 @@ export const columns =
             title: "小红书可复制案例库",
             owner: "@IDO老徐",
             description: "别人笔记几千几万赞，商业化收入不断，你的笔记没人看<br><br>我是IDO老徐，帮你手工精选了 220 个小红书可复制案例（全网独一份）<br><br>原价 199， 限时 99.88 元买断（一次订阅，永久查阅）<br><br>快速刷一遍 220 个案例，找到你能模仿的，对标、死磕执行、快速出结果。玩流量，玩 IP，首选小红书。低门槛，低成本，反馈快。<br><br>订阅后，截图支付记录，加微信 957863300 有专属惊喜",
-            type: "搞钱、小红书、自媒体、IP"
+            type: "搞钱、小红书、自媒体、IP、案例库"
         },
         {
             columnid: "xbt",
@@ -205,7 +205,7 @@ export const columns =
             title: "小报童商业化·赚钱案例库",
             owner: "@IDO老徐",
             description: "玩 个人IP，副业，自媒体，内容付费，轻创业，私域 等。所有想玩「付费专栏/社群」的玩家，绕不开这个专栏。没订阅的，大概率会走很多我们趟过的弯路 。<br><br>1、由 IDO老徐 手工精选 108 个「付费专栏赚钱案例库」，总结亮点和问题，快速学习 or 精准模仿<br><br>2、如何做好小报童付费专栏？写了 14 个维度的问题诊断。搞定 14 条，你的付费专栏大概率可成<br><br>3、为了有对比，写了十几个反面案例。专栏付费人太少，不满意？也许就是这些方面案例之一<br><br>原价 168 ，限时最低价 19.99（一次订阅，永久可查阅）；** 满 5000 人订阅，涨价至 29.99<br><br>订阅后微信 957863300 找我，截图支付记录，领取「资料包+定向朋友圈」（专栏没有微信群）",
-            type: "搞钱、IP"
+            type: "搞钱、IP、案例库"
         },
         {
             columnid: "321456",
@@ -219,7 +219,7 @@ export const columns =
         {
             columnid: "chatai666",
             image_url: "https://static.xiaobot.net/paper/2023-06-28/271179/d932b3bac5895487347ef7a81afdfc9c.png",
-            num: { readers: 3601, contents: 35 },
+            num: { readers: 3606, contents: 35 },
             title: "小白的AI编程提效课",
             owner: "@峰兄",
             description: "本专栏由小米、百度、阿里等互联网大厂的AI业务相关高管共创，专注于普通人的AI提效，提高程序员群体的开发效率。<br><br>v：hehan2048<br><br>小册包括六个专栏：AI编程实战、AI编程工具、AI高效办公、AI副业赚钱、AI提示词工程、AI私人助手<br><br>小册是永久买断制，原价 199 元，限时特惠 16.6 元买断制，满 3500 订阅涨为 28.8 元<br><br>承诺一年内更新50篇以上，一周至更新一篇内容。<br><br>买过后，从置顶帖【必看合集】，加入 AI 陪伴社群，限时领取超值福利。",
@@ -457,7 +457,7 @@ export const columns =
             title: "知乎可复制案例库",
             owner: "@徐宿 · 家蒙",
             description: "别人的知乎变现不断，你的发文没赞，钱也没赚。<br><br>这里是徐宿和家蒙的小场，精选101个知乎可复制案例成册，帮你快速上手知乎商业化，找到正确的变现模式。<br><br>小册定价49元(永久买断)，看完对标执行，你也能快速上手。每满百人订阅涨价10元，先定先赚。<br><br>更多权益和规则请看置顶帖，每天更新2条案例。",
-            type: "搞钱、自媒体、知乎"
+            type: "搞钱、自媒体、知乎、案例库"
         },
         {
             columnid: "course",
@@ -520,7 +520,7 @@ export const columns =
             title: "小红书带货案例库",
             owner: "@徐宿",
             description: "小红书带货玩家必备手册，站在巨人的肩膀上卖货赚钱。<br><br>本小册手动精选 200 个小红书电商带货可复制案例，涉及商品累计GMV超5亿，可以帮你快速获得小红书带货灵感。<br><br>限时 59 元买断（永久有效）<br><br>每满 100 人订阅，涨价10元，早买早赚<br><br>订阅后，截图支付记录，加微信 9908134 有专属惊喜",
-            type: "搞钱、小红书、自媒体、IP"
+            type: "搞钱、小红书、自媒体、IP、案例库"
         },
         {
             columnid: "stormzhang",
@@ -594,7 +594,6 @@ export const columns =
             description: "作者sky陈天：AI破局企培负责人，AI破局合伙人。985毕业，AI破局小红书金牌教练、AI转型提效顾问、1个月起了2个千粉号，副业半年变现5位数，主业某独角兽运营经理，<br><br>小册包含AI个人IP定位、小红书起号、AI辅助内容生产、小红书引流、小红书变现、常见的问题六大专栏。<br><br>原价 199，现价 16 元永久买断，满1500人，涨价10元。承诺更新 60 篇！<br><br>购买后加微信： cbccb3456，发支付截图，拉你进群，进群送超全AI+小红书变现精华。",
             type: "搞钱、AI、小红书、自媒体"
         },
-
         {
             columnid: "tb108",
             image_url: "https://static.xiaobot.net/paper/2023-11-23/98198/93c4026671b82d957899a099789f78a7.png",
@@ -648,7 +647,7 @@ export const columns =
             title: "公众号爆款案例库",
             owner: "@胡慧Plus",
             description: "每一个做公众号的人，都有一个10W+爆款的梦。<br><br>在这专栏里，我将长期更新可复制可学习借鉴的公众号爆款案例分析，包括但不限于爆款案例的内容素材来源查找、怎么写、需用到的工具使用、优秀对标账号、如何找更多爆款等。<br><br>给运营老手一个快速做成爆款的机会，给运营小白一些灵感方向和操作指南，缩短到达爆款的距离。<br><br>限时价49元，随时可能涨价，早买早划算~支持分销，分销比例60%<br><br>我是胡慧，专注公众号运营变现。订阅后有任何问题可以加微信hlv0704交流。",
-            type: "搞钱、公众号、自媒体"
+            type: "搞钱、公众号、自媒体、案例库"
         },
         {
             columnid: "Chuangduhui",
@@ -684,7 +683,7 @@ export const columns =
             title: "设计好运：从不确定性中获益",
             owner: "@Mars任鑫",
             description: "霉运的人，喝凉水也塞牙；<br><br>好运的人，走马路也捡钱。<br><br>未来半年，欢迎你加入我们，一起学习如何通过科学的、工程的方法，成为更好运的人。<br><br>放心，不是让你站在宇宙中心呼唤爱、催眠自己等好运、指着天上掉馅饼。<br><br>而是学习设计行为和环境、扩大选择权，将世界的不确定性转化为成功和快乐。<br><br>作者｜任鑫，连续创业者，Get CEO，前京东O2O副总裁，前今夜酒店特价创始人<br><br>🌟 创始读者专属权益 🔝 详情及领取，见置顶内容<br><br>1. 添加任鑫微信，进专属读者群<br><br>2. 成为合伙人推荐本书，有人通过你的分享链接付费，每1人你可得付费金额的50%<br><br>3. 10场直播+答疑<br><br>4. 签名实体书，出版后每位创始读者可免费获得1本<br><br>5. 共读10本好运的书（书单见介绍页）<br><br>6. 独家写作资料包，100张好运卡片笔记<br><br>邀请你一同见证本书的诞生——《设计好运：从不确定性中获益》",
-            type: "读书"
+            type: "读书、成长"
         },
         {
             columnid: "shequn",
@@ -720,7 +719,7 @@ export const columns =
             title: "禅修第一课🧘‍♀️：从零开启冥想+366天练习",
             owner: "眼睛里有光的azure",
             description: "复旦英文毕业后，我在去 Iowa 学创意写作（理想）和工作赚钱（现实）间选择了后者。拿着不错的薪水，依然月光，依然不确定人生的意义。不愿将就，我义无反顾地踏上了一条向心内寻去的道路 ——<br><br>·  在禅宗临济宗的禅堂打过十数次禅七，短期出家 · 真的剃头过；<br><br>·  跟随多位上座部的尊者们修习止观，在禅林小木屋长住过；<br><br>·  连续四年每年去尼泊尔和印度亲聆明就仁波切的教法（直到疫情来临）……<br><br>前 5 年，有全职工作；<br><br>后 6 年，选择自由职业，还开启了 F.I.R.E 财务自由计划，目前进度 61%。<br><br>此刻的我，有底气选择理想了，写一本有野心的小册：<br><br>～ 它很宏大，是 366 篇、至少 20 万字的大工程。致力于将 11 年的所得尽数道来，寻找易于被真正地理解和运用于日常生活中的东西。<br><br>～ 它又很细节，充满了一个真正实践过的人才知道的细节、坑、疑惑和对治方法，充满了真实的信心和犹疑、挣扎和蜕变。<br><br>为什么写？<br><br>因为这是我的天命，因为把最好的给这世界。<br><br>现为早鸟价，更新完全部 366 篇后恢复至原价 99元。",
-            type: "心理"
+            type: "心理、成长"
         },
         {
             columnid: "sg202301",
@@ -891,7 +890,7 @@ export const columns =
             title: "私域知识体系白皮书2.0",
             owner: "@张佳的流量常识",
             description: "🎉售出1000+份的私域运营白皮书更新2.0！！<br><br>新版本增加：<br><br>🚀 解放64%重复性生产工作的AI提示词；<br><br>🌅 约50张重构/新增的可视化配图，助你更快理解；<br><br>🧬 100+处描述/表达重构，引入了更多理论和心得；<br><br>🤖 增加了已背诵全书的机器人，你可以跟它聊天学习。<br><br>- - -<br><br>给新伙伴介绍白皮书1.0：<br><br>1️⃣约10W字，包含私域的几乎一切；<br><br> 2️⃣指导性定义、3大核心价值、4 个基本打法、4 个基建和 3 个关键节点策略全链路内容；<br><br> 3️⃣直接抄作业的 SOP 文档表格。",
-            type: "搞钱、AI、私域"
+            type: "AI、私域"
         },
         {
             columnid: "qinxixi",
@@ -932,7 +931,7 @@ export const columns =
         {
             columnid: "card",
             image_url: "https://static.xiaobot.net/paper/2023-10-31/5843/a09cc35c4c886f1ee0d9b15ce06c02c2.png",
-            num: { readers: 0, contents: 40 },
+            num: { readers: 6043, contents: 40 },
             title: "笔记的方法（原知识资产 · 已完结）",
             owner: "@flomo Team",
             description: "由 flomo 团队出品，感谢大家支持，实体书已经上市，在当当网、得到 App 内搜索《笔记的方法》即可购买。<br><br>为保证创始读者的权益能有效履约（如致谢名单、实体书快递）等工作，故本专栏从 2023 年 8 月 6 日后关闭购买，如有问题请联系微信 plidezus",
@@ -1080,7 +1079,7 @@ export const columns =
             title: "短视频带货赚钱案例库",
             owner: "@佩佩",
             description: "我是佩佩，自媒体从业5年，曾经靠一条短视频赚到30万佣金，短视频带货实战派。<br><br>这个案例库，拆解了100个短视频带货赚钱的案例。在案例库里，你能看见各式各样的“创意”。原来做短视频带货根本不需要真人出镜，不需要卖货给熟人，不需要花钱囤货，门槛低但天花板高，不需要发货和售后。<br><br>里面的每一个账号都在悄悄赚钱，用你想不到的简单方式。1000多粉丝也能日入过万，几十个点赞也能赚几百几千佣金。别人是怎么做到的，案例库里都给你拆解清楚。<br><br>这个案例库，从100个赚钱猛的案例里选择自己能做的，然后干就完了。<br><br>将近4万字啊！别人是怎么赚钱的，我都替你们拆解好了。<br><br>案例库定价69元，看完既能开眼界，还能模仿执行。每满一百人，涨价10元，佩姐案例库，必买不亏。",
-            type: "搞钱、副业、短视频"
+            type: "搞钱、副业、短视频、案例库"
         },
         {
             columnid: "kidstalk",
@@ -1094,7 +1093,7 @@ export const columns =
         {
             columnid: "MJIP",
             image_url: "https://static.xiaobot.net/paper/2024-04-01/180520/bbf4ea6f8cf8a3e13f9f59f7f2d1c966.png",
-            num: { readers: 7, contents: 8 },
+            num: { readers: 9, contents: 8 },
             title: "用 Midjourney 做成可售卖商品",
             owner: "@imluffy",
             description: "你每天沉迷玩 Midjourney AI 绘画，<br><br>不如把你的作品做成可售卖的样子。<br><br>这里是实践派 AI 创作者，过去一年 2 个月达成一些国人极少办到的成就，坚持200多个视频用不同的AI作品，坚持所有自媒体配图用 AI 生成，坚持上线付费 Prompt 模板 70多个。成功售卖 Prompt 模板、实体画、定制画、台历、挂历、画册等。<br><br>【订阅后你可以收获】<br><br>1 、把 AI 绘画作品做成各种商品。<br><br>2 、把 AI 绘画融入自媒体内容中。<br><br>3 、Prompt 模板自媒体素材库。",
@@ -1103,11 +1102,839 @@ export const columns =
         {
             columnid: "hiproducthunt",
             image_url: "https://static.xiaobot.net/paper/2024-01-06/191474/f282eeb309f34e10c05c358e88f7bd74.jpeg",
-            num: { 读者: 21, 内容: 17 },
+            num: { readers: 21, contents: 17 },
             title: "ProductHunt 冲榜指南",
             owner: "@张小吉要多思考",
             description: "这个专栏中，我们将深入探索如何在 Producthunt 上成功推广你的产品。<br><br>☞ 什么时间点发布最好？<br><br>☞ 预告页面要怎么做？<br><br>☞ 需要猎人吗？哪里找猎人？<br><br>☞ 发布计划要怎么制定？<br><br>☞ 为什么我的页面在首页看不到？<br><br>☞ 上线Producthunt 后要到哪儿拉票？<br><br>☞ 有哪些好用的工具可以监控发布数据？<br><br>全是小吉一步一步踩过来的坑，专栏将带你了解 Producthunt 社区文化以及精细的操作步骤，完全掌握 Producthunt 的运作机制。购买了专栏的小伙伴加我 vx：piapiazhao，我拉你进群",
             type: "搞钱、副业、独立开发、产品"
+        },
+        {
+            columnid: "doumo2",
+            image_url: "https://static.xiaobot.net/paper/2024-01-24/331084/f5f95381ac7789d5c3cd94fa9fe17146.png",
+            num: { readers: 1070, contents: 61 },
+            title: "AI拆书入门到变现",
+            owner: "@豆哥",
+            description: "1、为什么选我们？<br><br>依然、豆哥和晓维，我们是AI 破局俱乐的拆书教练。<br><br>这个方向从找定位，到做规划，再到齐交付，我们做过 3 次迭代。<br><br>同时拿到学员数量破千、与出版社合作特训营、拆书内容流量破百万等结果。<br><br>2、为什么选这本？<br><br>参加过破局航海、破局行动和特训营的学员都知道，3 次迭代的内容大有不同。<br><br>由于内容多，且破局为了打击盗版，向所有圈友公开了包括拆书在内的诸多内容。<br><br>这本小册，是对半年迭代的重新梳理，旨在构建一个更清晰、完整的拆书知识地图<br><br>小册价值 199元，起步价10元买断。<br><br>满 1000 人开始涨价！",
+            type: "搞钱、副业、AI、读书"
+        },
+        {
+            columnid: "youjun",
+            image_url: "https://static.xiaobot.net/paper/2023-11-22/354167/1f4f30563fa6b2ddc8507dd0dce30e8d.jpeg",
+            num: { readers: 1436, contents: 32 },
+            title: "阿里P9右军：20年职业50个思考与洞察",
+            owner: "@右军-786",
+            description: "右军，一位从业20年P9的职业思考：<br><br>I 经历了从20人到上千人技术团队 I<br><br>I 技术管理形成自己的方法体系思考I<br><br>I AI破局合伙人I TGO成都董事会成员<br><br>I 全网20w粉 I 写作3本图书、翻译1本<br><br>*程序员成长 ｜ 系统化思维 ｜ 行业洞察*<br><br>原价599，目前定价29.9，到1500订阅调价。购买后加微信jianghu10002，送1年技术琐话陪跑群权益。",
+            type: "职场"
+        },
+        {
+            columnid: "888",
+            image_url: "https://static.xiaobot.net/paper/2023-03-30/3416/2d27c0235734ddbe0af2c17956204aad.jpeg",
+            num: { readers: 1064, contents: 64 },
+            title: "网络淘金案例库",
+            owner: "@黑帽子²",
+            description: "在这里会跟大家在未来持续分享至少100个网络赚钱的项目案例，拆解项目的盈利逻辑、操作模式，比较适合想低成本内容、轻资产创业的人，内容主要是以“案例截图+短文”的方式输出。<br><br>每一个项目都是当下具备一定市场需求、可行性的玩法，所以这个专栏更像一个商业的风向标，让你早一步比更多人知道他们不知道的生意。<br><br>原价199元，目前盲订期，只需39.9元（一次订阅，永久查看）<br><br>后续每满300人涨价10元（目前39.9，已从19.9涨价至39.9）<br><br>及早订阅，性价比越高。",
+            type: "搞钱、副业、案例库"
+        },
+        {
+            columnid: "f86535",
+            image_url: "https://static.xiaobot.net/paper/2023-10-03/75664/2e607197019bcbfa2a396a791ec08697.jpeg",
+            num: { readers: 508, contents: 78 },
+            title: "公众号爆款流量主从0到1赚钱手册",
+            owner: "@777超级个体张老板",
+            description: "这个专栏是干什么的？<br><br>《公众号爆款流量主从0到1赚钱手册》，带你从0到1学习项目的操作，不仅学会一个赚钱项目的操作，更掌握可以改变自己命运的能力：写作。<br><br>我有什么资格写这个专栏？<br><br>自媒体流量变现项目起家，6年互联网自由职业者，6年各平台持续写作流量主收益240万，实操公众号流量主项目，20天做到单个账号单日流量收益破1000元。<br><br>专栏限时优惠：<br><br>定价188元，限时优惠48.8元，终身买断。<br><br>专栏福利：<br><br>赠送2024张老板陪你玩赚副业群，订阅专栏后加我微信：f86562，发送订阅截图邀请你进群",
+            type: "搞钱、副业、写作、公众号"
+        },
+        {
+            columnid: "fanhanAI",
+            image_url: "https://static.xiaobot.net/paper/2024-04-18/20840/cf684f024a76261df30d62dbb9936d52.jpeg",
+            num: { readers: 79, contents: 44 },
+            title: "泛函的「实战复盘笔记」",
+            owner: "@泛函",
+            description: "你好，我是泛函。<br><br>从 22 年年底投身于生成式 AI 的时代浪潮，实实在在地感受到了人生加速，学到了太多太多，也挣了不少钱，过上了自己喜欢的生活。<br><br>本着「怕什么真理无穷，进一寸有一寸的欢喜」和「build in public」的心态，我每每获得一丁点的进步，都会以复盘笔记的形式分享出来。<br><br>所以，从那时到今天，一共在朋友圈写了将近 20 万字。<br><br>将这些内容精挑细选，去掉了过时的部分和自我批判后的否定思考，就构成了这个专栏。<br><br>这些内容都在即刻等社交媒体免费发过，但可能你去爬楼翻找比较麻烦，所以做了这么个专栏。<br><br>内容算免费的，收点整理的辛苦费，目前 19 元💰，每卖出 50 份涨价 30 元💰。<br><br>这个专栏开了分销，开到了最大的 60%，希望能帮助你通过我的内容挣到钱，共勉✊",
+            type: "AI、成长"
+        },
+        {
+            columnid: "chatgpt001",
+            image_url: "https://static.xiaobot.net/paper/2023-02-21/61313/d4627d878b068ffb727644bbeee7a86e.png",
+            num: { readers: 1489, contents: 53 },
+            title: "5分钟搞定ChatGPT",
+            owner: "@Sitin彭涛",
+            description: "ChatGPT 平台使用教程，从0到1，帮助您快速上手，提高工作效率。<br><br>主要内容：涉及技术普及，注册使用，基础用法，Plus 升级，案例用法，变现机会等<br><br>原价299，限时早鸟价99元买断（永久有效）， 每满200人涨20元，直到涨价到原价。<br><br>订阅后，截图支付记录，加 vx：pengtaosay，截图，发送  #001   （注意没有空格） 。<br><br>前2000人 送微信交流群 ，让你快速用上ChatGPT 这个效率神器<br><br>备用vx：257735 。",
+            type: "ChatGPT、AI"
+        },
+        {
+            columnid: "readcat",
+            image_url: "https://static.xiaobot.net/paper/2023-02-20/72922/c1e780cb84705422ac45d76362017dec.png",
+            num: { readers: 1986, contents: 100 },
+            title: "阿猫的高效成长课",
+            owner: "@阿猫",
+            description: "阿猫的高效成长课 | 五大板块<br>板块一：个人成长——找到适合自己成长的方法<br>板块二：读书写作——掌握高效成长的底层能力<br>板块三：财富思维——变成有钱人之前，先看这些<br>板块四：原生家庭——关于改变，我们一直有选择<br>板块五：亲密关系——好的关系促进人生发展<br><br>一共更新100篇，5月11日更新完毕<br><br>价格39元，一杯奶茶，（一次订阅，永久有效，无需续费）<br>** 满2000 人订阅，涨价 。<br><br>购买后加微信onepig04，备注#555，送你价值99元读书群，每天更新一本书。<br><br>作者：公众号阿猫读书创始人，全网70万读者。",
+            type: "成长"
+        },
+        {
+            columnid: "afanfan",
+            image_url: "https://static.xiaobot.net/paper/afanfan.png",
+            num: { readers: 533, contents: 296 },
+            title: "阿饭的宝藏",
+            owner: "@饭饭",
+            description: "尽全力提供一份丰富且有品质的精神食粮。<br><br>内容包括但不限于：<br><br>- 独特洞察insight<br>- 看见生活的一万种可能性<br>- 世界运行规律（认识世界）<br>- 内在的自洽和富足（认识自己）<br>- 提醒自己做正确的事<br>- 知识管理/个体财富/自由职业<br><br>推荐以「理性漫游者」的方式阅读。<br>———<br>欢迎加微信直接给我提需求，我的资料库超级丰富~",
+            type: "超级个体、成长"
+        },
+        {
+            columnid: "xiubing",
+            image_url: "https://static.xiaobot.net/paper/xiubing.png",
+            num: { readers: 185, contents: 257 },
+            title: "静止的量子",
+            owner: "@修饼",
+            description: "本专栏会持续更新科学进展与科技资讯，包括科学科普、科学艺术、最新的科技进步等内容，同时有相应的读者群，陪伴大家获取新的知识~<br><br>本专栏将实行买断制，199元永久阅读权限，订阅的朋友可免费获取我的新书《迷你物理学》（京东有售）一本，获取方式：<br><br>添加我的微信号：xiubing234，截图订阅凭证并私信我收件地址，我的新书会陆续送到您手中！<br><br>若您要加入专属读者群，也可以微信私信我，我会拉您入群~<br><br>我的另一个 AI实践专栏 ",
+            type: "科学、科技、科普"
+        },
+        {
+            columnid: "abby",
+            image_url: "https://static.xiaobot.net/paper/2024-01-05/7703/5239d7b88924ff77f6838a5074dfa812.jpeg",
+            num: { readers: 435, contents: 230 },
+            title: "Abby与你共成长",
+            owner: "@Abby",
+            description: "个人成长沉思录<br><br>作为AI从业者关于职场和商业化的思考<br>作为FIRE生活践行者关于自由和生活的思考<br>作为咨询师和独立顾问关于人的思考<br><br>人们更愿意信任一个人而非公司，因为人能有真实的交互感。<br>我手写我心，期望能与大家建立更深的链接。<br><br>具体请看专栏介绍",
+            type: "成长"
+        },
+        {
+            columnid: "twinkleaway",
+            image_url: "https://static.xiaobot.net/paper/2021-12-21/1384/8a87a1e3affce26fd9c2ea093315a383.jpeg",
+            num: { readers: 146, contents: 111 },
+            title: "azure 的 1% · 第一季（完结）",
+            owner: "@眼睛里有光的azure",
+            description: "对 Naval 8+1 System 的践行，<br>对「如何做自己、持续进化」的回答。<br><br>🧘‍♀️ 修行 · 禅修｜🏃‍♀️ 健康｜💰 投资<br>🦄️ 自由职业 · 教小朋友那些事<br>☀️ 善待自己 · 快乐小事 · 翻译小诗<br>📚 读书 · 向最优秀的人学习<br>🍭 关系 · azure的朋友们 · 助人<br><br>⚠️ 是一个「反垂直类」的专栏。<br><br>记录上述领域的成功和失败经验；<br>记录生长/摔倒的每一瞬的鲜活经历。<br><br>本专栏已完结，第二季（连载中）在此：",
+            type: "超级个体、成长"
+        },
+        {
+            columnid: "azure2023",
+            image_url: "https://static.xiaobot.net/paper/2023-01-01/1384/6e8b0e08a84bfd70ec3cc4363727f8da.jpeg",
+            num: { readers: 182, contents: 54 },
+            title: "azure 的 1% · 第二季连载中～",
+            owner: "@眼睛里有光的azure",
+            description: "对 Naval 8+1 System 的践行，<br>对「如何做自己、持续进化」的回答。<br><br>🔮 修行 · 能量｜🏃‍♀️ 健康｜💰 投资<br>👧🏻 自由职业 · 教小朋友那些事<br>☀️ 善待自己 · 快乐小事 · 翻译小诗<br>📚 读书 · 向最优秀的人学习<br>🍭 关系 · azure的朋友们 · 助人<br><br>⚠️ 是一个「反垂直类」的专栏。<br>记录上述领域的成功和失败经验；<br>记录生长/摔倒的每一瞬的鲜活经历。<br><br>第一季100篇见：",
+            type: "超级个体、成长"
+        },
+        {
+            columnid: "pm-play-book",
+            image_url: "https://static.xiaobot.net/paper/2022-06-10/2/5cb4b55ed6d523856a26c3235a406f63.jpeg",
+            num: { readers: 612, contents: 73 },
+            title: "产品人的 100 本非必读书",
+            owner: "@少楠",
+            description: "这里不是终点，而是起点；这里没有答案，而是思考的切片。但正是这些非必读，塑造了我的产品观，也希望你能有所启发。<br><br>计划更新 100 本。<br><br>产品沉思录订阅用户请不要购买，绝大多数可以在往期邮件搜到。如果没有订阅，可以访问 ",
+            type: "产品、读书、成长"
+        },
+        {
+            columnid: "sisuizmt",
+            image_url: "https://static.xiaobot.net/paper/2023-04-23/22238/a1b897e440ce86682e82ad26da917237.png",
+            num: { readers: 181, contents: 27 },
+            title: "自媒体变现N+案例拆解",
+            owner: "@王肆岁呀",
+            description: "Hi~ ，很高兴遇见您~<br>这个专栏 想给您提供 N+个 自媒体变现案例拆解项目 。<br><br>适合人群：<br>想要做自媒体 却不知道做什么项目赚钱丨想要做副业 却不知道什么副业可以赚到钱丨想要通过自媒体成为超级个体 拥有持久收入<br><br>项目案例广泛，涉及平台广泛，还有更多你不知道的自媒体平台和变现小项目~<br><br>- 299元（永久买断）<br><br>案例拆解精简明了，用较短的阅读时间，快速掌握项目的变现逻辑和条件准备减少决策时间。<br><br>付费之后，您将获得：<br>周更项目案例丨自媒体变现案例沟通群，答疑+交流",
+            type: "自媒体、搞钱、案例库"
+        },
+        {
+            columnid: "aizmt001",
+            image_url: "https://static.xiaobot.net/paper/2023-12-10/326254/53a998ad3e937073204aafdbe4205ff9.jpeg",
+            num: { readers: 393, contents: 72 },
+            title: "AI高级指令专辑",
+            owner: "@七叶",
+            description: "高级实操指令分享在这个专栏。<br>都是多番打磨测试的指令分享，有些指令在定制市场上单个都能值一百多块！<br>指令持续更新中...<br>订阅后，后续更新的指令均免费。<br>如果你想利用ai提高学习、工作效率，这个专栏一定能帮到你！<br>----------------------------<br>专栏前期推广阶段仅需29.9元，满一定人数恢复至原价99元，需要的抓紧哦。",
+            type: "AI"
+        },
+        {
+            columnid: "Joey20233",
+            image_url: "https://static.xiaobot.net/paper/2023-07-20/165937/f7a9f3807ac58a49cb75b603dc4ddb92.jpeg",
+            num: { readers: 580, contents: 17 },
+            title: "抖音IP第一课",
+            owner: "@Joey",
+            description: "👨🏻‍🏫【作者是谁】<br>Joey乔伊：前字节明星名人超头运营，负责过东方甄选、张兰、李晨nic、柴碧云、高途陈向东等抖音账号。7年消费品从业经历，做过2个抖音类目top品牌。<br><br>🎯【适合用户】<br>所有想第一次试水抖音IP的个人，以及做过抖音IP但未及预期的朋友<br><br>💰【关于定价】<br>298元永久买断<br>购买后永久有效，后续更新无需额外付费<br><br>🎁【订阅福利】<br>购买后，查看置顶文章进群<br>领取个人IP选题素材库模板",
+            type: "抖音、IP"
+        },
+        {
+            columnid: "lh23001",
+            image_url: "https://static.xiaobot.net/paper/2023-10-24/57139/13ff4b41a8064c111ea0ebfe68e87efb.jpeg",
+            num: { readers: 627, contents: 105 },
+            title: "蓝海虚拟资源丨案例库",
+            owner: "@摸鱼掌柜¹",
+            description: "玩 个人IP，副业，自媒体，内容付费，轻创业，私域 等。所有想靠互联网变现的玩家，绕不开这个专栏。没订阅的，大概率会走很多我们趟过的弯路 。<br><br>摸鱼掌柜 手工精选【108个蓝海虚拟资源丨案例库】，挖掘各领域闷声发财的轻资产玩法，总结亮点，快速学习or精准复制。<br><br>原价199。限时优惠39.9（一次订阅，永久可查阅）。<br>满800人，涨价至49.9<br><br>订阅后，凭截图支付记录，微信523186843 找 掌柜 解锁【微信交流群】。",
+            type: "搞钱、虚拟资源、私域、副业、案例库"
+        },
+        {
+            columnid: "chibaa",
+            image_url: "https://static.xiaobot.net/paper/2024-01-25/350654/a9905441cfeab8599b45acf9a05a0e81.jpeg",
+            num: { readers: 186, contents: 44 },
+            title: "AI绘画项目实战专栏",
+            owner: "@圈圈",
+            description: "此专栏能帮到你什么：专栏五大模块，3和4模块教你主流的AI绘画系统知识；3模块教你运营自己的红书AI绘画账号；1模块提供你实战项目案例；这三者之间形成闭环，通过参考实战案例，运用AI绘画知识，运营可变现的个人账号！<br>五大模块：<br>1.AI实战项目案例<br>2.小红书AI绘画账号实战<br>3.玩转Midjourney（详细）<br>4.玩转Stable Diffusion（加餐）<br>5.AI数字人SOP手册（赠送）<br><br>专栏永久有效，持续更新，教程和案例都亲自上手验证！原价299，限价只要79，每增加30人，上涨10元，早买早优惠！",
+            type: "AI绘画"
+        },
+        {
+            columnid: "1739SDHuman",
+            image_url: "https://static.xiaobot.net/paper/2023-11-02/229990/f9215990c2b968b89d90819ec2c279d4.jpeg",
+            num: { readers: 569, contents: 42 },
+            title: "AI绘画人像修炼手册",
+            owner: "@月起星九",
+            description: "我是月起星九，计科本硕，本职工作是 AI 图像算法工程师。<br><br>副业日更公众号 300 天，专注 Stable Diffusion ，深入 AI 人像写真，曾帮助知名小红书博主做文物拟人写真获赞3000+ ，公众号写过系列 AI 绘画内容和作品。<br><br>本专栏专注 SD 出 AI 人像写真小技巧，包括出图方法、lora 训练、各种疑难杂症。<br>跟着专栏实践，你也能做出贴近真人的定制人像。<br><br>原价 199，限时 28.99 元，满 600 人涨价至 39 元。<br><br>订阅后，加微信 yueqixingjiu，发支付截图，拉你进 AI人像专属微信群。",
+            type: "AI绘画"
+        },
+        {
+            columnid: "chatgpt365",
+            image_url: "https://static.xiaobot.net/paper/2023-10-11/257349/951cccdd091e40a23949995064a994e9.png",
+            num: { readers: 556, contents: 236 },
+            title: "ChatGPT实用场景365案例一本通",
+            owner: "@AI探索家",
+            description: "ChatGPT实用场景365案例一本通是由100多位AI探索家中的顶尖AI大咖共同合作创作，历时30多天完成！在365案例一本通中汇聚了365至1000多个ChatGPT应用案例、提示词、模型，以及作者联系方式，覆盖职场、办公、工具、写作、生活、技能、情感、工作等12个领域。每个案例经历创作者精心撰写、作品初审、精细打磨、模型测试、校对优化、评审建议、分类打分、发布上架等8重筛选流程。首发版本包含100个案例，余下案例将陆续发布，敬请期待。——AI探索家俱乐部<br>共创及分销请添加小助手微信：waChatGPT66",
+            type: "ChatGPT、案例库"
+        },
+        {
+            columnid: "gzhzq",
+            image_url: "https://static.xiaobot.net/paper/2023-12-05/10954/3806cc8abefcfefa7cf84d57b608292d.jpeg",
+            num: { readers: 1295, contents: 49 },
+            title: "公众号快速涨粉指南",
+            owner: "@806-老秦",
+            description: "你好，我是老秦<br><br>前程序员，现自由职业<br>公众号读者20W<br>副业累计变现七位数<br>公众号单日涨粉4W<br>3天速起万粉公众号<br>搜一搜自动涨粉公号5W关注<br><br>本小册共 5 个模块：案例篇、涨粉篇、变现篇、进阶20问 ，彩蛋。<br><br>原价 199 元，当下 18.88 元(一次订阅，永久可查阅)，满 1500 涨价到 29.99<br><br>订阅➕v： 912241847 ，截图支付记录，领取「资料包+定向朋友圈」（设置配套读者群）",
+            type: "公众号、营销"
+        },
+        {
+            columnid: "daoshu",
+            image_url: "https://static.xiaobot.net/paper/2023-04-18/260754/d5a3c748877216bd0b50af732995aee7.jpeg",
+            num: { readers: 125, contents: 143 },
+            title: "营销人干货库",
+            owner: "@道叔",
+            description: "作者：道叔十年营销人，做过某知名广告公司品牌总监，全网10万粉丝，出版过多部畅销商业书籍。<br><br>小册包含营销方法论、底层逻辑、策划秘诀、品牌干货、文案技巧、职场精华等，读者可一键获取道叔十来年的工作经验。<br><br>原价299元，限时特价29.8元买断，每涨100人涨10元。<br><br>本册可说是营销人百宝书，道叔承诺至少更新100篇干货以上！",
+            type: "营销"
+        },
+        {
+            columnid: "syzbl",
+            image_url: "https://static.xiaobot.net/paper/2022-04-21/25777/35e62429a0d58f36660fa12e6d56f200.jpeg",
+            num: { readers: 162, contents: 155 },
+            title: "投资实战派：框架、方法和案例",
+            owner: "@王永庆",
+            description: "这是一个持续更新的投资实战知识库，适合正儿八经想学习和了解投资的朋友，对自己的钱严肃的人，适合从理论到实战的过度环节。<br><br>专栏内容：<br>（1）不同投资策略边界、方法、代表性基金经理、具体策略<br>（2）互联网、新消费、周期等行业和公司的研究、方法更新、财报点评等<br>（3）上市公司的调研纪要、基金经理的沟通记录<br>（4）好报告、好年报、读书笔记整理<br><br>目前在写一本投资研究方法的书……",
+            type: "投资"
+        },
+        {
+            columnid: "AIclass",
+            image_url: "https://static.xiaobot.net/paper/2023-03-16/138610/6eb2eecc1b6c7743d4a766c771687248.png",
+            num: { readers: 611, contents: 61 },
+            title: "ChatGPT精进指南",
+            owner: "@Alchian花生",
+            description: "ChatGPT的使用是一门实践的艺术。这个专栏致力于用我新鲜、一手、深度的实操经验给你带去启发。<br><br>🚀【作者是谁】<br>- 我是花生，此前在阿里、美团等大厂工作十年<br>- 投身AI一年，现在是全球Top100的GPT开发者、Linkedin讲师、YouTube/B站博主<br><br>💵【课程定价】<br>- 299永久买断，后续可免费查看更新<br><br>🎓【目标学员】<br>- 对AI感兴趣，期望借此提升工作、学习、生活效率的人<br><br>🎁【订阅福利】<br>- 购买后，查看置顶文章进读者群<br>- 获得非公开专享版「更勤奋更聪明的GPT4 - 联网版」GPT",
+            type: "ChatGPT"
+        },
+        {
+            columnid: "xuan_0429",
+            image_url: "https://static.xiaobot.net/paper/2024-05-27/144619/4219b2eb287d840022decd0433e22e33.jpeg",
+            num: { readers: 56, contents: 14 },
+            title: "【今日头条爆文AI写作变现】",
+            owner: "@三次方",
+            description: "今日头条起号难？<br>不知道怎么变现？<br>不知道如何找到定位？<br>不知道怎么用 AI 提效？<br>怎么解？<br>这个小册专为头条爆文AI指令创作而生！<br><br>1. 专栏分享普通人如何从0到1打造10万+头条爆款文章以及变现方法<br><br>2. 内容包含爆款案例、工具分享、AI写作调教指令、涨粉、头条变现等，每周更新，至少50篇。<br><br>3. 原价399，限时最低价19.9元，一杯奶茶钱 ，专栏开放50%分销。",
+            type: "今日头条、AI、写作、搞钱"
+        },
+        {
+            columnid: "doumiaoyx",
+            image_url: "https://static.xiaobot.net/paper/2023-08-05/206170/0bc2285ac890447dc356921b88b24e7d.jpeg",
+            num: { readers: 329, contents: 59 },
+            title: "小红书运营手册",
+            owner: "@王小喵",
+            description: "哈喽～我是小喵。<br>静物摄影师，小红书万粉博主。<br>通过小红书变现20w+<br>知名品牌合作摄影师和多家平台合作摄影讲师。<br>摄影私教学员1k+<br>带领400+小红书博主陪跑变现。<br><br>✨请先阅读置顶笔记目录<br>再决定是否购买。",
+            type: "小红书、运营"
+        },
+        {
+            columnid: "dse",
+            image_url: "https://static.xiaobot.net/paper/2022-11-20/53866/2de073ac39ce6ca1ecb75c7f71038e2c.png",
+            num: { readers: 102, contents: 75 },
+            title: "AI搞钱周刊",
+            owner: "@殷建松Jason",
+            description: "这是校园VC创始人殷建松Jason的电子通讯，每周推荐两个AI创业项目，在精而不在多；请订阅后加我微信（18611023418）进读者群交流成长。",
+            type: "AI、搞钱"
+        },
+        {
+            columnid: "ZyrAI",
+            image_url: "https://static.xiaobot.net/paper/2023-08-08/268868/b39ba3b1d8067a97d8eaa6ffbe824a35.jpeg",
+            num: { readers: 76, contents: 122 },
+            title: "Midjourney魔法师养成记",
+            owner: "@赵玉润",
+            description: "1.Midjourney提示词图文展示与分析<br>2.大量精美的头像|壁纸|海报|AI图片<br>3.成为一名有趣的Midjourney绘画师",
+            type: "AI绘画"
+        },
+        {
+            columnid: "laxiaodeng",
+            image_url: "https://static.xiaobot.net/paper/2022-06-23/37339/970324e60c60352136a0ee858ab87e18.png",
+            num: { readers: 287, contents: 29 },
+            title: "知识管理，必会的30个技巧",
+            owner: "@拉小登Dony",
+            description: "👉作者：拉小登Dony，「拉小登Excel」全网粉丝40万+<br>👉用《阅读笔记表格》+Typora，轻松、高效管理你的笔记。<br>👉一次付费，永久阅读",
+            type: "超级个体、读书"
+        },
+        {
+            columnid: "pmtech",
+            image_url: "https://static.xiaobot.net/paper/2023-01-04/88624/b13bb9c3ce16c82ca5d5cd8198f9a702.jpeg",
+            num: { readers: 320, contents: 123 },
+            title: "产品经理学技术",
+            owner: "@唐韧",
+            description: "用通俗易懂的方式让产品经理学会工作中的技术知识",
+            type: "产品、编程、独立开发"
+        },
+        {
+            columnid: "xiaolin",
+            image_url: "https://static.xiaobot.net/paper/2023-11-13/61324/5d0be5c6bde6fa04eaf7d6fdf93617a6.jpeg",
+            num: { readers: 3173, contents: 102 },
+            title: "ChatGPT 应用案例",
+            owner: "@闫小林",
+            description: "专栏作者：闫小林， 98 年生人， 双非医学院毕业，大二边自学编程边记录，不知不觉写了上千篇原创文章，累计阅读 2000 万+。<br><br>毕业后进入某上市公司做了两年开发，当下有 30 万编程学习者关注小林。<br><br>小册分为：GPT辅助写作、GPT辅助赚钱、GPT辅助编程、GPT高效提问。<br><br>小册原价 188 元，限时特惠 28 元买断制，即将涨 58 元。<br><br>买过后，看置顶帖，拉你进专属 10000+ 人 GPT_编程_写作知识星球~",
+            type: "ChatGPT"
+        },
+        {
+            columnid: "MSk1888999",
+            image_url: "https://static.xiaobot.net/paper/2023-11-05/77958/d713389625274895ace159d522463426.jpeg",
+            num: { readers: 1202, contents: 47 },
+            title: "自媒体人必备引流手册",
+            owner: "@生财小苗哥",
+            description: "进入知识付费后半场，流量越来越难获取，你会发现：公域难引流、私域难留存 ！<br><br>如果你是：互联网副业/创业者、个人IP、自媒体人，想要突破流量困局，实现业务增长，本手册非常适合你。<br><br>本手册整合了100个互联网引流案例、方法和实用工具，可操作性强，涵盖：小红书，抖音，B站，视频号，微博，公众号，社群等多场景、多平台的引流方法。<br><br>除此以外，本手册配备【微信交流社群】，订阅者可进入社群，与更多高质自媒体人交流、实操，边学边做。<br><br>限时福利28.8元（永久有效），每满100人，涨价10元。<br>🔥本专栏对每一位订阅者开放 60%的分销🔥<br><br>订阅后，带上支付截图，添加微信：<br>小苗哥：MSK128188 （加领引流工具箱）<br>大西：daxicc725    （可进群里再点添加）<br><br>添加微信备注：引流专栏，找我们解锁【定向朋友圈】领引流工具包。",
+            type: "自媒体、引流、IP"
+        },
+        {
+            columnid: "mj",
+            image_url: "https://static.xiaobot.net/paper/2023-11-13/293161/cde7d53ce582d2dbe364097a82ccf0c6.png",
+            num: { readers: 795, contents: 56 },
+            title: "小红书绘画万粉计划",
+            owner: "@阿杰",
+            description: "专栏作者：阿杰，国内最大 AI 社群合伙人，60 天小红书涨粉破万，播放破百万。<br><br>小册主要分为四个部分：搞定 AI 绘画、玩赚小红书、六大涨粉秘籍、六大变现案例。<br><br>原价 198，现只需 15.9，半杯奶茶钱，买过后置顶帖进专属微信交流群，限时领取价值 2k 的资料包！",
+            type: "小红书、AI绘画"
+        },
+        {
+            columnid: "Mxfreview",
+            image_url: "https://static.xiaobot.net/paper/2022-04-21/13229/029df1786e4d466e554f97209a0bea82.jpeg",
+            num: { readers: 397, contents: 39 },
+            title: "如何写影评",
+            owner: "@梅雪风",
+            description: "梅雪风 | 苛刻的电影评论者，理性的故事研究者，温柔的处女座，曾任《看电影·午夜场》创刊主编，著有电影评论集《虚无的质感》  <br><br>专栏目的 | 探讨如何看电影、如何将自己的观点写出来、以及如何写好的技术<br><br>专栏频次 | 一周一篇",
+            type: "写作、自媒体"
+        },
+        {
+            columnid: "gpt88",
+            image_url: "https://static.xiaobot.net/paper/2024-05-24/57173/fa83e19f474e4e3483c1cd89b389438f.png",
+            num: { readers: 673, contents: 204 },
+            title: "AI工具玩法和变现案例【精华】",
+            owner: "@铭则",
+            description: "分享关于Ai人工智能的干货资料，让你快速低成本了解Ai，特别是关于<br><br>1、ChatGPT 从 0 到 1<br>2、Ai绘画的从0到1<br>3、Ai赚钱应用的案例<br>4、好用的Ai软件分享<br>5、Ai领域的最新资讯<br>6、Ai做短视频变现方法<br><br>原价是199，限时最低价 99，专栏订阅后，终身无需付费<br><br>现在可限时领取4折优惠卷，只有100张，先到先得，永久学习<br><br>满800人涨价到129，1000人涨价到149",
+            type: "AI、搞钱、工具、案例库"
+        }, 
+        {
+            columnid: "andy20220928",
+            image_url: "https://static.xiaobot.net/paper/2022-09-28/66687/9eaee1f8afafde45971b9cd635f78611.jpeg",
+            num: { readers: 24, contents: 54 },
+            title: "公众号平台保姆级使用手册",
+            owner: "@安迪",
+            description: "教你玩转公众号平台，平台的操作问题你都可以在这里找到答案！<br><br>我是安迪，使用手册全网独一份！<br><br>详细易懂，好上手，节省你宝贵的时间！<br>限时优惠，29元买断（永久有效）！<br>分销🉑得60％的推荐奖励哦～<br><br>订阅后快速刷一遍小册，有个印象，之后遇到问题方便查找到准确详细的操作方法，快速上手操作解决问题！<br><br>而且你还可以赚钱，推荐给有需求的朋友，赚60%推荐奖励！<br><br>截图支付记录，加安迪微信：Andy210912<br>有惊喜哦～",
+            type: "公众号"
+        },
+        {
+            columnid: "new-money",
+            image_url: "https://static.xiaobot.net/paper/2023-02-09/5745/d47816acfdd1a278716ca37744e878d8.jpeg",
+            num: { readers: 239, contents: 45 },
+            title: "50个ChatGPT低门槛商业变现指南",
+            owner: "@穆宁",
+            description: "大家好，我是穆宁。<br><br>最近chatGPT的概念十分火爆，我亲身使用了一段时间之后，深刻体会到了它背后蕴含的商业价值，和超强的生产力。<br><br>为了帮助大家可以通过chatGPT提升的生产力，克服自身在执行力、创造力、内容生产能力上的不足，快速验证个人商业项目。<br><br>chatGPT帮助实现个人商业助力的范畴：<br>1.个人IP<br>2.业务操盘手<br>3.独立咨询师<br>4.独立开发者<br><br>本专栏永不涨价，不提供具体的项目指导和操盘细节，仅提供项目点子和思路。订阅后觉得没有收获，可以直接联系我退款：muningpm",
+            type: "案例库、ChatGPT、搞钱"
+        },
+        {
+            columnid: "gerenip",
+            image_url: "https://static.xiaobot.net/paper/2023-11-03/714/0102eda4b01a5f144b9cccf665f76761.jpeg",
+            num: { readers: 265, contents: 93 },
+            title: "小红书高转化模块库",
+            owner: "@大辉",
+            description: "别人笔记上万赞，你的笔记没人看<br>别人笔记 V 加爆，你的笔记看完走<br>别人笔记有钱赚，你的笔记难变现<br><br>我是大辉，行为设计6年。本专栏从行为模型出发，提炼88+个小红书高转化模块，并告诉你背后的原理和方法。<br><br>你可使用这些模块，快速拼接出有吸引力，高转化笔记。<br><br>限时69元买断（一次订阅，永久查阅），每满百人涨价10元，先定先赚<br>订阅后，加大辉微信 16279731，进交流群<br><br>赚钱就是将大大小小的模块拼接起来——大辉",
+            type: "小红书、案例库、IP"
+        },
+        {
+            columnid: "baiyang",
+            image_url: "https://static.xiaobot.net/paper/2022-09-05/72908/10d8b8bb3409bfaec0d3835309fa8206.png",
+            num: { readers: 489, contents: 70 },
+            title: "全网SEO可参考案例库",
+            owner: "@白杨SEO",
+            description: "搞流量做SEO排名最怕没思路，他山之石，可以攻玉！<br><br>全网手动精选拆解不低于66个各平台SEO可参考案例，包括：百度、公众号、抖音、知乎、小红书、视频号等，行业不限！并且说明为什么可参考、SEO关键词是什么、如何布局等，目前66个已完成。<br><br>《全网SEO可参考案例库》价格99元，永久买断！这是白杨seo入门的开眼产品，有需要购买自愿！<br><br>有其他问题可联系白杨SEO微信：baiyang2047",
+            type: "SEO、案例库"
+        },
+        {
+            columnid: "daihuo",
+            image_url: "https://static.xiaobot.net/paper/2022-11-04/83463/efae645c23a8db16d2cbdf4edb0a43f3.jpeg",
+            num: { readers: 170, contents: 75 },
+            title: "抖音视频带货可复制案例库",
+            owner: "@刘皇叔#刘皇叔笔记",
+            description: "视频带货是抖音的主要变现形式之一，也是最适合普通人的赛道。我是刘皇叔，手动精选 200 个视频带货可复制案例，全网独一份。<br>这些案例的共同特点是粉丝数不高，但变现能力超强。<br>每个案例中，我会告诉你：为什么可复制，账号的优点和缺点在哪里？适合什么样的人？你能否在他的基础上创新更进一步？案例库采取买断制（永久有效）。<br>订阅后，快速刷一遍所有案例，找到你能模仿的，执行，快速出结果。<br>本专栏提供微信交流群，加刘皇叔的微信【f248088】，我会拉你进专属交流群。",
+            type: "抖音、互联网、案例库"
+        },
+        {
+            columnid: "919900",
+            image_url: "https://static.xiaobot.net/paper/2023-02-11/187077/759abbbf9725c82543c5e42337f5c134.jpeg",
+            num: { readers: 1186, contents: 384 },
+            title: "轩总专栏｜知识库",
+            owner: "@轩总专栏",
+            description: "这里是轩总小报童专栏，欢迎订阅~<br>轩总粉丝案例解析、轩总拜访大佬饭局复盘、饭局小课堂、如何做管理、为人处世、智慧果老板分享、互联网技能、轩总那些独特的思维分享、女性智慧等，内容丰富<br><br>每年度预计更新300＋篇章<br>年度订阅制，点击最下方【订阅专栏】<br>了解更多，请看免费预览里的置顶必读<br><br>已订阅读者可加专属助理<br>付费后联系你已有的轩总号，截图你的报童订单发送，会为您推送专属的助理号名片<br>助理号有专属资源可选购、不定时抽奖以及轩总有什么福利动向，会特别通知。",
+            type: "职场"
+        },
+        {
+            columnid: "Tony6688",
+            image_url: "https://static.xiaobot.net/paper/2024-01-18/440271/f686dd9773e314566c8dd10979fc9d11.jpeg",
+            num: { readers: 1134, contents: 27 },
+            title: "程序员职场避坑指南",
+            owner: "@托尼学长",
+            description: "作者：托尼学长，互联网老兵，前美团高级技术经理，前新东方技术总监，曾就职于京东和去哪儿网，3.9 万AI 破局俱乐部初创合伙人。<br><br>本小册整理了程序员从求职面试、在职发展、抉择成长三个方面，在职场中会遇到的几十个核心问题，旨在总结可复制的经验，帮助你在职场之路上避坑。<br><br>原价 399，满 1500 人涨价，限时 10 元永久买断。",
+            type: "超级个体、职场"
+        },
+        {
+            columnid: "Taoofcreativity",
+            image_url: "https://static.xiaobot.net/paper/2023-07-01/2721/9e503ee261ebf2b12d3d705ac3434928.png",
+            num: { readers: 669, contents: 46 },
+            title: "创造力唤醒指南【已完结】",
+            owner: "@颜晓静 Athena",
+            description: "“每个人都是天生的创造者，有无限的创造力。”<br><br>这是一本关于唤醒并打开创造力的小册，适合于每一位希望回归生命作为创造者的本质，修复自身创造力的人。<br><br>它整合了我对创造力本质的理解，和修复自身创造力的心得，通过拆解“道、法、术”，全面深入地帮助大家唤醒创造力。<br><br>这本小册共12章，每章包括正文内容+课后练习，内容包括：<br><br>💧创造力的道、法、术<br>💡打开接受灵感的通道，获得无限的创造灵感<br>✍️打开输出表达的通道，开始你的创作<br>🌱打开作品生长的通道，拥有持续的创造力<br><br>小册共12章，已更新完成，请放心订阅！<br><br>订阅后即可加入读者微信群，分享交流实践心得。<br><br>✨期待与你一起开启唤醒创造力之旅！",
+            type: "超级个体"
+        },
+        {
+            columnid: "office",
+            image_url: "https://static.xiaobot.net/paper/2024-01-25/61313/41279d4bada4bed570cbc31dc40247de.png",
+            num: { readers: 882, contents: 65 },
+            title: "100个效率提升工具",
+            owner: "@Sitin彭涛",
+            description: "分享100个效率工具，让你事半功倍。<br><br>分别从PC端，移动端，Web浏览器，工具站等<br>各种黑科技，sao操作等等。<br><br>原价169，内测期间，限时最低价12元<br>（一次订阅，永久有效）<br><br>满500人涨价。<br><br>订阅后，截图支付记录，加V:<br>pengtaome，发送 【 #工具 】，进入微信交流群。<br>分销专栏可获60%佣金。",
+            type: "工具"
+        },
+        {
+            columnid: "FsPrompt",
+            image_url: "https://static.xiaobot.net/paper/2023-10-31/312317/85bcf82f39c6d6e60c282d187ae6914c.jpeg",
+            num: { readers: 952, contents: 26 },
+            title: "AI 知乎入门到变现",
+            owner: "@冯帅",
+            description: "作者冯帅：互联网大厂程序员，全国最大 AI 社群初创合伙人，专注于探索 AI 细分领域应用场景落地，30 天做到知乎从 0 到日阅读量 30000+ ，v：FengPrompt<br><br>小册包含两大部分：AI 辅助知乎变现引流、AI 提示词辅助创作知乎。<br><br>原价 299，限时 99 元买断制。<br><br>购买之后，从置顶帖【手册目录】尾部入群，限时领取 AI 变现资料！",
+            type: "AI、知乎"
+        },
+        {
+            columnid: "maotai",
+            image_url: "https://static.xiaobot.net/paper/2023-12-10/98198/7973af2efba9469c0dc203643fc6d5e2.png",
+            num: { readers: 1013, contents: 159 },
+            title: "闲鱼无货源108式",
+            owner: "@阿拉丁@叁心笔记",
+            description: "一部手机玩转闲鱼无货源，低成本创业，轻资产创业，如果你想靠闲鱼赚点小钱，那么这个专栏可以帮助你快速起步。<br><br>本专栏不仅教大家如何在闲鱼上开店，如何寻找产品上架，并且还会提供108个热门产品，让大家没有选品困难综合症，喂饭级教程，只需要一步步对着操作即可。<br><br>快速学习，精准复制。<br><br>原价998，限时特价39.9（一次订阅，永久查看）<br>每满300人涨价10元。（已从16.8涨到39.9）<br>满1000人会直接涨价到598<br><br>订阅后加我微信发支付截图，提供微信群（群仅做交流，不提供任何培训指导）",
+            type: "闲鱼、搞钱、互联网"
+        },
+        {
+            columnid: "1000036",
+            image_url: "https://static.xiaobot.net/paper/2023-12-05/284144/a970367d1b981d1cce747a3eb4f818a1.jpeg",
+            num: { readers: 1016, contents: 42 },
+            title: "大厂P9洋哥：职场晋升一本通",
+            owner: "@findyi",
+            description: "作者 findyi，江湖人称洋哥，AI破局俱乐部主理人，互联网从业15年，担任过网易事业部总经理、360技术总监。<br><br>小册联合一位大厂总监、一位大厂技术经理联合打造，涵盖如何晋升P8的全部问题。<br><br>购买后加微信18010062983，添加后，我会送你一份我的个人晋升经历。<br><br>原价799，现价19.9元永久买断，每涨500人，涨价10元。承诺更新100篇以上！",
+            type: "职场"
+        },
+        {
+            columnid: "aiappmake",
+            image_url: "https://static.xiaobot.net/paper/2023-12-24/376598/597e1d228e3f2ab9aba3e3684a7c0883.jpeg",
+            num: { readers: 1046, contents: 44 },
+            title: "零代码AI应用制作指南",
+            owner: "@天蓝",
+            description: "作者天蓝: AI破局初创合伙人、航海教练、12年IT资深老兵、前独角兽基础架构负责人、多次创业者,  致力于让 AI 应用制作走向普罗大众。<br><br>零基础、无需编程，也能制作高效的AI生产力工具。<br><br>囊括了 ChatGPT GPTs、文心一言提示词、科大讯飞助手、智谱 AI 智能体、字节豆包 AI智能体、ZelinAI 应用、FastGPT AI 应用的制作指南。<br><br>小册原价 599 元，满 1000 人已涨价，限时 16.6 元买断。 <br><br>订阅后加微信：t168836， 带支付截图，加入交流群，限时领取超值福利！",
+            type: "编程、AI、产品"
+        },
+        {
+            columnid: "LYoutput16",
+            image_url: "https://static.xiaobot.net/paper/2023-12-03/359642/a52f63cab0a7db02967c150e87e47e8c.png",
+            num: { readers: 1046, contents: 21 },
+            title: "超级个体商业避坑指南",
+            owner: "@凌翌",
+            description: "作者凌翌：专注商业法律。对外经贸大学法学硕士。经手超16亿法律业务；曾任职互联网大厂；曾帮助创业团队、超级个体。<br><br>小册暂设内容：防制裁防破产、个体户避坑、企业避坑、合同避坑、合同模版、捂紧钱袋子、知识付费、AIGC、自媒体、电商、自力工具库等。助力你跑稳超级个体时代。<br><br>小册原价590元，首个小册，现价特惠19元买断，每满100人涨价10元。<br>订阅福利：查看置顶文章，可进“凌翌陪伴超级个体”免费星球。",
+            type: "超级个体、商业"
+        },
+        {
+            columnid: "f22173",
+            image_url: "https://static.xiaobot.net/paper/2023-11-04/75664/72c721dae1fc43866793499f51625066.jpeg",
+            num: { readers: 1135, contents: 151 },
+            title: "365条高价值赚钱信息",
+            owner: "@777超级个体张老板",
+            description: "7年互联网自由职业者张老板每天亲手在各平台挖掘，以及从加入的几十个优质圈子获取的海量赚钱信息里，筛选高价值赚钱信息，验证、解读。<br><br>我手动筛选解读，实战价值极大，有可能一条信息受启发，就能多赚不少。<br><br>全年更新不少于365条高价值赚钱信息。<br><br>涨价机制：<br><br>现价10元；<br>更新满165条，涨价至16.5元；<br>更新满265条，涨价至26.5元；<br>更新满365条，涨价至36.5元。<br><br>相当于1条1毛钱，终身买断，一次付费终身阅读。<br><br>购买专栏，限时赠送价值99的张老板副业陪伴微信群，加微信（f86562）邀请你进群。",
+            type: "互联网、搞钱、热门"
+        },
+        {
+            columnid: "feibasy",
+            image_url: "https://static.xiaobot.net/paper/2023-09-04/17489/7411b49610e06f67940898a2abc7e9d9.png",
+            num: { readers: 1116, contents: 83 },
+            title: "超级个体商业认知入门",
+            owner: "@飞巴",
+            description: "这份专栏的目标人群是所有想做超级个体、互联网创业/轻创业、副业折腾的同学，希望通过十二个章节帮助大家完成商业知识的科普「详细目录请看置顶帖」，实现商业认知入门。<br><br>可以说商业是每个人都该学一点的知识，飞巴是帮助学员增收百万的私人商业增长教练，在这过程中发现绝大部分人对于商业是没有概念的，商业是底层逻辑，做任何生意都需要。<br><br>如果简单一句话介绍这个专栏就是：帮你更容易赚到钱和不容易被商业欺骗的入门级百科全书。<br><br>原价199元，限时29.9元买断，终身有效。<br><br>提供三重见面礼，订阅后微信562975196 私信我领取",
+            type: "超级个体、商业、互联网"
+        },
+        {
+            columnid: "asdfghjkl",
+            image_url: "https://static.xiaobot.net/paper/2023-07-27/48633/bd4fe904fd5ac2a8e32b87e065f6b3ed.png",
+            num: { readers: 418, contents: 106 },
+            title: "100 个提高微信成交率的小技巧",
+            owner: "@日新月异俱乐部",
+            description: "📌【专栏定位】<br>私域经营过程中，成交和销售实战。<br>最简单、最容易上手，帮助你提高私域转化率。<br><br>🗒【专栏内容】<br>保底100篇微信成交小技巧，会持续加餐!<br><br>🎯【适合用户】<br>- 想探索可能性，发展新副业的职场人<br>- 想要突破现状，获得更高收入的同学<br>- 想要搭建一套，高转化的私域销售体系的同学<br><br>🎁【订阅专享福利】<br>加入读者交流群<br>添加微信【cwwc13】，凭订单截图申请<br><br>⭐️往期专栏《日新月异俱乐部--沟通万用金句》<br>",
+            type: "微信、私域"
+        },
+        {
+            columnid: "dugu01",
+            image_url: "https://static.xiaobot.net/paper/2024-04-01/126584/9af154b87de7e9ed25edf5bf64b11ff8.png",
+            num: { readers: 465, contents: 24 },
+            title: "图书电商赚钱项目",
+            owner: "@独孤思维",
+            description: "图书电商项目，一个稳妥的赚钱副业。<br><br>作者：独孤思维，深耕图书电商项目3年，通过图书电商变现6位数。从图书的入门玩法、选品策略、优化曝光、放大收益、售后技巧等，带你零基础，通过图书电商项目赚到钱。<br><br>提供社群陪跑+全套资料+视频课程 <br><br>* 原价 688，限时最低价 10元，永久买断。<br><br>订阅后，联系独孤微信：dugu5288。进微信群领取视频课程和资料包。",
+            type: "搞钱、电商"
+        },
+        {
+            columnid: "ddkk01",
+            image_url: "https://static.xiaobot.net/paper/2024-01-16/212597/18c9620d6f77f7bd04bdad85b5a40a0e.png",
+            num: { readers: 465, contents: 107 },
+            title: "AI与编程公众号，涨粉，实战",
+            owner: "@鹏磊",
+            description: "作者鹏磊：10年Java程序员，51万粉丝的公众号「架构师专栏」「架构师技术栈」「Java后端」主理人，私域微信好友7.6万+，150+微信群，知识星球粉1.7万+，3年兼职2年全职，累计副业变现7位数！<br><br>小册共150讲，分11个专栏：编程公众号起号与涨粉 、涨粉工具实战、涨粉运营实战 、创作内容实战 、创作ChatGPT实战 、粉丝互动实战 、内容变现实战 、数据分析实战 、进阶开发实战 、涨粉秘籍实战 、运营技巧实战<br><br>原价 599 元，限时 19.9 元买断制<br><br>前1000人购买送【涨粉，变现，实战】陪伴群<br><br>福利：加微信 itdevtools，发支付截图，拉你进群",
+            type: "公众号、AI"
+        },
+        {
+            columnid: "youshidingwei",
+            image_url: "https://static.xiaobot.net/paper/2024-01-26/1723/62a75dd5c3a0b6c506701fd7d77720fa.jpeg",
+            num: { readers: 503, contents: 14 },
+            title: "个人优势定位指南",
+            owner: "@叶叶在觉",
+            description: "本专栏不讲那些老掉牙的发现优势的方法，而是在从常见的内耗困境中，帮助你清晰定位到自己独家的优势。<br><br>只要赛道足够细分，每个人都是第一名。<br><br>作者是国内头部盖洛普优势教练叶在觉，财富500强企业优势内训师，服务过4000+客户找到自身优势，提高赚钱效率。<br><br>本专栏由玩赚、阿猫觉醒、破局合伙人联合冠名。<br><br>每周更新1～3篇，3月底更新完毕。<br><br>原价199元，早鸟价10元买断，满1000人涨价10元，直至涨价至199元。<br><br>一次订阅，终身无限回看。<br><br>购买后添加微信freeself2021，领取34种优势清单，进读者群。",
+            type: "心理"
+        },
+        {
+            columnid: "S7",
+            image_url: "https://static.xiaobot.net/paper/2023-01-01/57574/d32b84984c61849d5179a679605edeb4.jpeg",
+            num: { readers: 515, contents: 75 },
+            title: "小红书精选项目案例库",
+            owner: "@孙哲",
+            description: "我是孙哲，小红书领域5年经验，这个案例库，我会拆解小红书各类型可复制能赚钱的项目玩法。（全网独家）<br><br>经常看别人的笔记点赞成千上万，商业收入不断，而你的笔记没人看，从这个案例库里选择自己能做的，然后干就完了。<br><br>2023开年特惠限时 70 元买断（永久有效）<br> 看完既能开眼界，还能模仿执行。<br>满100人订阅，涨价10元，必买不亏。<br><br>订阅后，加微信：180333<br> 领取《小红书10种赚钱方式，6种引流技巧...》---对了，还有额外惊喜！~",
+            type: "小红书、案例库"
+        },
+        {
+            columnid: "work-001",
+            image_url: "https://static.xiaobot.net/paper/2022-11-23/5745/979624b4decce7fa54b1d45da7961f6e.jpeg",
+            num: { readers: 522, contents: 18 },
+            title: "看本质：热点话题100问系列【B端完结】",
+            owner: "@穆宁",
+            description: "“花半秒钟就看透事物本质的人，和花一辈子都看不清事物本质的人，注定有截然不同的命运。”<br>大家好，我是穆宁。我会用10个话题讲述100个思维模型，帮助大家掌握用上帝视角看世界的方法。<br>内容话题涉及职场、沟通、心理学等领域，帮助你更好的与这个世界对话。<br>用可视化思维的方式去学习，使我受益匪浅。我希望将这种价值，传递给更多人。<br>目前定价119.9元/终身，早买早赚到。",
+            type: "思维模型、成长"
+        },
+        {
+            columnid: "web3dev",
+            image_url: "https://static.xiaobot.net/paper/2024-01-23/387766/a4cb165ed6accfa7e54bf5f097f16742.jpeg",
+            num: { readers: 528, contents: 103 },
+            title: "深入浅出Web3开发技术",
+            owner: "@Keegan小钢",
+            description: "作者「Keegan小钢」，公众号、知乎、B站等平台同名作者，已在 Web3 领域深耕 7 年，资深 Web3 技术专家。<br><br>本手册内容源自作者未完成的书籍稿件，内容包括Web3基础，智能合约技术和语言基础，智能合约开发、测试和部署，标准 Token 协议，区块链预言机，Keeper，数据索引服务 Graph，前端 Web3 框架等。<br><br>购买后加微信 keegan704，发送支付截图，可加入「深入浅出Web3开发技术陪伴群」。<br><br>目前小册主要内容已全部发布，但后续会不间断发布加餐的内容。",
+            type: "web3、编程"
+        },
+        {
+            columnid: "xiaobushous1",
+            image_url: "https://static.xiaobot.net/paper/2023-01-08/1112/b2ba9a08b7705b33f55496ba92d3f202.png",
+            num: { readers: 630, contents: 56 },
+            title: "播客小捕手",
+            owner: "@Jimmy Wong",
+            description: "如果你跟我一样，在听英文播客的时候，常常遇到听不懂，听着累，甚至不知道听什么的问题。那么播客小捕手应该能帮到你。<br><br>购买后，你将获得三个播客数据库访问权，分别包含 Huberman Lab、The Knowledge Project 和 Invest Like The Best 三挡优质播客的 AI 翻译内容（主题涵盖健康、领导力、决策以及投资）。以及 51 篇精华节目的人工总结。目前本专栏已经完成所有内容的更新，可放心购买。",
+            type: "播客"
+        },
+        {
+            columnid: "xiaobaozi",
+            image_url: "https://static.xiaobot.net/paper/2023-07-19/316588/72801d04a10c424dfa021efcced90e93.png",
+            num: { readers: 637, contents: 47 },
+            title: "包子的致富好书",
+            owner: "@一只萧包子",
+            description: "本专栏会更新包子的致富好书，其中包括书籍精华解读+感悟思考。<br><br>内容聚焦「商业/经济/文学/个人成长/心理/效能」等主题。<br><br>每周更新1-2篇，最低不少于1篇，每篇平均不低于4000字。一共更新50篇。<br><br>原价169，限时骨折39（一次订阅，永久有效，无需续费）满650订阅，立马涨价。<br><br>现在订阅还送「专属交流群」（限量赠送，送完即止）<br><br>包子是谁：B站知识区百万粉UP主，读书付费成员超4000人，央视读书节直播邀请嘉宾。",
+            type: "读书、成长"
+        },
+        {
+            columnid: "tianchengdaotu1",
+            image_url: "https://static.xiaobot.net/paper/2023-11-06/278701/e79474019004b9205eb59dbfcfab7408.jpeg",
+            num: { readers: 660, contents: 27 },
+            title: "思维导图高效学AI",
+            owner: "@天成导图",
+            description: "作者简介：天成老师，清华学霸，AI破局初创合伙人，英国ThinkBuzan思维导图国际认证教练（全球最权威思维导图资质）<br><br>小册介绍思维导图高效学习法，围绕AI领域详细展开。包括三大部分：导图笔记法入门，用导图构建知识体系的方法，知识体系导图示例。<br><br>原价200元，现【特惠】11.09元买断！会逐步上涨到原价！满699人订阅涨到12.88元！<br><br>购买后，加我微信：tianchengdaotu001，从置顶帖【手册目录】尾部进群，限时领取思维导图精华干货！",
+            type: "AI、思维导图"
+        },
+        {
+            columnid: "bkzq1000w",
+            image_url: "https://static.xiaobot.net/paper/2023-09-30/17489/069748d0870d5255ec554a33a00d1831.jpeg",
+            num: { readers: 389, contents: 69 },
+            title: "投资避坑指南与财富管理入门",
+            owner: "@飞巴",
+            description: "本专栏面向投资小白人群和缺乏体系化投资知识的朋友，投资上最常见的几个问题，看看你中了几个：<br>钱不够怎么办？买哪一个？怎么买？买了会涨么？啥时候涨？啥时候卖？<br><br>查理芒格的名言：如果我知道我在哪里死去，就一辈子不去那里<br><br>投资最重要的问题不是如何赚到钱，而是如何不被各种坑亏掉钱，避坑指南不可能让你们避开所有的坑，但能避开大部分就会少亏很多钱。<br><br>原价199元，限时16.88元买断，终身有效，订阅满1000人涨价至18.88元。<br><br>订阅后，微信562975196 私信我「支付记录」领取福利。",
+            type: "投资"
+        },
+        {
+            columnid: "answer100",
+            image_url: "https://static.xiaobot.net/paper/2023-11-16/369816/c6a98d272e890827bc2abf7c87768cf5.jpeg",
+            num: { readers: 315, contents: 23 },
+            title: "人生撒野指南-100个关于爱的答案",
+            owner: "@澹澹",
+            description: "【这是份关于爱和被爱、关系本质的幸福指南】<br><br>为什么总是爱不到对的人？<br>分手了如何挽回？<br>怎么说对方才听得进去？<br>如何治好你的恋爱脑？<br>付出感、委屈感、托付感，关系中心态失衡怎么办？<br><br>有没有想过，这些其实你都能解决！<br><br>现在跟着我一起，通过这本册子，掌握关系的本质和相处的技巧，你不仅可以解决两性之爱，更能解决原生之痛、自我之限，收获幸福的人生体验。<br><br>原价199，限时19.9（终身查阅），满500人涨至29.9元。<br><br>订阅后浏览置顶帖，进小报童陪伴群，每周深度分享！<br>领取《优势测试器》、《IQ/EQ》测试各一份。",
+            type: "人际、沟通"
+        },
+        {
+            columnid: "cfzytzzn",
+            image_url: "https://static.xiaobot.net/paper/2023-10-21/288304/202d6e5026740ccc0147cbb4080b48c7.png",
+            num: { readers: 293, contents: 22 },
+            title: "十年十倍投资指南",
+            owner: "@肺鱼",
+            description: "分享：血本无归！如何避免？十年十倍！如何躺赚？价值投机！如何轮回低买高卖？<br><br>肺鱼，一个专研躺赚年复利27%的无名小散。可能改变你的人生，可能让你痛不欲生！<br><br>2006入市爆赚，信心爆棚，2008借钱炒股，血本无归！2009卖房还债，面壁思过...<br><br>2011再次入市，连赚6年，2016操盘肺鱼1号私募基金，2017亏18%清盘终于开悟...<br><br>2020开始以交易为生，最近10年复利不过27%，但已十年十倍，公众号：波段肺鱼。<br><br>原价1800元，限时18元（一次订阅永久查阅），每多100人涨价，分享得60%佣金。",
+            type: "投资"
+        },
+        {
+            columnid: "jn123456789",
+            image_url: "https://static.xiaobot.net/paper/2023-12-01/79218/de3e59cf3b568501adc57ebf882121e6.jpeg",
+            num: { readers: 252, contents: 15 },
+            title: "信息差省米套利实操手册",
+            owner: "@聚能",
+            description: "手册中提供可做的套利方案，虽简洁但包含套利路径和关键过程点，目标是为大家写30个合规套利。聚能自己每个套利方案每月流水都超4位数，你们可以选适合自己的持续放大<br><br>本手册主理人聚能（公众号：聚能de梦呓），购买后加微信junenglianmeng，前200名购买附赠1个月内免费答疑1次，额外送聚能随缘解答的陪伴群<br><br>本手册原价1299元，现价18元永久买断，订阅量每涨100人涨价10元！<br><br>PS这里不分享金融套利、违法套利，不做坑蒙拐骗钻漏洞套利，只分享合规套利。套利者消灭套利空间，我会严控购买人数，早就是优势",
+            type: "搞钱、案例库"
+        },
+        {
+            columnid: "web123",
+            image_url: "https://static.xiaobot.net/paper/2024-01-15/43461/75a129be5fa23f1cff5004ec3ec99d0f.jpeg",
+            num: { readers: 224, contents: 101 },
+            title: "小白web3入门100问",
+            owner: "@生财王子",
+            description: "本专栏为web3新手入门100问，仅面向小白用户<br>如已是web3资源玩家，购买纯属为了支持一下<br>后面逐步加深链接<br>原价199，内测价10元<br>订阅后，截图支付记录，加微信 76718400，进web3交流群",
+            type: "web3"
+        },
+        {
+            columnid: "AIBigWhite",
+            image_url: "https://static.xiaobot.net/paper/2023-10-25/296231/a2f1f92bccbc8b7a2681255f555304e4.png",
+            num: { readers: 187, contents: 50 },
+            title: "带娃学AI入门教程",
+            owner: "@闻彬",
+            description: "AI 闻大白，复旦硕士, 创业导师，70 后学 AI，10 万字笔记，带娃学 AI，100+篇心得，自媒体带娃攻略阅读量 10 万+。<br>建议先订阅这份专栏，由浅入深，快速学习，马上应用，值得。<br><br>1. 整理 108 个实操案例，可快速学习 or 精准模仿。<br>2. 提问交互，全部呈现，揭示 AI 学习底层逻辑。<br><br>原价168，限时最低价 19 （一次订阅，永久可查阅）<br>** 每满 1000 人订阅，涨价 10 元。<br><br>订阅后，截图支付记录，微信 63925220 找 AI大白，解锁【AI 工具】。",
+            type: "教育、AI"
+        },
+        {
+            columnid: "rwalpha",
+            image_url: "https://static.xiaobot.net/paper/2024-01-15/364836/30d672738eac5dbe7b5bf2904798de03.jpeg",
+            num: { readers: 181, contents: 96 },
+            title: "随机漫步的阿尔法",
+            owner: "@随机漫步的阿尔法",
+            description: "💰一个专注分析的专栏<br>📝主要分析：沪深300，偶尔分析：上证、黄金、纳指<br>🥂时常分享：交易心得、技术点位、人生感悟<br><br>发现市场和人生中的隐藏机遇，赚取超额收益<br><br>【一次买断，终身阅读】<br><br>✅专栏适合的人群：<br>1，有一定投资经历和基础<br>2，有独立自主的思考能力<br>3，觉得请我吃一顿饭，听我唠叨唠叨也没关系的人<br><br>❌拒绝以下人群：<br>1，满仓加杠杆的赌狗<br>2，没有独立自主思考能力<br>3，认为看了就一定能赚钱的<br>4，认为买了就是我大爷的<br>5，不允许我犯错的<br><br>⚠️请注意：<br>1，行情预判可能出错，并非100%准确<br>2，不提供买卖方面的建议<br><br>【金钱永不眠，一起来搞钱】",
+            type: "投资"
+        },
+        {
+            columnid: "aqai7688",
+            image_url: "https://static.xiaobot.net/paper/2024-04-16/542614/efdd519125dd036df199052a809809f8.png",
+            num: { readers: 188, contents: 58 },
+            title: "AI绘图与视频实操手册",
+            owner: "@阿奇-昌澜",
+            description: "我是阿奇，一位持续7年网络副业大叔，现聚焦AI。曾是产品设计工程师，因看好AI前景，现全职AI。手册所有案例均由本人亲自实操！<br><br>手册分为6大篇：<br>AI基础知识；<br>AI绘图与视频初级篇；<br>AI绘图与视频进阶篇；<br>AI绘图与视频高级篇；<br>AI工具与操作篇；<br>MJ绘图技巧篇。<br><br>手册原价699元，内测阶段价格为69.9，一次付费，永久查阅。在内测期间计划每月至少更新5篇，直至完成内测恢复原价！<br><br>订阅福利：<br>1、订阅后，加阿奇微信，进群领取福利资料。<br>2、分销计划，邀请好友50%佣金！",
+            type: "AI绘图、工具"
+        },
+        {
+            columnid: "sczl",
+            image_url: "https://static.xiaobot.net/paper/2023-10-13/115347/f450b9dce48318793967b0bb51fa6537.jpeg",
+            num: { readers: 106, contents: 85 },
+            title: "海外淘金·跨境暴利项目",
+            owner: "@静水流深",
+            description: "各种海外暴利赚钱项目资讯发布，均是单人可以操作项目。<br><br>一年发布不低于50个（平均一周一个）海外暴利赚钱项目，必有一个项目一定可以轻松赚回200美元回本年费订阅成本（1000元/年）。<br><br>提供各种资料获取方法，比如税号，CC等，包括并不局限于环境搭建，资料筛选，背调，银行开户等，具体会在订阅里放出。<br><br>我们还有非常丰厚回报的合伙人计划，推荐朋友分销提成比例为60%，由小报童官方自动分账：<br>",
+            type: "出海、搞钱"
+        },
+        {
+            columnid: "xsq-woa",
+            image_url: "https://static.xiaobot.net/paper/2023-12-06/251365/10c20ab8876902cd1ea002273ddbe692.png",
+            num: { readers: 94, contents: 37 },
+            title: "《从0-1公众号涟漪之路》",
+            owner: "@即兴小索奇",
+            description: "一杯奶茶钱订阅小报童，一次购买，终身使用，自己享有最高60%的分销权<br><br>一个专栏全方位涵盖多个领域。<br><br>相比市面上的其他进阶教程，我们真正从零开始，即使你是小白，也可带领你逐步进阶，多年的经验带你少走三年弯路！<br><br>实时更新项目、资源，带你快速涨粉、了解别人不教的内部原理！<br><br>即将恢复原价299，限时18.8 永久订阅<br><br>限时订阅福利: <br><br>联系xiaosuoqi888加入交流群",
+            type: "公众号"
+        },
+        {
+            columnid: "pm007",
+            image_url: "https://static.xiaobot.net/paper/2023-04-29/264623/2454c68faaf7be9f05e30674a6761c23.jpeg",
+            num: { readers: 92, contents: 41 },
+            title: "三爷的B端产品专家进阶之路",
+            owner: "@三爷",
+            description: "为所有希望迈入高阶岗位产品人量身打造的产品专家必修课<br>（1）学习企业信息化战略，了解如何规划和实施企业信息化战略；<br>（2）学习并深入了解不同的商业模型和企业业务生命周期；<br>（3）学习如何锁定企业业务发展方向来更好地操盘产品线；<br>（4）学会常用的业务分析工具和方法，分析和挖掘市场趋势、产品表现制定企业级产品信息化演进路线。<br>本专栏已更新完毕完整的21天升级链路，共计40篇内容，每篇内容力争为大家带来不少于4000字的干货，全专栏内容篇幅远超于世面上大部分图书的内容量！<br>本专栏采用一次性买断制，买断后可永久阅读！<br>欢迎添加我的微信号一起沟通：pmsanye（添加请备注小报童）",
+            type: "产品"
+        },
+        {
+            columnid: "shenqiku",
+            image_url: "https://static.xiaobot.net/paper/2023-12-18/1848/a80e0df69e762619c1062cd83066d8b8.png",
+            num: { readers: 87, contents: 332 },
+            title: "365个精选效率软件神器",
+            owner: "@郭耀天¹",
+            description: "这是玩赚电商旗下软件工具神器库，整理分享工作生活中常用各种软件神器，如果工作中经常遇到各种问题，需要各种软件，订阅这里就对了，一次订阅，终生有效。",
+            type: "工具、案例库"
+        },
+        {
+            columnid: "effortCG",
+            image_url: "https://static.xiaobot.net/paper/2023-05-09/127926/28040ff4b0ff57b9e99d8fd094f70dde.jpeg",
+            num: { readers: 83, contents: 44 },
+            title: "前端快速入门",
+            owner: "@晨光",
+            description: "专栏作者：晨光， 双非师范大学毕业，5 年前端开发，目前在某大厂担任高级前端工程师，本专栏致力于帮助读者快速入门前端，让大家少走弯路。<br><br>小册分为 5 个主题：前端入门、前端进阶、前端实战、面试经验、职场经验，一年内最少输出 30 篇心得。<br><br>小册是永久买断制，原价 88 元，限时特惠，只需 10 元。<br><br>买过后，看置顶帖，拉你进专属 280+ 人 晨光·AI·前端群 （小圈子社群）~",
+            type: "编程、独立开发、前端"
+        },
+        {
+            columnid: "IP99",
+            image_url: "https://static.xiaobot.net/paper/2023-12-19/714/0841a5b202fb6f106160872ee962946d.jpeg",
+            num: { readers: 81, contents: 21 },
+            title: "每个IP的定位手册",
+            owner: "@大辉",
+            description: "定位定江山。定位事关IP生死。<br>江山并不是定出来的，而是打出来的。<br><br>这个小册，分享大辉提炼出来的个人IP定位三步走：定方向-选场景-找切口。<br>系统性的解决个人IP定位问题。<br><br>大辉，著有《直面不确定性》，擅长体系化解决复杂问题。<br><br>你看完后，就可以马上开始，做一个独特的商业IP。<br><br>购买专栏，加微信 16279731，可领一份完整的IP定位操作SOP。",
+            type: "IP"
+        },
+        {
+            columnid: "renxing",
+            image_url: "https://static.xiaobot.net/paper/2024-01-29/124641/7b672bd49336862872a7af64feb79f54.jpeg",
+            num: { readers: 78, contents: 97 },
+            title: "洞察人性、颠覆认知、重塑大脑",
+            owner: "@JoyandLion",
+            description: "阿胖，全网粉丝30万，2年时间月薪3千到3万，付费学员超千人<br><br>为什么你总被利用、欺骗、套路<br><br>因为你对人性的认知水平太低，只能看到事情的表面。<br><br>想要经营好事业、人生、家庭，都需要懂人性<br><br>阿胖会持续揭秘、解读那些最真实、残酷的人性真相，让你逐渐看清人性真面目，重塑大脑，改变思维认知<br><br>专栏至少更新100篇，日更，每篇至少2000字，原价199元，早鸟价39元，2杯奶茶钱，永久有效<br><br>随着订阅人数的上升，会涨到199元<br><br>购买后加我v：JoyandLion，备注小报童，赠送10G成长大礼包（限量），后续会拉交流群",
+            type: "超级个体、成长"
+        },
+        {
+            columnid: "hasky_ZSBX",
+            image_url: "https://static.xiaobot.net/paper/2023-12-30/14788/862dab698abdb73953a11bbac73ac497.png",
+            num: { readers: 73, contents: 16 },
+            title: "好课打磨指南",
+            owner: "@哈士奇",
+            description: "这是一份写给【想做好课的知识IP】的专栏。<br>好课程，是所有知识IP的前提和根本。<br>有了好课程，才有高口碑、高转化，才能实现好教育。<br><br>本专栏将围绕【好课打磨七工序】展开<br>每道工序用4篇文章来讲解，预计更新30篇文章左右<br>看完后你将知道60分、80分和99分课程有啥区别<br><br>定价：<br>- 每更新3篇涨价20元，直到99元封顶<br>- 一次购买，永久阅读<br><br>购买后，还有两件事别忘记：<br>1️⃣ 添加我的个人微信hhhhasky<br>2️⃣ 私信你的订单截图",
+            type: "产品"
+        },
+        {
+            columnid: "68802",
+            image_url: "https://static.xiaobot.net/paper/2023-07-30/119252/31dbd65314a9074d3c1c40573755232d.jpeg",
+            num: { readers: 75, contents: 56 },
+            title: "朋友圈被动成交100条",
+            owner: "@028辰风",
+            description: "我是辰风，自由职业，23年通过私域运营变现15w，主要得益于朋友圈的运营。<br><br>通过朋友圈文案，成交了19位合伙人，创造了近5w左右营收。<br><br>本专栏内容将围绕朋友圈运营展开，为你解决做朋友圈面临的全部问题，并且提供案例拆解方案。<br><br>想知道你的朋友圈为什么不能成交吗?想了解如何把握用户心智吗？想快速通过朋友圈开单放大，承担合伙人吗？<br><br>那就来看看这个小报童案例吧。<br><br>目前内测价10元，一次付费，买断终身。满员200人后，提价至16.88。<br><br>我的微信：yeyuji1,下单后找我领取个人IP从0到1心法",
+            type: "朋友圈、营销"
+        },
+        {
+            columnid: "logan1876",
+            image_url: "https://static.xiaobot.net/paper/2023-11-05/212900/6389c5d1c28529289e8d45fefa0c56a0.png",
+            num: { readers: 63, contents: 57 },
+            title: "公众号爆款赚钱手册",
+            owner: "@罗根",
+            description: "我是谁？<br>罗根，热衷于互联网赚钱，在公众号创建的 1 个月内，写出 10w+ 爆款，单篇变现 1000+ 。<br><br>这个手册是干嘛的？<br>帮助想从公众号赚到钱的新人，迈出从零到一的步伐。手册至少会更新 100 篇。<br><br>限时特惠：<br>原价 188 元，限时最低 16.66 元，一次订阅，终身有效，无需续费。<br><br>专属福利：<br>拍下专栏后，请添加我微信：logan9786，发送购买截图，我邀请您进公众号交流群。",
+            type: "公众号、搞钱"
+        },
+        {
+            columnid: "yushuzhilan",
+            image_url: "https://static.xiaobot.net/paper/2023-02-07/502/6a6c6a03e4f16f4cfdfecc6ea68542e2.jpeg",
+            num: { readers: 91, contents: 68 },
+            title: "玉树芝兰",
+            owner: "@王树义",
+            description: "数据科学、知识管理、科研入门等",
+            type: "科学"
+        },
+        {
+            columnid: "redbook0-1",
+            image_url: "https://static.xiaobot.net/paper/2023-05-17/9934/e683faea3261198c5e5b56bf00f06449.png",
+            num: { readers: 516, contents: 27 },
+            title: "从0开始的小红书搞钱指南",
+            owner: "@Rudy和May",
+            description: "独一无二的小红书搞钱指南！<br>手把手教你解决新人在从0到1的阶段，最容易卡住的那些问题：<br><br>1. 了解小红书的内容玩法、变现玩法，打开格局<br>2. 找准账号定位，走稳账号的第一步<br>3. 高效地规划内容策略，在第一个月内能有持续的产出，完成初始化<br><br>本专栏包括【认知篇】、【赚钱篇】、【定位篇】、【爆款篇】4大核心模块，至少20篇专题文章，和丰富的真实案例，帮你快速上手实操，开启你的小红书经营之旅！<br><br>还有专属读者群，加入即可领取一份超全的小红书变现地图，包含28种变现手段（微信号请在订阅后在【1.1篇】查看💗）",
+            type: "小红书、搞钱"
+        },
+        {
+            columnid: "stoney",
+            image_url: "https://static.xiaobot.net/paper/2022-11-21/103687/fb229d02f39720925df4f0130f5faa1b.jpeg",
+            num: { readers: 361, contents: 83 },
+            title: "老柴的来信",
+            owner: "@老柴",
+            description: "微博/小红书：@老柴<br>公众号：练习册<br>超过20年的内容创作者<br>女性户外品牌「岳下」创始人<br>连续创业者<br>前上市公司营销副总裁<br>退休国家三级登山运动员<br><br>成年人要有意识地培育自己。无论是浅层次的知识上，技能上，还是深层次的人格上，理念上，以及“如何自我培育”这一算法上。Feed yourself. 每天读的书，见的人，看的电影和新闻，做的运动，参加的艺术活动，跟吃饭是一回事。要讲营养搭配。<br><br>「老柴的来信」是我以周为期写给诸位和自己的信，希望在这个尝试下，摄入及输出都更有营养。订阅愉快。",
+            type: "超级个体"
+        },
+        {
+            columnid: "quant_v5",
+            image_url: "https://static.xiaobot.net/paper/2023-12-10/228122/8e5d9879472a73443a02285bd67b951a.png",
+            num: { readers: 452, contents: 46 },
+            title: "小白零基础用Python量化股票分析小册",
+            owner: "@菜哥",
+            description: "欢迎订阅 「小白零基础入门股票量化小册」<br>1.小编使用Python已经很多年，累计在公众号上原创写了500多篇Python的案例，也是量化的资深爱好者。<br><br>2.所以想写一个小册，从小白的角度浅浅介绍一下从零基础入门python，pandas库的使用，股票数据的基本分析，可视化股票分析，如何写一个简单的量化策略，如何回测策略。还涉及股票和基金数据的爬虫等内容。<br><br>3.加微信coder_v5, 发订阅截图，进永久陪伴群，领取本小册源码！<br><br>原价299，目前是早鸟价，2杯奶茶的钱，即可获得永久订阅，满100人涨10元。",
+            type: "编程、量化"
+        },
+        {
+            columnid: "liudaodsp",
+            image_url: "https://static.xiaobot.net/paper/2024-01-04/102362/e3caa7f4fa45f3f606986268e1f04463.png",
+            num: { readers: 404, contents: 49 },
+            title: "中医养生赛道红宝书",
+            owner: "@六道",
+            description: "未来十年，一起深耕中医养生赛道",
+            type: "搞钱、案例库"
+        },
+        {
+            columnid: "buriedcpp",
+            image_url: "https://static.xiaobot.net/paper/2024-02-25/31323/a213abccaf89f7f6387a4c0ebaee5f8b.png",
+            num: { readers: 292, contents: 18 },
+            title: "C++埋点SDK项目实战",
+            owner: "@程序喵",
+            description: "【终身订阅】C++客户端埋点相关的SDK实战项目。适合入门和进阶C++的同学。",
+            type: "编程"
+        },
+        {
+            columnid: "remote-work",
+            image_url: "https://static.xiaobot.net/paper/2022-12-16/30922/d5526a81647c25588e1e8aaf61683bbf.png",
+            num: { readers: 253, contents: 23 },
+            title: "海外远程工作指南",
+            owner: "@强生",
+            description: "专栏目标：<br><br>最全面的海外远程工作指南，帮你看到更多的可能性、少走弯路，最后找到一份如意的远程工作。<br><br><br>适用读者：<br><br>主要为互联网从业者（技术、设计、产品、项目、运营、市场）；未必适合完全没有英语基础的朋友。<br><br><br>专栏亮点：<br><br>除了提供可行的实现路径，专栏还会包括一些本人多年远程经验累积下来的 tips and tricks；比如英语提升的技巧、一系列远程公司发布招聘的平台、Upwork 的 proposal 模板、面试技巧、办理海外虚拟银行等，让你不浪费时间纠结小细节，可以更快速地专注在赚钱的正事上。<br><br>记得当初我开始的时候，浪费非常多时间，耗费巨大心力去研究、踩坑；如果当时就有这类指南，会让我起步得更快些。<br><br><br>专栏定价：<br><br>买断制，一次付费永久阅读。定价随着内容完整度调整，目前已从￥49 升至 ￥89。<br><br>同时专栏也开通了合伙人计划，订阅者可生成专属的邀请链接或邀请海报；当有新用户通过邀请链接订阅专栏时，推荐人可获得 40% 的佣金。",
+            type: "超级个体、互联网"
+        },
+        {
+            columnid: "hgml",
+            image_url: "https://static.xiaobot.net/paper/2024-01-30/494037/b98cbd0a00a3def3ce28d5c55976dc4f.png",
+            num: { readers: 222, contents: 53 },
+            title: "豆包AI零基础教程",
+            owner: "@海哥AI助手",
+            description: "“豆包AI零基础教程”针对零起点没有任何AI经验的小白从0到1快速掌握豆包AI的使用方法。<br><br>本教程包含如何使用AI的5大主题，不少于50个小节内容。提供了从基础功能使用，到实践案例展示；从简单文本输出到复制数据分析等专业领域如何使用AI的保姆级教程。<br><br>本教程不仅是您学习AI的基本手册，更可以为您日常生活和工作提供专业类“文字编辑”、“报表输出”、“图片制作”、“专业知识问答”等内容创作。",
+            type: "AI"
+        },
+        {
+            columnid: "seofood",
+            image_url: "https://static.xiaobot.net/paper/2023-05-10/81136/4e9bf9ab6f8bc129602216479ebe8e62.png",
+            num: { readers: 202, contents: 30 },
+            title: "码迷SEO内参2023",
+            owner: "@码迷",
+            description: "一手算法资料，SEO行业内部算法揭秘，原价688元，限时早鸟价99元！！每满100人涨100元！！！前200名送AI批量生成软件！！！<br>基于备受好评的《码迷SEO内参》重新制作，涵盖搜索引擎核心原理，包括搜索专利研究、关键词研究、快P算法、内容质量算法、爬虫策略、链接算法等方面，是初学SEO向大神进阶的推进剂。",
+            type: "SEO"
+        },
+        {
+            columnid: "AIGCItCoke",
+            image_url: "https://static.xiaobot.net/paper/2023-04-23/41609/4118aba09e50e54a6a8ee69b1b184434.png",
+            num: { readers: 195, contents: 52 },
+            title: "AIGC工具百宝箱",
+            owner: "@IT可乐",
+            description: "专栏作者：IT可乐，8年一线互联网软件开发经历，乐于分享AI、编程技术相关的内容，CSDN博客专家，阿里云博客专家，博客园排名前500，文章累计阅读量1000W+，全网粉丝10W+。<br><br>小册分为五个主题：AIGC 常用工具、AIGC 智能编码、AIGC 实用插件、AIGC 落地应用、AIGC 赚钱项目，会输出至少 100 篇文章。<br><br>小册是永久买断制，原价 199 元，限时特惠，只需 29.9 元，计划每卖百份涨价 10 元。<br><br>买过后，拉你进我的专属VIP交流群，有问题反馈，一起拥抱 AIGC。",
+            type: "AI、工具"
+        },
+        {
+            columnid: "superhuang",
+            image_url: "https://static.xiaobot.net/paper/superhuang.jpg",
+            num: { readers: 97, contents: 300 },
+            title: "产品经理自由职业之路2022",
+            owner: "@Super黄",
+            description: "2023年主题：破局，构建稳定自增长的内容和商业系统！<br><br>作为探索了一年半自由职业的产品经理，接下来会用产品思维迭代商业IP，已经是小红书第一产品经理的我，希望和大家一起更快的成长~<br><br>本专栏在12月15日前，只需购买季度档99元，即可永久获得2023年专栏的阅读权，含专属社群一份（私我拉）。之后涨价为149元。<br><br>老用户有效期到明年的自动获得2023年专栏的阅读权。",
+            type: "产品"
+        },
+        {
+            columnid: "Berichman",
+            image_url: "https://static.xiaobot.net/paper/2024-01-23/490650/1bd5ea5ee3b82f7d3b6dd185d47ae839.png",
+            num: { readers: 79, contents: 32 },
+            title: "亚马逊美国本土模式",
+            owner: "@黄芪999",
+            description: "除置顶文章以外，其他文章请务必按时间顺序，从旧到新阅读！列表末尾有多篇免费文章可看！<br><br>我的专栏是买断制的，一次付费366元终身可以查看所有文章。此外，专栏还开通了合伙人计划，每个读者都可以生成专属的推广链接，通过链接产生的每一个订阅，推广人都可以获得100元的推广费，如果你人脉广，可以帮我推广一下，谢谢！",
+            type: "出海、搞钱"
+        },
+        {
+            columnid: "AIFuture",
+            image_url: "https://static.xiaobot.net/paper/2023-04-14/214084/7b03c640015359559f950357ebe9772c.jpeg",
+            num: { readers: 67, contents: 19 },
+            title: "打工人的AI武器库",
+            owner: "@林三",
+            description: "做打工人AI升级的陪跑者<br>本专栏由「AI Future」主理人林三运营<br>原价98/终身，目前5折优惠，满200人恢复原价<br>专栏开通了“合伙人计划”，分享可得40%返利收入，觉得内容好，欢迎推荐👏🏻<br>【林三的AI创业小记】：AI创业道路上产品侧思考与商业化启发<br>【AI应用拆解】：最新AI应用的介绍与使用（持续更新）<br>【喂饭级教程】：重要AI应用的详细使用步骤与深度学习教程（持续更新）<br>【认知升级】：为了帮助提高AI赛道认知而设立的栏目<br>添加主理人「林三」微信：linsangoodjob，商业探讨，认知升级，插科打诨，欢迎骚扰😄",
+            type: "AI、工具"
         },
     ] 
         
