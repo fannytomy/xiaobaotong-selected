@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from '@/components/mdx'
-import { formatDate, getBlogPosts } from '@/app/blog/utils'
+import { getBlogPosts } from '@/app/blog/utils'
 import { baseUrl } from '@/app/sitemap'
 
 export async function generateStaticParams() {
@@ -40,12 +40,12 @@ export function generateMetadata({ params }:{params: {slug: string}}) {
         },
       ],
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [ogImage],
-    },
+    // twitter: {
+    //   card: 'summary_large_image',
+    //   title,
+    //   description,
+    //   images: [ogImage],
+    // },
   }
 }
 
@@ -57,7 +57,7 @@ export default function Blog({ params }:{params: {slug: string}}) {
   }
 
   return (
-    <section className='bg-gray-100 h-screen'>
+    <section className='min-h-screen bg-gray-100'>
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -69,13 +69,10 @@ export default function Blog({ params }:{params: {slug: string}}) {
             datePublished: post.metadata.publishedAt,
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
-            image: post.metadata.image
-              ? `${baseUrl}${post.metadata.image}`
-              : `/og?title=${encodeURIComponent(post.metadata.title)}`,
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: '小报童专栏精选导航站',
             },
           }),
         }}
@@ -85,7 +82,7 @@ export default function Blog({ params }:{params: {slug: string}}) {
       </h1>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm lg:max-w-xl md:max-w-2xl sm:max-full mx-auto">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {formatDate(post.metadata.publishedAt)}
+          {post.metadata.publishedAt}
         </p>
       </div>
       <article className="prose lg:max-w-xl md:max-w-2xl sm:max-full mx-auto pb-8">

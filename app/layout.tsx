@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { baseUrl } from './sitemap'
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -33,10 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Nav />
-        {children}
-        <Footer />
+      <body className="min-h-screen flex flex-col">
+        <main className="flex-grow">
+          <Nav />
+          {children}
+          <Footer /> 
+        </main>
       </body>
     </html>
   );

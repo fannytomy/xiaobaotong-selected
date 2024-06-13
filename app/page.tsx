@@ -26,7 +26,7 @@ const Page = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-100">
+      <div className="bg-gray-100">
 
         <div className="text-center font-bold text-red-600 text-xl pt-6">
           <input type="text" placeholder="搜索小报童精选专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" value={inputValue} onChange={handlerSearch}/>

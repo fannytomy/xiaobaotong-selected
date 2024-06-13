@@ -62,7 +62,7 @@ function Code({ children, ...props } : any) {
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
 
-function slugify(str: string) {
+function slugify(str : any) {
   return str
     .toString()
     .toLowerCase()
