@@ -6,7 +6,7 @@ const navigation = {
   topMenu: [
     {name: 'Home', href: '/'},
     // {name: 'Blog', href: '/blog'},
-    {name: 'FAQs', href: '#faqs'},
+    {name: 'FAQs', href: '/#faqs'},
   ],
 }
 
