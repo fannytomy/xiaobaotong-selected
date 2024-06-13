@@ -773,7 +773,7 @@ export const columns =
             title: "AI+ 英语学习手册",
             owner: "@王艾薇",
             description: "你好呀，欢迎来到善知岛英语。<br><br>我们之前曾在字节跳动AI Lab，从事AI英语教育和自然语言处理工作，硕博士阶段对2000+英语学习者发音进行分析研究。我们拥有中美两国8年教学经验，曾从0-1深度参与付费用户超百万的AI英语系统课程。<br><br>此专栏将分享一系列可实操、验证过的AI+英语学习技能，总数为30+章，包括：<br><br>1.如何克服开口困境、自我纠正发音问题，以及高效背单词学语法<br><br>2.“顶流AI老师产品”推荐、和上手就用的指令<br><br>3.如何激发学习兴趣、规划路径和检验效果<br><br>限时199元（永久买断），满200人涨价至299",
-            type: "官方推荐、学习、语言"
+            type: "官方推荐、学习、语言、AI"
         },
         {
             columnid: "python_weekly",
@@ -1936,13 +1936,103 @@ export const columns =
             description: "做打工人AI升级的陪跑者<br>本专栏由「AI Future」主理人林三运营<br>原价98/终身，目前5折优惠，满200人恢复原价<br>专栏开通了“合伙人计划”，分享可得40%返利收入，觉得内容好，欢迎推荐👏🏻<br>【林三的AI创业小记】：AI创业道路上产品侧思考与商业化启发<br>【AI应用拆解】：最新AI应用的介绍与使用（持续更新）<br>【喂饭级教程】：重要AI应用的详细使用步骤与深度学习教程（持续更新）<br>【认知升级】：为了帮助提高AI赛道认知而设立的栏目<br>添加主理人「林三」微信：linsangoodjob，商业探讨，认知升级，插科打诨，欢迎骚扰😄",
             type: "AI、工具"
         },
+        {
+            columnid: "atk123",
+            image_url: "https://static.xiaobot.net/paper/2023-06-16/177860/6c22ba9fa43bea8f7be98ddc23d1ae20.jpeg",
+            num: { readers: 150, contents: 23 },
+            title: "奥特快的50篇东南亚观察｜第一季",
+            owner: "@",
+            description: "前远川研究所出海内容负责人，过气网红（微博@奥特快啊）。现base越南帮中国企业/投资人找渠道、找供应链、找投资项目。<br><br>换言之，如果您有把品牌产品卖到越南、在越南做采购，或者在越南寻找潜在投资/并购标的的需求，欢迎联系我。微信：zwjtcsr321（请注明来意）。<br><br>人在胡志明，关注东南亚。对中国企业出海、商业模式分析、东南亚社会文化，都感兴趣。<br><br>更新不频繁，但一定不会鸽！",
+            type: "出海"
+        },
+        {
+            columnid: "SC2024",
+            image_url: "https://static.xiaobot.net/paper/2024-04-10/498695/0fa8f5da10413f2c7858f5eb47e65d87.jpeg",
+            num: { readers: 19, contents: 31 },
+            title: "深程的跨境圈",
+            owner: "@深程",
+            description: "走向我的跨境电商十年！<br>一路走来没有敌人全是老师！",
+            type: "出海"
+        },
+        {
+            columnid: "bevan2022",
+            image_url: "https://static.xiaobot.net/paper/2024-01-11/329776/63bd409886ab83b9c9f7e55f7f0cba5c.png",
+            num: { readers: 1755, contents: 39 },
+            title: "AI 提示词实战指南",
+            owner: "@夙愿学长",
+            description: "拆解与应用 AI 提示词，解锁 AI 提示词的核心技巧，力求让你看完就能学会、学完就能用上。<br><br>作者夙愿，深耕 AI 提示词领域10个月，与多名MCN签约主播长期合作，定制提示词商单。<br><br>小册共 4 个专栏：提示词基础入门、常见错误避坑、提示词技巧与应用、提示词实战案例拆解。<br><br>原价299，限时18.8元买断制，一次付费，永久查阅。<br><br>订阅后凭截图拉你进读者交流群，领取《提示词学习路径》，跟着路径走，少走弯路。",
+            type: "AI"
+        },
+        {
+            columnid: "Jiang-AIGC",
+            image_url: "https://static.xiaobot.net/paper/2023-11-17/287894/db48e9149d10e6f29c2530d9a5617532.jpeg",
+            num: { readers: 1857, contents: 104 },
+            title: "100款好用的AI工具",
+            owner: "@江工陪您学AI",
+            description: "一次搞定 100 个好用的 AI 工具库，手把手实操截图<br><br>好用的AI工具，不仅能提效，还能帮你赚到钱<br><br>我是江工，AI创富俱乐部主理人，破局合伙人，18年IT老兵，深圳人工智能专委会负责人，致力于在AI时代带领10万人入门学习AI！<br><br>原价 399 元，限时 10 元买断(一次订阅，永久有效)；满3000人上涨至19.9元！<br><br>江工团队历时半年提炼出市面上最好用的100款AI工具，帮助大家打破信息差，让大家都能体验AI带来的便捷！<br><br>订阅福利: 订阅后，加我微信261524795，发支付截图，邀请你进江工陪伴群，并赠送价值399元的AI学习资料包！凭小报童购买截图，享受5折49元加入我的知识星球",
+            type: "工具"
+        },
+        {
+            columnid: "Brucehuang1258",
+            image_url: "https://static.xiaobot.net/paper/2024-04-02/269714/66f78af57f9d0ac41a2c47c5acf62ee4.png",
+            num: { readers: 361, contents: 22 },
+            title: "《程序员ToB AI商业课》",
+            owner: "@布哥聊AI",
+            description: "作者 布哥聊AI ，AI企业顾问/AI破局合伙人，10年+云计算、大数据、人工智能技术企业服务实践经验。曾任中国电子云央企部总监、原亚马逊云计算AWS商业事业部华南区主管、原戴尔科技集团G500跨国事业部、大厂P8<br><br>小册联合Selina、方阳、动次、DW、继武、老纪等程序员和咨询顾问，涵盖技术人要掌握的ToB 商业实战方法，累计17000字。<br><br>购买后添加微信：aixiaobuge<br><br>原价799，现价19.9元永久买断，每涨500人，涨价10元。",
+            type: "商业、成长"
+        },
+        {
+            columnid: "AIProduct",
+            image_url: "https://static.xiaobot.net/paper/2023-11-13/7/e43d098283641071205bf2a389fad953.png",
+            num: { readers: 419, contents: 14 },
+            title: "AI产品经理求职指南",
+            owner: "@Super黄",
+            description: "由头部大模型公司产品负责人分享总结而成。<br>AI时代已来，抓紧上船！<br><br>内容已完结，共8000余字。<br>后续可能会更新。<br><br>有附带微信群，一起交流AI产品经理求职内容。",
+            type: "产品"
+        },
+        {
+            columnid: "alccycc168",
+            image_url: "https://static.xiaobot.net/paper/2024-03-07/458375/ae27a4f7304daf15211b9f9c09a10aba.jpeg",
+            num: { readers: 12, contents: 26 },
+            title: "AI产品管理赋能实战",
+            owner: "@洋洋",
+            description: "我是洋洋！大厂资深项目经理！10年+产品项目管理经验！<br><br>🌟 触摸AI时代风口！学习AI前沿领域！掌握AI人工智能！洞悉AI商业逻辑！<br><br>🌟 从”互联网+“到“AI人工智能 +” ！AI人工智能上升为一种国家行动，意味着国家将加强顶层设计，加快形成以人工智能为引擎的新质生产力；<br>🌟 AI产品经理赋能实战从取势-基础-相识-易容-灵犀-谛听-万象-运筹-模型-修炼10大板块进行AI产品经理全面赋能。<br><br>原价999元，优惠限时价16.8元，满100人涨价10元！购买后添加微信 lccycc168 ，进入VIP群！赠送产品管理资料！",
+            type: "产品"
+        },
+        {
+            columnid: "feige1024",
+            image_url: "https://static.xiaobot.net/paper/2024-04-01/555991/75ef113bbd3e297ba80339f7d4bf5188.png",
+            num: { readers: 428, contents: 41 },
+            title: "AI+RPA提效从入门到实战",
+            owner: "@#码农飞哥 | RPA定制",
+            description: "我是码农飞哥，在职资深Python开发，全网14万粉丝，写过小红书仿写，公众号仿写等十几个自动化机器人，累计变现十万。<br><br>小册主要为RPA入门学习以及实战操作，帮助0基础的读者快速上手影刀RPA的使用，从而实现提质增效，更能通过定制需求，赚到钱！<br><br>原价199元，限时优惠价10元永久买断，满1000人涨价至19.9元。<br><br>购买后加vx: 1736334084，发送支付截图，发【RPA】拉你进RPA交流群, 进群即可获得小册子里的所有机器人，不定期分享RPA实战操作。<br><br>60%佣金，欢迎推荐给朋友。",
+            type: "AI、RPA、工具"
+        },
+        {
+            columnid: "comfyui",
+            image_url: "https://static.xiaobot.net/paper/2023-12-11/97698/b4e3a3d0469d282d07db4febdb45fe49.png",
+            num: { readers: 21, contents: 33 },
+            title: "ComfyUI从入门到精通",
+            owner: "@行者",
+            description: "我是行者，跨境电商产品经理。公众号《细节控》 主理人，CSDNAIGC专栏作者。<br><br>这个专栏想做什么：<br><br>最近ComFYUI的应用很火，基于ComFYUI的工作流的灵活性很强，使用ip-adapter、AnimateDiff、controlnet等结合有很多新的玩法，本系列着重介绍ComFYUI的系列应用教程。<br><br>小册的目标：<br><br>帮助AI绘画新人/WEBUI使用者快速了解comfyui，跟着册子的目录系统性了解和学习。<br><br>原价 299，限时 29 元 。满100 人涨价至 39。",
+            type: "AI绘画"
+        },
+        {
+            columnid: "comfy",
+            image_url: "https://static.xiaobot.net/paper/2024-04-01/360735/befac79a37f0bf08986c5907c695a3c1.png",
+            num: { readers: 498, contents: 182 },
+            title: "ComfyUI工作流一本通",
+            owner: "@刘白",
+            description: "作者刘白：自学编程，产品经理、AI破局俱乐部初创合伙人，专注AI领域并聚焦ComfyUI，希望能带领一批伙伴入门并深耕ComfyUI<br><br>小册共六大专栏：1.为什么是ComfyUI；2.如何学习；3.基础详解（含130+内置节点）；4.常用的自定义节点；5.案例拆解；6.自定义节点大全<br><br>当前内测10元买断（原价199），拍后+V【272411682】进学习群<br>也可加入免费知识星球ComfySpace来一同进步：",
+            type: "AI绘画"
+        },        
     ] 
         
 // tags & tags_alias 需要一对一映射
-export const tags = ['全部', '热门', '官方推荐', '搞钱', 'AI', 'AI绘画', '自媒体', '产品', '职场', '小红书', '超级个体', 'RPA', '公众号', 'IP', '私域', '电商', '出海', '互联网', '编程', '独立开发', '沟通', '读书', '写作', '心理', '人际', '成长']; 
-export const tags_alias = ['all', 'hot', 'offical-recommend', 'make-money', 'ai', 'ai-painting', 'self-media', 'pm', 'career', 'xiaohongshu', 'super-individual', 'rpa', 'mp', 'ip', 'private-domain', 'e-commerce', 'going-global', 'internet', 'programming', 'ind-dev', 'communicate', 'read', 'write', 'psychology', 'relationships', 'learn']; 
+export const tags = ['全部', '热门', '官方推荐', '搞钱', '案例库', 'AI', 'AI绘画', '自媒体', '产品', '职场', '小红书', '超级个体', 'RPA', '公众号', 'IP', '私域', '电商', '出海', '互联网', '编程', '独立开发', '沟通', '读书', '写作', '心理', '人际', '成长', '商业', '工具', 'ChatGPT', '投资', 'web3']; 
+export const tags_alias = ['all', 'hot', 'offical-recommend', 'make-money', 'cases', 'ai', 'ai-painting', 'self-media', 'pm', 'career', 'xiaohongshu', 'super-individual', 'rpa', 'mp', 'ip', 'private-domain', 'e-commerce', 'going-global', 'internet', 'programming', 'ind-dev', 'communicate', 'read', 'write', 'psychology', 'relationships', 'learn', 'business', 'tools', 'chatgpt', 'invest', 'web3']; 
 
-export const last_update_time = '2024-06-12'; 
+export const last_update_time = '2024-06-13'; 
 
 
 // // 提取columnid
@@ -1951,3 +2041,27 @@ export const last_update_time = '2024-06-12';
 // // 找出data2中有但data1中没有的columnid
 // const uniqueInData2 = Array.from(columnids2).filter(id => !columnids1.has(id));
 // console.log("存在于data2但不存在于data1的columnid:", uniqueInData2);
+
+// function countTags(columns: any[]): Record<string, number> {
+//     const tagCount: Record<string, number> = {};
+  
+//     columns.forEach(column => {
+//       const tags = column.type.split('、');
+//       tags.forEach(tag => {
+//         if (tagCount[tag]) {
+//           tagCount[tag]++;
+//         } else {
+//           tagCount[tag] = 1;
+//         }
+//       });
+//     });
+//     return tagCount;
+// }
+
+// const tagCount = countTags(columns);
+// // 将tagCount对象转换为数组，然后按出现次数排序
+// const sortedTagCount = Object.entries(tagCount).sort((a, b) => b[1] - a[1]);
+// // 输出排序后的结果
+// sortedTagCount.forEach(([tag, count]) => {
+//   console.log(`${tag}: ${count}`);
+// });
