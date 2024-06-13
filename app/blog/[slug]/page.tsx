@@ -2,8 +2,6 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from '@/components/mdx'
 import { formatDate, getBlogPosts } from '@/app/blog/utils'
 import { baseUrl } from '@/app/sitemap'
-import Nav from '@/components/Nav'
-import Footer from '@/components/Footer'
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -60,7 +58,6 @@ export default function Blog({ params }:{params: {slug: string}}) {
 
   return (
     <section className='bg-gray-100 h-screen'>
-      <Nav />
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -94,7 +91,6 @@ export default function Blog({ params }:{params: {slug: string}}) {
       <article className="prose lg:max-w-xl md:max-w-2xl sm:max-full mx-auto pb-8">
         <CustomMDX source={post.content} />
       </article>
-      <Footer />
     </section>
   )
 }

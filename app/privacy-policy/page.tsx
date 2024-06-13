@@ -1,10 +1,6 @@
-import Footer from "@/components/Footer";
-import Nav from "@/components/Nav";
-
 export default async function Page() {
   return (
     <>
-      <Nav/>
       <div className="flex justify-center items-center min-h-screen bg-gray-100">
         <div className="mx-auto max-w-5xl -mt-20">
           <h1 className="text-3xl font-extrabold text-black mb-12 -mt-4">
@@ -20,7 +16,6 @@ export default async function Page() {
           <p className="text-gray-700 mb-0">我们将在本网站显要位置显示用户有关本隐私政策的任何更新</p>
         </div>
       </div>
-      <Footer/>
     </>
   );
 };

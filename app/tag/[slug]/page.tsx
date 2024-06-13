@@ -36,7 +36,6 @@ export default function TagContentPage({ params }: { params: { slug: string } })
   return (
     <>
       <Header title={new_title} desc={new_title}/>
-      <Nav />
       <div className="min-h-screen bg-gray-100">
 
         <div className="text-center font-bold text-red-600 text-xl pt-6">
@@ -48,7 +47,6 @@ export default function TagContentPage({ params }: { params: { slug: string } })
         <Cards filteredData={filteredData} />       
       </div>
       <Faq />
-      <Footer />
       <BackToTopButton />
     </>
   );
