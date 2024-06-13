@@ -22,7 +22,7 @@ const Page = () => {
   if (inputValue.length > 0) {
     filterResult = columns.filter(item => item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue));
   }
-
+  filterResult = filterResult.sort((a, b) => b.num.readers - a.num.readers);
   const cloumn_size = inputValue.length > 0 ? filterResult.length : columns.length;
   const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
@@ -37,13 +37,7 @@ const Page = () => {
 
         <Tags selectedTag={selectedTag} />
         <CountColumn name={name} num={cloumn_size} />
-
         <Cards filteredData={filterResult} />
-        {/* <main className="flex flex-wrap justify-center p-6 mx-auto">
-          {filterResult.map(item => (
-            <Card cloumn_info={item} />
-          ))}
-        </main>         */}
       </div>
       <Faq />
       <Footer />

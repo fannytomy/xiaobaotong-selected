@@ -24,13 +24,13 @@ export default function TagContentPage({ params }: { params: { slug: string } })
 
   const tagMatchResult = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
 
-  const filteredData = tagMatchResult.filter(item => {
+  let filteredData = tagMatchResult.filter(item => {
     if (inputValue) {
       return item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue)
     }
     return tagMatchResult;
   });
-
+  filteredData = filteredData.sort((a, b) => b.num.readers - a.num.readers);
   const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
   return (
