@@ -2223,7 +2223,331 @@ export const columns =
             owner: "@王佼",
             description: "本专栏为王佼and成甲联合发起<br><br>👩王佼——专栏内容主理人<br>万物皆可盘社群CEO、知识的管理研讨会发起人<br>负责本专栏主要内容输出、以及不断将自己从各位大咖处学到的新知分享给大家<br>👱‍♂️成甲——专栏弹幕主理人<br>《好好学习》《好好思考》作者<br>负责在专栏中随机交流、分享自己的实践、以及和王佼对谈<br><br>AI时代，带来了学习方式、知识管理方式的变革：<br>在这个信息爆炸的时代，如何建立自己的知识管理系统？如何利用好AI来支持我们解决工作和生活中的问题？我们可以如何和AI协同合作？我们希望通过【AI时代个性化知识管理指南】这个专栏，把在这个领域的思考、实践、和学习收获，逐步分享给大家，支持更多人，融入学习范式革命。<br><br>本专栏定价199 目前为早期用户感恩价179<br>每满100人上调10元<br>本专栏为一次性付费制，购买后终身阅读。<br>更多权益请看置顶文章",
             type: "读书"
-        },              
+        },
+        {
+            columnid: "pmsink",
+            image_url: "https://static.xiaobot.net/paper/2022-06-11/386/0d7d099b24bacc8312ebb6cfa945515e.png",
+            num: { readers: 855, contents: 40 },
+            title: "产品沉底录（第一季·完结）",
+            owner: "@范冰XDash",
+            description: "这是一个实验性专栏，精选 30 篇（陆续更新完）我过往收藏的【中外明星产品 / 项目 / 公司的商业失败】的深度解析、经验复盘。<br><br>往事不可谏，来者犹可追。<br><br>定价：10 元 / 永久解锁<br><br>如果订阅人数超过 100 人，额外再加送 10 篇。<br><br>（都这个价了，就别计较排版了吧）",
+            type: "官方推荐、互联网、产品"
+        },
+        {
+            columnid: "emptycup",
+            image_url: "https://static.xiaobot.net/paper/2022-03-22/14/2c55fb3ff630513c87d8119e6cd05e82.png",
+            num: { readers: 738, contents: 191 },
+            title: "空杯子 | 刘飞",
+            owner: "@刘飞",
+            description: "杯子的价值在于，它是空的。<br><br>记录日常阅读和聊天中的有趣的洞察。",
+            type: "官方推荐、互联网、思考"
+        },
+        {
+            columnid: "sg2201",
+            image_url: "https://static.xiaobot.net/paper/2022-12-06/114206/e518b408eec09c4dac115b7787afa6a3.png",
+            num: { readers: 636, contents: 63 },
+            title: "史官的游戏研发入门培训手册",
+            owner: "@正义的史官",
+            description: "微博：寝取的史官，从业15年的资深游戏开发者，创业10年的某地下游戏加工窝点联合创始人。<br>先后从事过前台，项目助理，游戏策划，运营，商务等各类岗位。参与过端游，页游，主机，街机，手游等各类游戏项目。<br>项目经验涵盖了角色扮演，射击，赛车，体育，军事，魔幻，科幻等各种品类。<br>本专栏着重为刚入行和希望入行的新人提供一些设计思路和开发经验。<br>每周至少会更新一篇1500字左右文章，目前专栏文章数尚未有上限规划。<br>关于专栏文章题材可在本专栏留言，或在寝取的史官微博置顶处留言。",
+            type: "官方推荐、游戏"
+        },
+        {
+            columnid: "universal-wisdom",
+            image_url: "https://static.xiaobot.net/paper/2022-06-21/1/265c35a32904b0a69549e8dab5c55921.jpeg",
+            num: { readers: 601, contents: 19 },
+            title: "知识工作者的普世智慧",
+            owner: "@Light",
+            description: "足够简单才能普世，足够智慧才有价值。<br><br>这本小册的野心是，为不限行业的知识工作者，提供通用、必需的底层智慧。<br><br>我会努力兼顾通用性和实用性。<br>1）通用性说明接近底层、靠近本源，杠杆效应比较强；<br>2）实用性则要求讲透，成为读者真正能用得上的杠杆，而非仅是谈资。<br><br>至少 20 篇。",
+            type: "官方推荐、思考"
+        },
+        {
+            columnid: "community",
+            image_url: "https://static.xiaobot.net/paper/2022-09-13/7/66ed33a23e1338b9930fbfad50bc2e4e.jpeg",
+            num: { readers: 548, contents: 81 },
+            title: "产品面试题解析",
+            owner: "@Super黄",
+            description: "别人面试对答如流，你哆哆嗦嗦说不上来，看看这里吧！<br><br>作为资深产品经理、面试官，Super对产品面试题简洁易懂、直戳关键的解析，获得了大量PM的认可。<br><br>当前承诺更100篇！！<br><br>同时赠送专属微信社群+一份阅读材料（见置顶帖）<br><br>当前价格99元。<br><br>付费=永久买断！更多权益和规则请看置顶帖！",
+            type: "官方推荐、职场、产品"
+        },
+        {
+            columnid: "stellaphd",
+            image_url: "https://static.xiaobot.net/paper/2023-06-02/44966/44b029ef9337a231ef0567f16784cef5.jpeg",
+            num: { readers: 517, contents: 27 },
+            title: "Stella英语学习终极指南",
+            owner: "@白露为霜Stella",
+            description: "👉这个专栏我会总结过去我所有在公众号以及知乎等平台发表的关于英语学习的文章，力求给大家一个最简洁且最全面的「终极英语学习指南」。<br><br>🌟我所有的英语学习法都是个人经验的总结，是你在别处看不到的，它最大的优点在于可操作性强、好落地，学了就能用。<br><br>🔥额外福利，每位订阅专栏的朋友都会获赠一套「外刊精读课程」以及「英语听力口语训练课程」，帮助大家完成从理论到实践的跨越。两份课程都是为期一个月的训练量，大家可以按自己的节奏去完成。<br><br>👉限时179元（永久买断），内含价值249+课程以及海量英语学习资源！",
+            type: "官方推荐、语言、教育"
+        },
+        {
+            columnid: "b23",
+            image_url: "https://static.xiaobot.net/paper/2022-12-30/417/6e613b3feebcb69d39b434fd59b87ce4.png",
+            num: { readers: 372, contents: 49 },
+            title: "Build Ⅱ",
+            owner: "@黄炜东",
+            description: "🗞 个人品味严选的（泛）产品领域荐文。<br>💡 在一线打造产品的好奇、观察、思索。<br><br>Build Ⅰ → ",
+            type: "官方推荐、读书"
+        },
+        {
+            columnid: "buildforever",
+            image_url: "https://static.xiaobot.net/paper/2022-08-31/417/8a95fad67b5159a262329172c3fd3eef.png",
+            num: { readers: 371, contents: 117 },
+            title: "Build Ⅰ",
+            owner: "@黄炜东",
+            description: "🗞 个人品味严选的（泛）产品领域荐文。<br>💡 在一线打造产品的好奇、观察、思索。<br><br>Build Ⅱ → ",
+            type: "官方推荐、读书"
+        },
+        {
+            columnid: "Operation01",
+            image_url: "https://static.xiaobot.net/paper/2022-11-22/5589/d0823f271a72f3899117fdc889bde19e.png",
+            num: { readers: 310, contents: 31 },
+            title: "运营新人的自我修养",
+            owner: "@碧落",
+            description: "我希望能够用我9年的运营经验，来解决运营新人在职业生涯前期的因为对运营认知、对运营专业知识的理论缺失带来的各种问题。<br><br>我为什么要写《运营新人的自我修养》：",
+            type: "官方推荐、互联网、运营、职场"
+        },
+        {
+            columnid: "weichong666",
+            image_url: "https://static.xiaobot.net/paper/2023-05-06/271012/7f716f9b84298b6063b49f46d938ad81.jpeg",
+            num: { readers: 289, contents: 37 },
+            title: "培训师入门与实战手册",
+            owner: "@张伟崇 | PPT培训&设计",
+            description: "📍【专栏定位】<br>沉淀一线培训实战经验<br><br>📖【专栏内容】<br>已更新35篇，详情请看专栏提纲，会持续更新！<br><br>🎯【适合用户】<br>想探索可能性，对培训感兴趣的人<br>想精进培训能力的培训助理/培训师<br><br>🎁【订阅福利】<br>❶ 限时特惠，满300人涨至98元！<br>❷ 领取电子版《培训师实战手册》<br>❸ 凭订单截图加读者群，微信【zwc531363287】<br><br>✨ 《职场跃迁笔记》专栏：",
+            type: "官方推荐、培训"
+        },
+        {
+            columnid: "AIGC2048",
+            image_url: "https://static.xiaobot.net/paper/2023-03-29/69891/7ded7e1c13b5d8b93187a9e3573c582c.png",
+            num: { readers: 236, contents: 113 },
+            title: "你的第一份AIGC精选日刊",
+            owner: "@耗子学长",
+            description: "跟上AIGC最新动态，看这一本日刊就够了！<br><br>每个工作日更新，还原传统纸媒极致阅读体验！本刊于2023年8月31日正式完结，感谢支持！",
+            type: "官方推荐、AI"
+        },
+        {
+            columnid: "Peter1981_HR",
+            image_url: "https://static.xiaobot.net/paper/2021-12-24/5116/2a1948c91fff10458c6dcedbffc9d7cb.jpeg",
+            num: { readers: 195, contents: 396 },
+            title: "简历的故事",
+            owner: "@Peter",
+            description: "分享简历与面试背后的故事<br>个人微信：Peter1981_HR",
+            type: "官方推荐、职场"
+        },
+        {
+            columnid: "gift",
+            image_url: "https://static.xiaobot.net/paper/2022-06-09/4432/f66a354426e51dc8686232e1c688ac53.jpeg",
+            num: { readers: 186, contents: 18 },
+            title: "穿越创伤：接住生命的礼物",
+            owner: "@冰清🧚🏻",
+            description: "这里是我的人生至暗时刻：跌入抑郁、宫外孕大出血、手术后尿道损伤、不孕不育、儿子先天性心脏病两次开胸大手术……<br><br>我想用我的故事告诉你，在至暗时刻的隧道中，只有往前走才能找到出口，别无他法；<br><br>我想告诉你，你在隧道里每向前走一步，都是生命蓝图宏伟计划的一部分；<br><br>我想告诉你，我愿意牵着你的手陪你一起走，但请你一定信任命运的安排。",
+            type: "官方推荐、心理"
+        },
+        {
+            columnid: "yoho",
+            image_url: "https://static.xiaobot.net/paper/2022-07-15/14173/2df4a83d05921e5ec888b6b2abbec4f9.png",
+            num: { readers: 174, contents: 413 },
+            title: "游火研究院 2023",
+            owner: "@小编",
+            description: "本专栏已更新完全部内容，请付费会员点击置顶帖获取200余页、10万余字的2023小结。<br><br>订阅2024年专栏请移步：",
+            type: "官方推荐、游戏"
+        },
+        {
+            columnid: "xbot",
+            image_url: "https://static.xiaobot.net/paper/2023-08-15/80250/e58d14d01fcb9af2d02a9f6b5a31dfc8.jpeg",
+            num: { readers: 163, contents: 28 },
+            title: "小报童制作及运营指南",
+            owner: "@乌素淖尔",
+            description: "💁🏻‍♀️适合人群<br>- 有专长，想通过知识变现的人<br>- 有表达欲，想用文字吸引同路人<br>- 对制作和运营付费内容有好奇的人<br><br>👩🏻‍🏫专栏作者：乌素<br>- B站4个品类top1课程背后的女人<br>- 《小红书冷启动SOP》专栏作者<br>- 小报童累计订阅用户2000+<br><br>📌内容介绍<br>- 专栏分为定位、产出、售卖、运营四章<br>- 共25篇内容，已更新完毕，目录见置顶",
+            type: "小报童、运营、官方推荐、搞钱、副业"
+        },
+        {
+            columnid: "aigc",
+            image_url: "https://static.xiaobot.net/paper/2022-10-10/2260/eda93fe7881b8cc46ace3e54811d35ef.webp",
+            num: { readers: 155, contents: 52 },
+            title: "AIGC探索之旅",
+            owner: "@",
+            description: "你好，我是P小二。 <br><br>专栏是关于AIGC方向的论文解读，技术研究，案例分析和落地经验分享，重点在GPT和SD相关技术落地。<br><br>目前成为永久读者价格：399元<br><br>本人AIGC相关其他内容：<br>- AIGC newsletter(最新论文，创业思考，AIGC周刊）： ",
+            type: "搞钱、AI、热门"
+        },
+        {
+            columnid: "Brandaffeine",
+            image_url: "https://static.xiaobot.net/paper/2022-05-12/36572/d4ef008c773f61f7eb3145cbed6cff16.webp",
+            num: { readers: 153, contents: 203 },
+            title: "品牌咖啡因",
+            owner: "@塞米同学",
+            description: "你好，我是塞米，欢迎订阅我的付费频道“品牌咖啡因”！<br><br>① 我专注小众品牌的经营理论，一个70多万粉丝的公众号“塞米的小趋势研究室”，一本书《越自我，越成功：小众品牌生存指南》，主营小众品牌咨询和顾问服务<br>② “品牌咖啡因”覆盖小众品牌经营的全维度知识，偏策略，周一到周三晚上10点半更新<br>③ 阅读前推荐先做两件事：<br>ⅰ.查看置顶文章《小众品牌生存策略脱水手册》（代专栏目录）<br>ⅱ.点击下方“排序与视图”按钮，可切换到阅读友好的列表模式。◢",
+            type: "官方推荐、IP、营销"
+        },
+        {
+            columnid: "pmmien",
+            image_url: "https://static.xiaobot.net/paper/2022-11-23/4024/3c1e3a4a10c88f439ec9d7cf9304ed65.jpeg",
+            num: { readers: 150, contents: 384 },
+            title: "我与我周旋久【日更完结版】",
+            owner: "@Mien敏桉",
+            description: "👩‍💻关于我：INTP，预上市公司线上产品及市场负责人。关心世界运转的规律和个人幸福的方法。<br><br>📒专栏定位：个人思考学习录，内容包括不限于个人成长、认知科学、心理学、哲学、儒释道等。<br><br>✍️目前已完成一整年365天日更。由内容整理而成的知识库随后奉上。<br><br>📚欢迎关注我正在更新中的专栏「我与我周旋久2023」：",
+            type: "官方推荐、成长"
+        },
+        {
+            columnid: "litedb",
+            image_url: "https://static.xiaobot.net/paper/2023-03-14/217558/bd97ad21b46431a256003c7f1167fd71.png",
+            num: { readers: 127, contents: 31 },
+            title: "简明数据库小课「已完结，放心买」",
+            owner: "@产品海豚湾",
+            description: "面向产品经理的数据库小课，通过案例、原型等方式，从产品经理的视角讲解数据库知识。覆盖数据库概念、实操、案例、数据分析、如何使用AI工具、数据仓库、BI和PaaS等全方位的知识。力求简单、易懂，帮助产品同学更好地理解数据库和业务对象之间的关系。",
+            type: "产品、数据库、官方推荐"
+        },
+        {
+            columnid: "InnerGame",
+            image_url: "https://static.xiaobot.net/paper/2023-01-20/16925/ca6d7dd6be5ae47ff6fce1b78e1bb176.png",
+            num: { readers: 122, contents: 156 },
+            title: "向心修炼",
+            owner: "@Summer喵老师",
+            description: "BAT11年，产品负责人，前腾讯高级讲师，职场高分导师。ToC、AI、ToB均有点涉猎。做过千百万级用户产品，也做过多类型的AI创新产品和ToB业务。<br><br>有点标签便于行走江湖，其实是一个：有时阅读、常常哲思、热衷铲屎的阿宅。<br><br>本专栏是 向心修炼2023年版 买断制，内容主要有「产品」「职场」「修炼」三个系列的新鲜思考。<br><br>个人V：fruitjellycc",
+            type: "官方推荐、职场"
+        },
+        {
+            columnid: "talkbig",
+            image_url: "https://static.xiaobot.net/paper/2022-03-18/12/5bdeef1ffad5b60c47b91cfbc370989a.jpeg",
+            num: { readers: 112, contents: 170 },
+            title: "坐井说天阔",
+            owner: "@沈浩翔",
+            description: "我叫沈浩翔，花名诧寂(网络用名：@诧寂XG)，AI产品从业者，微信：gundam215。<br><br>以前我用产品的思维看待一切商业，现在开始用经济与投资的视角反观自身何去何从。<br><br>前互联网产品老狗，前阿里高级产品专家/高级运营专家，百万粉丝自媒体人。",
+            type: "官方推荐、互联网、产品"
+        },
+        {
+            columnid: "wisdom",
+            image_url: "https://static.xiaobot.net/paper/2023-04-23/9405/c07224adab77341e639673735fad07c3.jpeg",
+            num: { readers: 110, contents: 30 },
+            title: "富于理性",
+            owner: "@不二",
+            description: "💡 学习顶级实践者的智慧，促成你想要的改变<br>🤖️ 分享 AI 妙用，助力学习、创作和个人成长<br><br>至少 27 篇专属文章，每周一篇，10/31 之前更新完毕",
+            type: "官方推荐、AI、思维"
+        },
+        {
+            columnid: "byebyeplanet",
+            image_url: "https://static.xiaobot.net/paper/2023-02-21/111781/7e22ef2ba133d6a9396bef1d6f7b4cdf.jpeg",
+            num: { readers: 105, contents: 18 },
+            title: "尼佬的小旅行",
+            owner: "@ilao",
+            description: "从2009年成为孤独星球首批中文作者开始，尼佬从未停止浪游，即使是在抗疫三年。他不敢声称这是什么大旅行，毕竟在21世纪，我们的艰难已经不在于道路、瘟疫和豺狼，而在于内心的软弱和踌躇。这个专栏将记录他的旅行，可能是游记，可能是随笔，可能是日记，可能是一篇有用的目的地指南，甚至也可能与旅行毫无关系。无论如何，他分享的是他几乎整个的生命流动。",
+            type: "官方推荐、旅行"
+        },
+        {
+            columnid: "antidrucker",
+            image_url: "https://static.xiaobot.net/paper/2022-03-13/19932/796ff1f6b5c1344db81243c470f3fead.jpeg",
+            num: { readers: 105, contents: 37 },
+            title: "被管理者实践",
+            owner: "@Mustang",
+            description: "一个资深「被」管理专家为您讲述，打工人的职场生存艺术与摸鱼而不划水的晋级攻略，力图让每个打工人获得理论武器，身心自洽又低损耗的在公司体系里游刃有余的工作和生活。周更新2两篇短文，每月更新一篇长文，算下来，每月更新9篇文章。<br><br>关于我：",
+            type: "官方推荐、职场"
+        },
+        {
+            columnid: "diceoptimist",
+            image_url: "https://static.xiaobot.net/paper/2022-05-17/22299/7d090898fd911b535032b0f627fa359b.jpeg",
+            num: { readers: 99, contents: 225 },
+            title: "满地找钱",
+            owner: "@Epicure",
+            description: "25岁早早靠自己存下了人生中的首个100w，希望订阅专栏的你也能收下这份好运<br><br>你是否想提高财商，从副业中赚来一些偏财？<br><br>你是否想做个人IP，把自己的影响力作为变现杠杆？<br><br>你是否想通过了解职场生存技巧，来提高主业吸金的能力？<br><br>你是否想了解各种薅羊毛小技巧，做好开源节流的重要一环？<br><br>希望能够和你一起抱团学习，早日赚到人生中的首个100w和更多更多个100w！",
+            type: "官方推荐、搞钱、副业"
+        },
+        {
+            columnid: "suiyueran",
+            image_url: "https://static.xiaobot.net/paper/2022-05-11/17376/63ee04b89d96ad7efa4c031b27a918a8.png",
+            num: { readers: 98, contents: 147 },
+            title: "随愈而安",
+            owner: "@乔晓萌",
+            description: "精神分析解压胶囊 <br><br>复杂时代的精神分析指北<br>精神分析学徒的常青笔记<br>一份精神分析式自助手册 <br>基于创伤知情的生活方式<br><br>「何苦开心」内容孵化器<br>关于：",
+            type: "官方推荐、心理"
+        },
+        {
+            columnid: "theoldnotes",
+            image_url: "https://static.xiaobot.net/paper/2022-07-16/14/ddc07c84d808010dd63e49ecb335a02b.png",
+            num: { readers: 60, contents: 43 },
+            title: "朝花夕拾录",
+            owner: "@刘飞",
+            description: "这里是有「历史感」的我过去文章的合辑，加上我再回顾时的点评。<br><br>在互联网大幕已经落下时，我惊觉它们如今的价值，已并非是揭示真理，反而很好地记录了历史、刻画了当时当境下我们对产品的观察和思考。这种有「历史感」的启发，也许会很有意思。",
+            type: "官方推荐、互联网"
+        },
+        {
+            columnid: "ideas",
+            image_url: "https://static.xiaobot.net/paper/2022-03-27/1660/2f4024fd779e15be640c14d743c45a0a.jpeg",
+            num: { readers: 57, contents: 534 },
+            title: "任鑫每日笔记（2024年12月完结）",
+            owner: "@Mars任鑫",
+            description: "2024 年，用小报童记录自己的笔记。<br><br>应该绝大部分内容会和 AI 相关。",
+            type: "官方推荐、AI、思考"
+        },
+        {
+            columnid: "LonelyReader",
+            image_url: "https://static.xiaobot.net/paper/2022-06-08/44557/2a640ccdbdfc6c2ed48e56379c2f8450.png",
+            num: { readers: 51, contents: 37 },
+            title: "惊奇短信",
+            owner: "@葛旭 Don Jesús DeManchul Gexús",
+            description: "我叫葛旭，谷歌一搜全是黑历史。创了个没人看好的业：普及人文博雅与公民意识。行走江湖十几年总结了些个人的「第一性原理」。然而所有抽象事物都只适合私人存储，若传递价值则需重新具象。该专栏便将抽象原理用具象的、诗意的、剽悍的、匪气的语言重新「湿化」以妄图让人称奇，史称「惊奇短信」。",
+            type: "官方推荐"
+        },
+        {
+            columnid: "stablediffusion",
+            image_url: "https://static.xiaobot.net/paper/2023-04-23/84/60fa4ac91d01145ca4e3d8f5dc4593d2.png",
+            num: { readers: 39, contents: 156 },
+            title: "SD+Midjourney绘画百科",
+            owner: "@Draco",
+            description: "1. 计划更新1000篇以上内容<br>2. Stable Diffusion&amp;amp;amp;Midjourney从新手到高手都能用得上的百科全书；<br>3. [StableDiffusion]预计建立超过200个模型库：从主模型到LoRA/LyCORIS，所有模型都有百度盘下载链接，因此对于测评过的模型，可以当成离线版C站（civitai）使用<br>4. [Midjourney]预计收录和解析超过1000个Prompt<br>5. 一个巨大的壁纸库",
+            type: "官方推荐、AI、AI绘画"
+        },
+        {
+            columnid: "causally",
+            image_url: "https://static.xiaobot.net/paper/2023-05-09/91/913c29cc99b148760fbf5d439414fe05.png",
+            num: { readers: 32, contents: 186 },
+            title: "练习失败",
+            owner: "@Chaojun",
+            description: "如果有一个基调的话应当是，和你分享我的成长故事，一个普通人不断打磨自己，持续精进，我遇到的问题、面对问题时思考方式，如何走过这些艰难时刻，穿过暴风雨。<br><br>具体内容围绕在<br>1.  工作 15 年以来的触动、思考、回顾和复盘<br>2. 身边朋友们常常带给我许多启发，希望将这些启发分享给大家<br>3. 从一件件小事中去看商业的逻辑，世界如何运转<br><br>我们可以更好的连接<br>1. 我们有一个自己的微信小群，每周在群内做一次分享，分享一个主题 eg思考、成长，挫折等等<br>2. 作为一个教练，你可以咨询关于职业、成长相关问题，期待一起进化",
+            type: "官方推荐、成长、思考"
+        },
+        {
+            columnid: "howcurious",
+            image_url: "https://static.xiaobot.net/paper/2022-04-29/417/c882ccb0f872313d849e2f4d23eef7f7.jpeg",
+            num: { readers: 30, contents: 105 },
+            title: "HowCurious Ⅰ",
+            owner: "@黄炜东",
+            description: "凯文 · 凯利：防止变老的主要方法是保持惊奇。<br><br>HowCurious Ⅱ → ",
+            type: "官方推荐、思考"
+        },
+        {
+            columnid: "hc23",
+            image_url: "https://static.xiaobot.net/paper/2022-12-30/417/663d6652c83daf04b3521b2ca846ff9d.png",
+            num: { readers: 26, contents: 95 },
+            title: "HowCurious Ⅱ",
+            owner: "@黄炜东",
+            description: "凯文 · 凯利：防止变老的主要方法是保持惊奇。<br><br>HowCurious Ⅰ → ",
+            type: "官方推荐、思考"
+        },
+        {
+            columnid: "ranayi",
+            image_url: "https://static.xiaobot.net/paper/2021-12-15/881/83b33ecc41337256f9363c155b154703.jpeg",
+            num: { readers: 15, contents: 261 },
+            title: "然阿姨的成长顿悟2022（历史宝藏不更新",
+            owner: "@然阿姨",
+            description: "我是然阿姨，今年刚满 35 岁，是一名不停止探索生命可能性的产品经理。<br>📒在这里记录我读过或经历过的有启发的内容和事件。<br>🛍️持续研究零售行业，尽量每周更新一篇零售专栏。<br>☎️加入精选阅读群、每日英语学习群的联系微信：Pmpeiran。",
+            type: "官方推荐、产品经理、职场、成长"
+        },
+        {
+            columnid: "bi",
+            image_url: "https://static.xiaobot.net/paper/2024-05-13/1173/b00837ec7f19b48a559201ff5bff7220.png",
+            num: { readers: 14, contents: 31 },
+            title: "实用数据分析技巧",
+            owner: "@数据人杰森",
+            description: "本专栏侧重数据分析的实用性与趣味性，技巧与方法能够在日常工作中快速落地，提高数据分析的效率，提升分析的专业性。适用于求职、分析能力提升、数据产品设计等场景。 © 数据人杰森",
+            type: "数据分析、BI"
+        },
+        {
+            columnid: "never",
+            image_url: "https://static.xiaobot.net/paper/2022-04-19/8558/c886aacbca470c50afdab552ec5c923c.png",
+            num: { readers: 6, contents: 109 },
+            title: "从入行到在行",
+            owner: "@王昆",
+            description: "本栏目聊什么不聊什么<br><br>✅ 本栏目的内容围绕一篇我的长文展开<br><br>大多数人关注本栏目，可能是因为这篇文章： 《产品经理从入行到在行 Vol.2020》发表于2021年3月13日， 文章链接：mp.weixin.qq.com<br><br>写这篇文章时，立意是面向-1~5岁的互联网产品和运营，但后来发现很多非产运岗位的，非互联网行业的朋友也很受鼓舞。<br><br>它高度浓缩，就像一幅《清明上河图》，很多地方点到为止，每一段甚至每一句都可以单独展开成为一篇文章。优点是信息量大，可以常读常新。缺点是信息量太大，很多精华的地方，读者如果没有切身经验，很难读出感觉。<br><br>本小报童要做的，就是把这幅画卷徐徐展开。",
+            type: "官方推荐、职场、互联网"
+        },
     ] 
         
 // tags & tags_alias 需要一对一映射
@@ -2233,9 +2557,9 @@ export const tags_alias = ['all', 'hot', 'offical-recommend', 'make-money', 'cas
 export const last_update_time = '2024-06-13'; 
 
 
-// // 提取columnid
+// 提取columnid
 // const columnids1 = new Set(columns.map(item => item.columnid));
-// const columnids2 = new Set(data.map(item => item.columnid));
+// const columnids2 = new Set(columns_datas.map(item => item.column_id));
 // // 找出data2中有但data1中没有的columnid
 // const uniqueInData2 = Array.from(columnids2).filter(id => !columnids1.has(id));
 // console.log("存在于data2但不存在于data1的columnid:", uniqueInData2);
