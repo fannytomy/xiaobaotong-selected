@@ -1,22 +1,40 @@
+import Link from 'next/link'
+import {Button} from "@nextui-org/react";
+
 export default function Card({filteredData}:{filteredData:any[]}) {
 
   return (
-    <main className="flex flex-wrap justify-center p-6 mx-auto">
-      {filteredData.map(cloumn_info => (
-        <div key={cloumn_info.columnid} className="relative bg-white p-6 pb-16 rounded shadow-md m-4 w-80 transition-transform transform hover:scale-105"
-          onClick={() => window.open("https://xiaobot.net/p/" + cloumn_info.columnid + "?refer=16d439a0-a4cc-49ea-823c-96b7e262e22a", "_blank")} >
-          <div className="flex mb-4">
-            <img src={cloumn_info.image_url} alt={"小报童-" + cloumn_info.title} className="h-16 w-16 rounded-full mr-4" />
-            <div className="flex flex-col justify-between text-right flex-grow">
-              <p className="text-red-400 text-3xl">{cloumn_info.num.readers} 读者</p>
-              <p className="text-red-400 text-3xl">{cloumn_info.num.contents} 文章</p>
-            </div>
-          </div>
-          <h2 className="text-red-800 text-xl font-bold mt-6 mb-4">{cloumn_info.title}</h2>
-          <p className="text-gray-700 h-60 overflow-hidden text-ellipsis" dangerouslySetInnerHTML={{ __html: cloumn_info.description }}></p>
-          <p className="absolute bottom-4 right-4 px-4 py-2 mt-1 text-red-800 text-xl font-bold ">详情</p>
+    <section className="relative">
+      <div className="mx-auto max-w-7xl px-5 py-4 md:px-10 md:py-4 lg:py-4">
+        <div className="mb-8 gap-5 py-4 [column-count:1] md:mb-12 md:[column-count:2] lg:mb-16 lg:[column-count:3]">
+          {filteredData.map(cloumn_info => {
+            const url = "https://xiaobot.net/p/" + cloumn_info.columnid + "?refer=16d439a0-a4cc-49ea-823c-96b7e262e22a";
+            return (
+              <Link href={url} target="_blank" key={cloumn_info.columnid}>
+                <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8">
+                  <div className="mb-4 flex flex-row items-center">
+                    <img src={cloumn_info.image_url} alt={"小报童-" + cloumn_info.title} className="h-16 w-16 rounded-full mr-4" />
+                    <div className="flex flex-col">
+                      <div className="flex flex-col">
+                        <h2 className="text-xl font-semibold">{cloumn_info.title}</h2>
+                        <p className="text-sm text-[#636262]">{cloumn_info.owner}</p>
+                      </div>
+                      <div className="flex flex-row items-center font-bold justify-start">
+                        <span className="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">{cloumn_info.num.readers} 读者</span>
+                        <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">{cloumn_info.num.contents} 文章</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="mb-4 text-sm text-[#636262]" dangerouslySetInnerHTML={{ __html: cloumn_info.description }} />
+                  <div className="flex justify-end">
+                    <Button color="warning" className="bg-orange-500 text-white rounded-xl justify-center font-bold">详情</Button>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
-      ))}
-    </main>    
+      </div>
+    </section>
   )
 }
