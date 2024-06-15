@@ -11,7 +11,7 @@ export default function Card({filteredData}:{filteredData:any[]}) {
             const url = "https://xiaobot.net/p/" + cloumn_info.columnid + "?refer=16d439a0-a4cc-49ea-823c-96b7e262e22a";
             return (
               <Link href={url} target="_blank" key={cloumn_info.columnid}>
-                <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8">
+                <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8 hover:scale-105">
                   <div className="mb-4 flex flex-row items-center">
                     <img src={cloumn_info.image_url} alt={"小报童-" + cloumn_info.title} className="h-16 w-16 rounded-full mr-4" />
                     <div className="flex flex-col">
