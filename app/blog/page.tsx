@@ -9,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section className="min-h-screen bg-gray-100 mx-auto lg:max-w-3xl md:max-w-2xl sm:max-w-xl">
-      <h1 className="flex text-3xl font-extrabold text-black mb-12 pt-12 pl-8">Blog</h1>
+      <h1 className="flex text-3xl font-extrabold text-black mb-12 pt-12 pl-8">小报童精选专栏上新</h1>
       <BlogPosts /> 
     </section>
   )

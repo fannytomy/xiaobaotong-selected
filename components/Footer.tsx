@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const navigation = {
   legal: [
-    { name: 'Privacy Policy', href: '/privacy-policy' },
-    { name: 'Terms & Conditions', href: '/terms-of-service' },
+    { name: '隐私协议', href: '/privacy-policy' },
+    { name: '条款和条件', href: '/terms-of-service' },
   ],
   credit: [
     { name: 'xiaobot.net', href: 'https://xiaobot.net' },
@@ -41,7 +41,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   <li>
                     <Link href={`/blog`} className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline">
-                      Blog
+                      上新
                     </Link>
                   </li>
                 </ul>

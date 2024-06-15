@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const navigation = {
   topMenu: [
-    {name: 'Home', href: '/'},
-    // {name: 'Blog', href: '/blog'},
-    {name: 'FAQs', href: '/#faqs'},
+    {name: '首页', href: '/'},
+    {name: '上新', href: '/blog'},
+    {name: '常见问题', href: '/#faqs'},
   ],
 }
 
