@@ -3,6 +3,7 @@ import "./globals.css";
 import { baseUrl } from './sitemap'
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import {NextUIProvider} from "@nextui-org/react";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -30,12 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
-        <main className="flex-grow">
-          <Nav />
-          {children}
-          <Footer /> 
-        </main>
+      <body className="min-h-screen flex flex-col bg-gray-100">
+        <NextUIProvider>
+          <main className="flex-grow">
+            <Nav />
+            {children}
+            <Footer /> 
+          </main>
+        </NextUIProvider>
       </body>
     </html>
   );

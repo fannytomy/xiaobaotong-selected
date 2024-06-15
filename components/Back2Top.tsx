@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IoMdArrowRoundUp } from "react-icons/io";
 
 export default function BackToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,7 +35,7 @@ export default function BackToTopButton() {
           onClick={scrollToTop}
           className="px-6 py-4 bg-gray-400 text-white rounded-full shadow-lg hover:bg-gray-700 transition"
         >
-          ↑
+          <IoMdArrowRoundUp />
         </button>
       )}
     </div>
