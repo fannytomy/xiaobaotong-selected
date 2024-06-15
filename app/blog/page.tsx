@@ -1,4 +1,5 @@
 import { BlogPosts } from '@/components/posts'
+import Link from 'next/link'
 
 export const metadata = {
   title: '小报童专栏精选导航站 | 上新',
@@ -9,7 +10,9 @@ export const metadata = {
 export default function Page() {
   return (
     <section className="min-h-screen bg-gray-100 lg:max-w-3xl md:max-w-2xl sm:max-w-xl w-full mx-auto">
-      <h1 className="flex text-3xl font-extrabold text-black mb-12 pt-12 pl-8">小报童专栏精选上新</h1>
+      <div className="flex flex-row p-8 justify-center items-center">
+        <h1 className="text-3xl font-extrabold text-red-600">小报童专栏精选上新</h1>
+      </div>
       <BlogPosts /> 
     </section>
   )
