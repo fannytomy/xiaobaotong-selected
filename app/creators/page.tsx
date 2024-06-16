@@ -9,7 +9,7 @@ export default function Page() {
     <section className="bg-grey-100">
       <Header title={title} desc={title}/>
       <div className="text-center py-8">
-          <h1 className="text-5xl font-bold pt-8 pb-8">小报童精选</h1>
+          <h1 className="text-5xl font-bold pt-8 pb-8">小报童专栏精选</h1>
           <p className="text-lg text-gray-600">精选专栏的创作者们</p>
       </div>
       <Creators /> 
