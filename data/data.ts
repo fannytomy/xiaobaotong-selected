@@ -2554,7 +2554,7 @@ export const columns =
 export const tags = ['全部', '热门', '官方推荐', '搞钱', '案例库', 'AI', 'AI绘画', '自媒体', '产品', '职场', '小红书', '超级个体', 'RPA', '公众号', 'IP', '私域', '电商', '出海', '互联网', '编程', '独立开发', '沟通', '读书', '写作', '心理', '人际', '成长', '商业', '工具', 'ChatGPT', '投资', 'web3']; 
 export const tags_alias = ['all', 'hot', 'offical-recommend', 'make-money', 'cases', 'ai', 'ai-painting', 'self-media', 'pm', 'career', 'xiaohongshu', 'super-individual', 'rpa', 'mp', 'ip', 'private-domain', 'e-commerce', 'going-global', 'internet', 'programming', 'ind-dev', 'communicate', 'read', 'write', 'psychology', 'relationships', 'learn', 'business', 'tools', 'chatgpt', 'invest', 'web3']; 
 
-export const last_update_time = '2024-06-13'; 
+export const last_update_time = '2024-06-15'; 
 
 
 // 提取columnid
