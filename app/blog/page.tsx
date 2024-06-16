@@ -1,5 +1,4 @@
 import { BlogPosts } from '@/components/posts'
-import Link from 'next/link'
 
 export const metadata = {
   title: '小报童专栏精选导航站 | 上新',

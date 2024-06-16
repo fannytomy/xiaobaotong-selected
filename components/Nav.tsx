@@ -1,14 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-
-const navigation = {
-  topMenu: [
-    {name: '首页', href: '/'},
-    {name: '上新', href: '/blog'},
-    {name: '常见问题', href: '/#faqs'},
-  ],
-}
+import { navigation } from "@/data/config";
 
 export default function Nav() {
   return (

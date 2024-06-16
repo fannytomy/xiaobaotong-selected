@@ -1,4 +1,5 @@
 import { getBlogPosts, getTags } from '@/app/blog/utils'
+import { navigation } from "@/data/config";
 
 export const baseUrl = `${process.env.SITE_URL}`
 
@@ -19,5 +20,10 @@ export default async function sitemap() {
     lastModified: tag.date,
   }))
 
-  return [...routes, ...blogs, ...tags]
+  let navRoutes = navigation.topMenu.filter((nav) => nav.sitemap).map((nav) => ({
+    url: `${baseUrl}${nav.href}`,
+    lastModified: new Date().toISOString().split('T')[0],
+  }))
+
+  return [...routes, ...blogs, ...tags, ...navRoutes]
 }
