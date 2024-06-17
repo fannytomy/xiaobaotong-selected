@@ -21,7 +21,7 @@ export default function TagContentPage({ params }: { params: { slug: string } })
     setInputValue(event.target.value);
   };
 
-  const tagMatchResult = selectedTag === '全部' ? columns : columns.filter(item => item.type.includes(selectedTag));
+  const tagMatchResult = selectedTag === '全部' ? columns : columns.filter(item => item.tags.includes(selectedTag));
 
   let filteredData = tagMatchResult.filter(item => {
     if (inputValue) {
