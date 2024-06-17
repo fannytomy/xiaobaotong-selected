@@ -1,0 +1,132 @@
+---
+title: '深入浅出Web3开发技术'
+publishedAt: '2024-01-23'
+---
+
+## 专栏介绍
+
+本小册作者为「**Keegan小钢**」，公众号、知乎、B站等平台同名作者，从 2017 年开始深耕于区块链 Web3 领域，资深 Web3 技术专家。发表过多篇热门文章，Web3 领域的包括剖析UniswapV4、UniswapV3、UniswapV2、Compound、ApeX Protocol 等不同系列文章。
+
+本小册内容源自作者在 2023 年一整年完成的书籍初稿，是非常体系化的一套内容。而书稿大纲则基于作者的一套收费视频课程而编排。因目前还没到适合书籍出版的时机，作者决定先把它做成一款引流型产品，于是就有了这款性价比超高的小册专栏。
+
+本小册的适合人群主要为：
+
+* **想从 Web2 转入 Web3 的研发人员**
+* **初入 Web3 的研发人员**
+
+学习本小册，将可收获：
+
+* **了解Web3的组成架构、现状和趋势等概况**
+* **掌握基于EVM智能合约的开发、测试和部署**
+* **熟悉Dapp整体所有端的技术栈**
+* **熟悉Uniswap和Compound协议**
+
+小册的内容大纲大致如下：
+
+* **Web3基础概况**
+
+
+	+ **什么是Web3**
+	+ **Web3的组成架构**
+	+ **Web3的现状与趋势**
+	+ **Dapp的技术架构**
+* **智能合约技术和语言基础**
+
+
+	+ **区块链技术基础**
+	+ **智能合约技术基础**
+	+ **Solidity语言基础**
+* **智能合约开发、部署和测试**
+
+
+	+ **智能合约开发**
+	+ **智能合约部署**
+	+ **智能合约测试**
+* **标准Token协议**
+
+
+	+ **ERC20**
+	+ **ERC721**
+	+ **ERC1155**
+* **区块链预言机**
+
+
+	+ **区块链预言机概况**
+	+ **Chainlink价格预言机**
+	+ **UniswapV2预言机**
+	+ **UniswapV3预言机**
+* **数据索引服务Graph**
+
+
+	+ **Graph概括**
+	+ **Subgraph开发**
+	+ **Subgraph部署**
+	+ **私有部署**
+* **Keeper**
+
+
+	+ **Keeper概括**
+	+ **Keeper服务开发**
+	+ **去中心化Keeper网络**
+* **Web3前端**
+
+
+	+ **Web3前端基础**
+	+ **web3.js**
+	+ **ethers.js**
+	+ **wagmi**
+* **Uniswap协议**
+
+
+	+ **UniswapV1**
+	+ **UniswapV2**
+	+ **UniswapV3**
+* **Compound协议**
+
+
+	+ **Compound概况**
+	+ **合约详解**
+	+ **清算**
+
+具体的文章会再进一步拆分，所以文章标题不会和以上大纲一一对应，但内容会保持一致。
+
+另外，本小册也开启了合伙人计划，佣金最高比例 60%。分销合伙人只需要点击手册右上方的分享按钮，即可生成自己的分销海报（或链接）进行推广，从而赚取佣金。
+
+
+## Compound（6）：清算2
+清算服务 V2 版v1 版本的清算服务可以实现功能，当数据量不大的时候也能轻松应对。不过，一旦数据量上来了，性能将会成为瓶颈。主要有两个地方会影响性能，一在于查询所有尚有借款的账户并依次查询是否......
+
+## Compound（5）：清算
+清算机制因为数字资产存在价格波动，若用户的所借资产上涨或抵押资产下跌，导致用户的债务价值超过抵押资产的安全门槛时，就可以被清算。我们用具体的场景来说明。
+
+假如，用户存入......
+
+## Compound（4）：合约详解3
+PriceOracle价格预言机是 DeFi 借贷产品中必不可少的组成部分，前面提到的获取用户资产状态的函数 getAccountLiquidity() 中，计算用户的抵押物价值和债务价值都需要......
+
+## Compound（3）：合约详解2
+ComptrollerComptroller 是一个审计合约，顾名思义，主要职责就是对存取借款等核心业务进行审查和校验。而且，要支持哪些借贷资产，也是在 Comptroller 设置的，通过调用......
+
+## Compound（2）：合约详解1
+合约结构Compound 的合约项目在 Github 上的地址为：
+
+github.com/compound-finance/compound-protocol有一点需......
+
+## Compound（1）：概况
+Compound 简介Compound 是最主流的 DeFi 借贷协议之一，目前在运营的有 Compound v2 和 Compound v3 两个版本的产品。Compound v2 是在 20......
+
+## UniswapV3（5）：SwapRouter
+SwapRouter 封装了面向用户的交易接口，但不再像 UniswapV2Router 一样根据不同交易场景拆分为了那么多函数，UniswapV3 的 SwapRouter 核心就只有 4 个......
+
+## UniswapV3（4）：NonfungiblePositionManager
+NonfungiblePositionManager 合约的实现比较复杂，还继承了很多子合约，限于篇幅，我们无法全都一一讲解，就只能挑一些重点的来讲。
+
+前面我们说过，U......
+
+## UniswapV3（3）：UniswapV3Pool
+UniswapV3Pool 合约则复杂很多了，其引用的库合约就达到了 13 个，通过 using 方式使用的也达到了 9 个，如下所示：
+
+using LowGasSafeMath for ......## UniswapV3（2）：UniswapV3Factory
+UniswapV3Factory 主要用来创建流动性池子合约，其代码实现并不复杂，以下是其实现代码：
+
+contract UniswapV3Factory is IUniswapV3Fact......

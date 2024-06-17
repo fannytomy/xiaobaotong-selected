@@ -8,6 +8,7 @@ import remarkMath from "remark-math";
 import rehypePrettyCode from "rehype-pretty-code";
 import Link from "next/link";
 import {Button} from "@nextui-org/button";
+import { title } from 'process';
 
 const options = {
   parseFrontmatter: true,
@@ -49,8 +50,8 @@ export function generateMetadata({ params }:{params: {slug: string}}) {
   } = post.metadata
 
   return {
-    title,
-    description,
+    title: `小报童专栏-${title}`,
+    description: `小报童专栏-${title}`,
     openGraph: {
       title,
       description,
@@ -78,31 +79,15 @@ export default function Blog({ params }:{params: {slug: string}}) {
 
   return (
     <section className='min-h-screen bg-gray-100 pl-10 pr-10 pt-10 pb-6'>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BlogPosting',
-            headline: post.metadata.title,
-            datePublished: post.metadata.publishedAt,
-            dateModified: post.metadata.publishedAt,
-            description: post.metadata.summary,
-            url: `${baseUrl}/blog/${post.slug}`,
-            author: {
-              '@type': 'Person',
-              name: '小报童专栏精选导航站',
-            },
-          }),
-        }}
-      />
       <h1 className="title font-semibold text-4xl tracking-tighter lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pt-4 pb-8">
         {post.metadata.title}
       </h1>
-      <div className="flex justify-between items-center mb-8 text-sm lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto">
+      <div className="flex justify-start items-center mb-8 space-x-6 text-sm lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto">
         <p className="text-lg text-neutral-600 dark:text-neutral-400">
-          发布于：{post.metadata.publishedAt}
+          收录于：{post.metadata.publishedAt}
+        </p>
+        <p className="text-lg text-neutral-600 dark:text-neutral-400">
+          <Link href={`/blog/${post.slug}`} className="text-lg text-red-400 hover:underline hover:text-red-600"> 去小报童查看专栏详情 </Link>
         </p>
       </div>
       <article className="prose lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pb-8">
@@ -111,6 +96,7 @@ export default function Blog({ params }:{params: {slug: string}}) {
             components={MDXComponents}
             options={options as any}
           />
+        <Link href={`/blog/${post.slug}`} className="text-lg text-red-400 hover:underline hover:text-red-600"> 去小报童查看专栏详情 </Link>
       </article>
       <div className="flex justify-center items-center mt-4 pb-10">
         <div className="flex gap-2 flex-col sm:flex-row">
