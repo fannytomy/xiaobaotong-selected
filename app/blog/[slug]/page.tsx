@@ -8,7 +8,7 @@ import remarkMath from "remark-math";
 import rehypePrettyCode from "rehype-pretty-code";
 import Link from "next/link";
 import {Button} from "@nextui-org/button";
-import { title } from 'process';
+import { getUrl } from '@/lib/utils';
 
 const options = {
   parseFrontmatter: true,
@@ -77,6 +77,8 @@ export default function Blog({ params }:{params: {slug: string}}) {
     notFound()
   }
 
+  const url = getUrl(post.slug)
+
   return (
     <section className='min-h-screen bg-gray-100 pl-10 pr-10 pt-10 pb-6'>
       <h1 className="title font-semibold text-4xl tracking-tighter lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pt-4 pb-8">
@@ -87,16 +89,16 @@ export default function Blog({ params }:{params: {slug: string}}) {
           收录于：{post.metadata.publishedAt}
         </p>
         <p className="text-lg text-neutral-600 dark:text-neutral-400">
-          <Link href={`/blog/${post.slug}`} className="text-lg text-red-400 hover:underline hover:text-red-600"> 去小报童查看专栏详情 </Link>
+          <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【小报童】查看专栏详情 </Link>
         </p>
       </div>
       <article className="prose lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pb-8">
         <MDXRemote
             source={post.content}
-            components={MDXComponents}
+            components={MDXComponents}  
             options={options as any}
           />
-        <Link href={`/blog/${post.slug}`} className="text-lg text-red-400 hover:underline hover:text-red-600"> 去小报童查看专栏详情 </Link>
+        <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【小报童】查看专栏详情 </Link>
       </article>
       <div className="flex justify-center items-center mt-4 pb-10">
         <div className="flex gap-2 flex-col sm:flex-row">

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {Button} from "@nextui-org/react";
+import { getUrl } from '@/lib/utils';
 
 export default function Card({filteredData}:{filteredData:any[]}) {
 
@@ -8,7 +9,7 @@ export default function Card({filteredData}:{filteredData:any[]}) {
       <div className="mx-auto max-w-7xl px-5 py-4 md:px-10 md:py-4 lg:py-4">
         <div className="mb-8 gap-5 py-4 [column-count:1] md:mb-12 md:[column-count:2] lg:mb-16 lg:[column-count:3]">
           {filteredData.map(cloumn_info => {
-            const url = "https://xiaobot.net/p/" + cloumn_info.columnid + "?refer=16d439a0-a4cc-49ea-823c-96b7e262e22a";
+            const url = getUrl(cloumn_info.columnid);
             return (
               <Link href={url} target="_blank" key={cloumn_info.columnid}>
                 <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8 hover:scale-105">

@@ -1,5 +1,6 @@
 import { columns } from "@/data/data"
 import Link from "next/link"
+import { getUrl } from '@/lib/utils';
 
 export default function Creators() {
 
@@ -9,7 +10,7 @@ export default function Creators() {
     return ( 
         <div className="grid grid-cols-6 w-3/5 mx-auto mb-8">
             {creators.map(creator => {
-                const url = "https://xiaobot.net/p/" + creator.columnid + "?refer=16d439a0-a4cc-49ea-823c-96b7e262e22a";
+                const url = getUrl(creator.columnid);
                 const alt_info = "小报童专栏创作者-" + creator.owner
                 return (
                     <Link href={url} target="_blank" key={creator.columnid}>
