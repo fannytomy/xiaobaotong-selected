@@ -3,12 +3,11 @@
 import { useState } from 'react';
 import {columns} from '@/data/data'
 import Faq from '@/components/Faq';
-import Footer from '@/components/Footer';
 import BackToTopButton from '@/components/Back2Top';
 import Cards from '@/components/Cards';
-import Nav from '@/components/Nav'
 import CountColumn from '@/components/CountColumn'
 import Tags from '@/components/Tags';
+import Brand from '@/components/Brand';
 
 const Page = () => {
   const [inputValue, setInputValue] = useState<string>('');
@@ -22,31 +21,54 @@ const Page = () => {
   if (inputValue.length > 0) {
     filterResult = columns.filter(item => item.title.includes(inputValue) || item.description.includes(inputValue) || item.owner.includes(inputValue));
   }
-
+  filterResult = filterResult.sort((a, b) => b.num.readers - a.num.readers);
   const cloumn_size = inputValue.length > 0 ? filterResult.length : columns.length;
   const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
   return (
     <>
-      <Nav />
-      <div className="min-h-screen bg-gray-100">
+      <div className="bg-gray-100">
 
-        <div className="text-center font-bold text-red-600 text-xl pt-6">
-          <input type="text" placeholder="搜索小报童精选专栏（可输入专栏名称、作者、内容方向等）" className="mt-4 p-2 border rounded w-1/2" value={inputValue} onChange={handlerSearch}/>
-        </div>
+        <Brand />
+        <section className="relatve mt-4 md:mt-8">
+          <div className="mx-auto w-full max-w-2xl px-6 text-center">
+            <div className="flex items-center relative">
+              <input
+                type="text"
+                className="flex-1 px-4 py-3 border-2 border-red-300 focus:border-red-600 focus:outline-none bg-white rounded-lg text-sm"
+                placeholder="可输入专栏名称、作者、内容等关键词"
+                value={inputValue}
+                onChange={handlerSearch}
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="absolute right-4 cursor-pointer "
+                onClick={() => {
+                  if (inputValue) {
+                    handlerSearch;
+                  }
+                }}
+              >
+                <polyline points="9 10 4 15 9 20"></polyline>
+                <path d="M20 4v7a4 4 0 0 1-4 4H4"></path>
+              </svg>
+            </div>
+          </div>
+        </section>
 
         <Tags selectedTag={selectedTag} />
         <CountColumn name={name} num={cloumn_size} />
-
         <Cards filteredData={filterResult} />
-        {/* <main className="flex flex-wrap justify-center p-6 mx-auto">
-          {filterResult.map(item => (
-            <Card cloumn_info={item} />
-          ))}
-        </main>         */}
       </div>
       <Faq />
-      <Footer />
       <BackToTopButton />
     </>
   );

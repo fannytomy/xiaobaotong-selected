@@ -1,14 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-
-const navigation = {
-  topMenu: [
-    {name: 'Home', href: '/'},
-    // {name: 'Blog', href: '/blog'},
-    {name: 'FAQs', href: '#faqs'},
-  ],
-}
+import { navigation } from "@/data/config";
 
 export default function Nav() {
   return (

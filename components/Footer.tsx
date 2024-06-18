@@ -3,8 +3,12 @@ import Link from "next/link";
 
 const navigation = {
   legal: [
-    { name: 'Privacy Policy', href: '/privacy-policy' },
-    { name: 'Terms & Conditions', href: '/terms-of-service' },
+    { name: '隐私协议', href: '/privacy-policy' },
+    { name: '条款和条件', href: '/terms-of-service' },
+  ],
+  blog: [
+    { name: '上新', href: '/blog' },
+    { name: '创作者', href: '/creators' },
   ],
   credit: [
     { name: 'xiaobot.net', href: 'https://xiaobot.net' },
@@ -37,18 +41,22 @@ export default function Footer() {
           <div className="mt-2 flex grid-cols-1 gap-8 xl:col-span-2 xl:mt-0 justify-end">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <div className="text-sm font-semibold leading-6 text-red-600">Blog</div>
-                <ul role="list" className="mt-6 space-y-4">
-                  <li>
-                    <Link href={`/blog`} className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline">
-                      Blog
-                    </Link>
-                  </li>
+                <div className="text-sm font-bold leading-6 text-red-600">Blog</div>
+                <ul role="list" className="mt-6 space-y-2">
+                  {navigation.blog.map((item) => {
+                    return (
+                      <li key={item.name}>
+                        <Link href={`${item.href}`} className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline">
+                          {item.name}
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
               <div className="md:grid md:grid-cols-1 md:gap-8">
                 <div>
-                  <div className="text-medium font-semibold leading-6 text-red-600 font-bold">
+                  <div className="text-medium leading-6 text-red-600 font-bold">
                     Legal
                   </div>
                   <ul role="list" className="mt-6 space-y-2">

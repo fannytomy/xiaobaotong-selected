@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { baseUrl } from './sitemap'
-
-const inter = Inter({ subsets: ["latin"] });
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
+import {NextUIProvider} from "@nextui-org/react";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -31,7 +32,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="min-h-screen flex flex-col bg-gray-100">
+        <NextUIProvider>
+          <main className="flex-grow">
+            <Nav />
+            {children}
+            <Footer /> 
+          </main>
+        </NextUIProvider>
+        {process.env.NODE_ENV === "development" ? (
+          <></>
+        ) : (
+          <>
+            <GoogleAnalytics />
+            {/* <BaiDuAnalytics /> */}
+          </>
+        )}
+      </body>
     </html>
   );
 }
