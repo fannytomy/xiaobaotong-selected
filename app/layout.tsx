@@ -4,6 +4,7 @@ import { baseUrl } from './sitemap'
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import {NextUIProvider} from "@nextui-org/react";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -39,6 +40,14 @@ export default function RootLayout({
             <Footer /> 
           </main>
         </NextUIProvider>
+        {process.env.NODE_ENV === "development" ? (
+          <></>
+        ) : (
+          <>
+            <GoogleAnalytics />
+            {/* <BaiDuAnalytics /> */}
+          </>
+        )}
       </body>
     </html>
   );
