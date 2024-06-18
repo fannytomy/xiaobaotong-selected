@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 小报童专栏精选导航站
 
-## Getting Started
+<img src="public/index.png" alt="小报童专栏精选导航站" width="600" height="365">
 
-First, run the development server:
+目前精选收录了 302 个小报童专栏，涵盖了各个领域的专栏，包括副业、AI、ChatGPT、AI绘画、自媒体、产品、职场、小红书、RPA、公众号、搞钱、IP、私域、电商、出海、互联网、编程、独立开发、沟通、读书、写作、心理、人际关系、成长、商业、工具、投资、web3等。
 
-```bash
+
+## 本地使用
+
+```
+git clone https://github.com/nivance/xiaobot-choice.git
+
+cd xiaobot-choice
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+通过浏览器访问 http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Vercel部署
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/nivance/xiaobot-choice)
