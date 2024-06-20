@@ -28,7 +28,7 @@ export default function Card({filteredData}:{filteredData:any[]}) {
                   </div>
                   <p className="mb-4 text-sm text-[#636262]" dangerouslySetInnerHTML={{ __html: cloumn_info.description }} />
                   <div className="flex justify-end">
-                    <Button color="warning" className="bg-orange-500 text-white rounded-xl justify-center font-bold">详情</Button>
+                    <Button color="warning" className="bg-orange-500 text-white rounded-xl justify-center font-bold -mb-4">小报童 专栏 详情</Button>
                   </div>
                 </div>
               </Link>

@@ -25,7 +25,7 @@ export function BlogPosts() {
             <div className="w-full flex flex-col md:flex-row md:justify-between space-x-0 md:space-x-0">
               <div className='flex items-center space-x-2'>
                 <RiArrowRightDoubleLine />
-                <p className="text-gray-900 dark:text-neutral-100 tracking-tight hover:text-red-400">
+                <p className="text-gray-900 dark:text-neutral-100 tracking-tight hover:text-red-500 hover:underline">
                   {post.metadata.title}
                 </p>
               </div>

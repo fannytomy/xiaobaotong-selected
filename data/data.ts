@@ -2867,7 +2867,7 @@ export const columns =
             "created_at": "2023-07-05",
             "lastupdated": "2024-05-28",
             "type": "BOOKLET",
-            "tags": "IP，职场，副业"
+            "tags": "IP，职场、副业、数字游民"
         },
         {
             "columnid": "sanjin123",
