@@ -35,7 +35,7 @@ export const columns =
             "created_at": "2024-02-24",
             "lastupdated": "2024-03-14",
             "type": "BOOKLET",
-            "tags": "搞钱、IP、热门"
+            "tags": "搞钱、IP、热门、自由职业"
         },
         {
             "columnid": "pmdogs1",
@@ -2867,7 +2867,7 @@ export const columns =
             "created_at": "2023-07-05",
             "lastupdated": "2024-05-28",
             "type": "BOOKLET",
-            "tags": "IP，职场，副业"
+            "tags": "IP，职场、副业、数字游民"
         },
         {
             "columnid": "sanjin123",
@@ -3624,6 +3624,150 @@ export const columns =
             "lastupdated": "2024-06-07",
             "type": "BOOKLET",
             "tags": "编程"
+        },
+        {
+            "columnid": "xuan626",
+            "image_url": "https://static.xiaobot.net/paper/2024-01-18/193437/57ef462b753cd1017e0809d8a1bc35fc.jpeg",
+            "num": { "readers": 1083, "contents": 62 },
+            "title": "视频号IP直播带货卖课变现",
+            "owner": "@旋子",
+            "description": "视频号头部玩家，生财航海教练，半年200万 gmv，利润70W+。<br>100个账号，搭过30多个直播间，也帮助过60个视频号新人走出第一步！<br>希望通过小册子帮助想做视频号带货、做IP、做直播的朋友少走弯路！<br><br>购买后加微信xuan626，添加后备注【视频号】我会送你一份《视频号8000字运营全攻略》，加入专属交流群<br><br>原价799，现价10元，10元！！！永久买断每多100人，涨价10元。<br><br>承诺更新100篇！大家闭眼入！",
+            "created_at": "2024-01-18",
+            "lastupdated": "2024-06-12",
+            "type": "BOOKLET",
+            "tags": "视频号、IP、直播"
+        },
+        {
+            "columnid": "aigclogo",
+            "image_url": "https://static.xiaobot.net/paper/2023-03-08/212105/79042772997bce6419c234349863e527.png",
+            "num": { "readers": 181, "contents": 10 },
+            "title": "Midjourney Logo绘练营",
+            "owner": "@ai小助手",
+            "description": "快速掌握AI绘Logo技巧<br>从0到1体验AI图片绘制流程<br>了解目前AIGC的能力与现阶段瓶颈<br>十节课带你赚回学费",
+            "created_at": "2023-03-06",
+            "lastupdated": "2023-03-11",
+            "type": "BOOKLET",
+            "tags": "AI绘画、Midjourney"
+        },
+        {
+            "columnid": "maoyuan",
+            "image_url": "https://static.xiaobot.net/paper/maoyuan.png",
+            "num": { "readers": 412, "contents": 397 },
+            "title": "人生是滚雪球时光胶囊",
+            "owner": "@毛远",
+            "description": "一个互联网人记录阅读、思考和投资的涓滴闪念。",
+            "created_at": "2021-11-23",
+            "lastupdated": "2024-06-17",
+            "type": "BOOKLET",
+            "tags": "生活、投资、阅读、思考"
+        },
+        {
+            "columnid": "F49091",
+            "image_url": "https://static.xiaobot.net/paper/2024-01-23/119920/d76fad090b21ffe1804708e832612785.jpeg",
+            "num": { "readers": 483, "contents": 25 },
+            "title": "AI简历变现实操100问",
+            "owner": "@饭饭是个闲人",
+            "description": "【AI简历变现实操100问】<br>作者饭饭：AI破局初创合伙人，AI破局俱乐部航海教练。担通过生财、淘金等社群实战嘉宾，通过AI代写和Ai简历定制变现百万。<br><br>这是饭饭精心整理的【AI简历实操100问】小报童<br>原价999、限时福利16.8元（一次订阅，永久有效）<br>具体大纲如下：<br>第一部分：变现指南（10问）<br>第二部分：流量攻略（10问）<br>第三部分：简历修改实操（10问）<br>第四部分：简历代做详解（10问）<br>第五部分：销售话术沟通与技巧分享（10问）<br>第六部分：案例分享与经验答疑（50问）",
+            "created_at": "2023-11-28",
+            "lastupdated": "2024-05-10",
+            "type": "BOOKLET",
+            "tags": "AI、职场"
+        },
+        {
+            "columnid": "6688168",
+            "image_url": "https://static.xiaobot.net/paper/2023-02-23/182356/1c30da32e08e7d6fb9f3ac5302702125.jpeg",
+            "num": { "readers": 404, "contents": 15 },
+            "title": "迪安内容电商第一课",
+            "owner": "@Dian 🍷",
+            "description": "Dian :<br>一年在社交媒体花费5000w+ ，<br>所有投放以盈利为目标，一直追求健康的生意增长。<br>一线实操，一线的执行闭环能力。<br><br>做营销带货，不要瞎摸索，跟有实操结果的人一起学",
+            "created_at": "2023-02-23",
+            "lastupdated": "2023-12-03",
+            "type": "BOOKLET",
+            "tags": "电商、营销"
+        },
+        {
+            "columnid": "Wangbaiwan_233",
+            "image_url": "https://static.xiaobot.net/paper/2024-04-06/246342/ea0570926e79dfec2bbac0752a1bb3e1.png",
+            "num": { "readers": 1240, "contents": 40 },
+            "title": "闲鱼无货源保姆教程",
+            "owner": "@百万Sir@传旭",
+            "description": "百万Sir @传旭：从2019-2024年，5年闲鱼电商经验，闲鱼学习社群共1.3w成员，团队闲鱼账号销售百万GMV<br><br>【专栏包含以下内容】：<br><br>起号篇：新手小白如何从0~1搭建卖货闲鱼账号？<br>选品篇：新人小白最适合的选品思路有哪些？<br>运营篇：闲鱼整体的运营逻辑以及详细实操方法？<br>答疑篇：运营闲鱼过程中常见问题100问？<br>避坑篇：闲鱼无货源套路骗子的各种手段<br><br>本篇小报童涵盖闲鱼市面上99%的操作方法和问题，总更新不低于100篇！<br><br>【专栏福利】：<br><br>1.以上涵盖系统性的教学<br>2.加置顶帖微信，送《闲鱼小报童交流群》<br>3.小报童读者享受个人指导闲鱼问题答疑<br>4.闲鱼小报童读者群直接提供部分选品<br><br>目前终身订阅价格为12.9元，一杯奶茶价格让你以最低成本去踏入互联网副业，赚到第一桶金！",
+            "created_at": "2023-04-10",
+            "lastupdated": "2024-06-02",
+            "type": "BOOKLET",
+            "tags": "咸鱼、搞钱、互联网"
+        },
+        {
+            "columnid": "401",
+            "image_url": "https://static.xiaobot.net/paper/2022-09-14/7466/bd4fbc2951813b6c976844aebd42156b.png",
+            "num": { "readers": 1010, "contents": 88 },
+            "title": "视频号可复制案例库",
+            "owner": "@IDO老徐",
+            "description": "我是IDO老徐，从 2020 年 1 月份开始，带领 4 万人玩视频号，见证平台从 0 到 1 到 商业化<br><br>2024 看好视频号，顺趋势，出结果，赚到钱。 模仿那些正在悄悄赚钱和赚流量的案例，普通人可「低门槛切入」，赚点小钱<br><br>手工精选 100 个全行业「可复制案例」，全网独一份。且告诉你：为什么可复制，适合你否，可优化点<br><br>限时 69 元买断（永久有效），满 2000 人涨价至 79<br><br>订阅后，截图加微信 957863300 领取 资料包",
+            "created_at": "2022-09-14",
+            "lastupdated": "2024-05-28",
+            "type": "BOOKLET",
+            "tags": "视频号、案例库"
+        },
+        {
+            "columnid": "ip100",
+            "image_url": "https://static.xiaobot.net/paper/2022-12-03/7466/3d6bed4b176fe426cdbf83f8534a7bcf.png",
+            "num": { "readers": 537, "contents": 2 },
+            "title": "全网可复制IP案例库",
+            "owner": "@IDO老徐",
+            "description": "以 IDO老徐 的商业化视角，从全网精选 100 个可复制IP案例，探索可复制路径 。<br><br>不限于：微信生态（公众号，视频号，社群），小红书，知乎，抖音 等。<br><br>限时最低价 99<br><br>订阅后，加微信 957863300  发支付记录，有惊喜<br><br>小报童赚钱案例库 https://xiaobot.net/p/xbt<br>小红书案例库  https://xiaobot.net/p/xhs<br>私域复利小技 https://xiaobot.net/p/weixin<br>公众号入门 https://xiaobot.net/p/idoxu<br>问一问 https://xiaobot.net/p/wenwen<br>短文写作 https://xiaobot.net/p/xiezuo<br>写作社群（免费）https://t.zsxq.com/03m6uBm6u",
+            "created_at": "2022-12-03",
+            "lastupdated": "2023-09-09",
+            "type": "BOOKLET",
+            "tags": "IP、案例库"
+        },
+        {
+            "columnid": "ling818",
+            "image_url": "https://static.xiaobot.net/paper/2024-03-27/378726/f0c1f50778e8e35d1aea8f2d5e15390e.jpeg",
+            "num": { "readers": 418, "contents": 34 },
+            "title": "手把手教你在闲鱼每月多赚几千",
+            "owner": "@进击的玲姐",
+            "description": "作者玲姐：6岁孩子宝妈，一年时间从0基础小白，到GMV55万+，闲鱼无货源纯利润18万+，主业副业育儿三不误，随时可以裸辞的销冠，实现带孩子逛街自由。<br><br>本专栏从闲鱼的15个运营避坑误区、爆款选品策略、高曝光秘笈，到快速成交的万能话术等核心内容，教你从0开始，用一部手机在闲鱼赚到自己的第一桶金！<br><br>限时特惠价10元，更新至少100篇，不到一杯奶茶的价格，即可一窥闲鱼销冠的赚钱秘诀。满5000人，涨价到19.9元（一次订阅，永久有效，无需续费）。<br><br>订阅后，截图支付记录，加微信1977612318（备注：闲鱼），免费领取「2024最新蓝海选品秘籍」。",
+            "created_at": "2024-03-08",
+            "lastupdated": "2024-06-13",
+            "type": "BOOKLET",
+            "tags": "咸鱼、搞钱"
+        },
+        {
+            "columnid": "a15065411994",
+            "image_url": "https://static.xiaobot.net/paper/2023-09-27/131959/b046e1f3d912b40e09f2b7d0d7efced7.jpeg",
+            "num": { "readers": 445, "contents": 24 },
+            "title": "AI绘画变现案例库",
+            "owner": "@Baoxing",
+            "description": "作者 Baoxing：软件公司架构负责人，3.9万人AI社群破局俱乐部初创合伙人。<br><br>小册共四个专栏：AI绘画应用库、AI绘画变现库、Mj教程、SD教程、<br><br>一年内更新 30 篇以上，原价 199 元，限时 10 元买断。<br><br>订阅后，添加微信 1258055586 拉你进本专栏配套交流学习群。",
+            "created_at": "2023-09-15",
+            "lastupdated": "2024-04-17",
+            "type": "BOOKLET",
+            "tags": "AI绘画、案例库"
+        },
+        {
+            "columnid": "syjs2024",
+            "image_url": "https://static.xiaobot.net/paper/2024-02-27/22041/146805a77ac0de77c8c7881527c8c99a.jpeg",
+            "num": { "readers": 108, "contents": 48 },
+            "title": "事业笔记",
+            "owner": "@二哥",
+            "description": "聊些生意里，不适合公开在公众号里聊的内容。<br><br>不时会布置一些专项的生意训练题。<br><br>如果你根据阅读的内容，有启发了，去实践后，回到“专栏”里留言你的思考和疑问，我会在留言区答疑。",
+            "created_at": "2024-02-27",
+            "lastupdated": "2024-06-16",
+            "type": "COLUMN",
+            "tags": "生活"
+        },
+        {
+            "columnid": "lawyersredbook",
+            "image_url": "https://static.xiaobot.net/paper/2023-09-21/355235/1ee59fd7f10a8e21405888658646679f.jpeg",
+            "num": { "readers": 444, "contents": 26 },
+            "title": "律师修炼手册",
+            "owner": "@莴苣姑娘",
+            "description": "2018年，参加完纽约州律考，我便只身前往香港一头扎进我的第一份工作--一家美资所的资本市场律师。从诚惶诚恐到渐入佳境，再到得心应手，我就这样先后在两家美资所待了四年半。如今我是一家外资银行的法务。<br><br>我在闲暇的时候会写下一些关于律师工作以及法律市场的观察与思考。因为一些偶然因素，也有越来越多的朋友看到我的分享。<br><br>《律师修炼手册》收录了我过去几年的一点小心得。<br><br>微博/小红书：莴苣不给你吃<br>播客：人小鬼大",
+            "created_at": "2023-09-20",
+            "lastupdated": "2024-04-09",
+            "type": "BOOKLET",
+            "tags": "成长，职场、律师"
         },
     ] 
         

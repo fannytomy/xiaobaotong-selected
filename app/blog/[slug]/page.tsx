@@ -89,7 +89,7 @@ export default function Blog({ params }:{params: {slug: string}}) {
           收录于：{post.metadata.publishedAt}
         </p>
         <p className="text-lg text-neutral-600 dark:text-neutral-400">
-          <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【小报童】查看专栏详情 </Link>
+          <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【 小报童 】查看专栏详情 </Link>
         </p>
       </div>
       <article className="prose lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pb-8">
@@ -98,7 +98,7 @@ export default function Blog({ params }:{params: {slug: string}}) {
             components={MDXComponents}  
             options={options as any}
           />
-        <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【小报童】查看专栏详情 </Link>
+        <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【 小报童 】查看专栏详情 </Link>
       </article>
       <div className="flex justify-center items-center mt-4 pb-10">
         <div className="flex gap-2 flex-col sm:flex-row">
