@@ -3,7 +3,7 @@ import Creators from "@/components/Creators"
 import BackToTopButton from "@/components/Back2Top"
 import Header from '@/components/Header';
 
-export default function Page() {
+export default async function Page() {
   const title = "小报童专栏精选导航站 | 创作者们";
   return (
     <section className="bg-grey-100">

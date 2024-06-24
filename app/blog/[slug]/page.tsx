@@ -63,7 +63,7 @@ export function generateMetadata({ params }:{params: {slug: string}}) {
   }
 }
 
-export default function Blog({ params }:{params: {slug: string}}) {
+export default async function Blog({ params }:{params: {slug: string}}) {
   const { slug } = params; 
   const posts = getBlogPosts()
   const postIndex = posts.findIndex((post) => post.slug === slug);
