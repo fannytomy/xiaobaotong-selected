@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypePrettyCode from "rehype-pretty-code";
 import Link from "next/link";
-import {Button} from "@nextui-org/button";
+import { Button } from "@nextui-org/button";
 import { getUrl } from '@/lib/utils';
 
 const options = {
@@ -37,8 +37,8 @@ export async function generateStaticParams() {
   }))
 }
 
-export function generateMetadata({ params }:{params: {slug: string}}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug)
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  let post = await getBlogPosts().find((post) => post.slug === params.slug)
   if (!post) {
     return
   }
@@ -58,14 +58,19 @@ export function generateMetadata({ params }:{params: {slug: string}}) {
       type: 'article',
       publishedTime,
       url: `${baseUrl}/blog/${post.slug}`,
-      images: [ {}],
+      images: [{}],
     },
   }
 }
 
-export default async function Blog({ params }:{params: {slug: string}}) {
-  const { slug } = params; 
-  const posts = getBlogPosts()
+export default async function Blog({ params }: { params: { slug: string } }) {
+  const { slug } = params;
+  const posts = await getBlogPosts().sort((a, b) => {
+    if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
+      return -1
+    }
+    return 1
+  })
   const postIndex = posts.findIndex((post) => post.slug === slug);
   const post = posts[postIndex];
   // let post = posts.find((post) => post.slug === params.slug)
@@ -94,17 +99,17 @@ export default async function Blog({ params }:{params: {slug: string}}) {
       </div>
       <article className="prose lg:max-w-3xl md:max-w-2xl sm:max-full mx-auto pb-8">
         <MDXRemote
-            source={post.content}
-            components={MDXComponents}  
-            options={options as any}
-          />
+          source={post.content}
+          components={MDXComponents}
+          options={options as any}
+        />
         <Link href={url} target="_blank" className="text-lg text-red-400 hover:underline hover:text-red-600"> 去【 小报童 】查看专栏详情 </Link>
       </article>
       <div className="flex justify-center items-center mt-4 pb-10">
         <div className="flex gap-2 flex-col sm:flex-row">
           {prevPost ? (
             <Link href={prevPost.slug} className="link-underline">
-              <Button color="default">上一篇</Button>  
+              <Button color="default">上一篇</Button>
             </Link>
           ) : (
             <></>
