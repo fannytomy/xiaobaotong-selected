@@ -8,7 +8,7 @@
 ## 本地使用
 
 ```
-git clone https://github.com/nivance/xiaobot-choice.git
+git clone https://github.com/nivance/xiaobaotong-choice.git
 
 cd xiaobot-choice
 
