@@ -2,7 +2,7 @@ import fs, { PathLike } from 'fs'
 import path from 'path'
 import {tags_alias, last_update_time} from '@/data/data'
 
-type Metadata = {
+export type Metadata = {
   title: string
   publishedAt: string
   summary: string
