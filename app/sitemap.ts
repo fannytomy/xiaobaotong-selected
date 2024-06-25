@@ -1,4 +1,4 @@
-import { getBlogPosts, getTags } from '@/app/blog/utils'
+import { getBlogPosts, getTags } from '@/lib/mdx-utils'
 import { navigation } from "@/data/config";
 
 export const baseUrl = `${process.env.SITE_URL}`

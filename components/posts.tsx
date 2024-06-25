@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { RiArrowRightDoubleLine } from "react-icons/ri";
 import React from "react";
 import { Pagination } from "@nextui-org/react";
-import { Metadata } from "@/app/blog/utils";
+import { Metadata } from "@/lib/mdx-utils";
 
 export function BlogPosts({ posts }: {
   posts: {
@@ -25,7 +25,7 @@ export function BlogPosts({ posts }: {
   }).slice((currentPage - 1) * page_size, currentPage * page_size);
 
   return (
-    <div className="flex flex-col bg-gray-100">
+    <div className="flex flex-col justify-center items-center bg-gray-100">
       <div className='pt-6 pl-8 pr-8'>
         {allBlogs.map((post) => (
           <Link
@@ -33,7 +33,7 @@ export function BlogPosts({ posts }: {
             className="flex flex-col space-y-1 mb-4"
             href={`/blog/${post.slug}`}
           >
-            <div className="w-full flex flex-col md:flex-row md:justify-between space-x-0 md:space-x-0">
+            <div className="w-full flex flex-col md:flex-row md:justify-between lg:space-x-60 md:space-x-10">
               <div className='flex items-center space-x-2'>
                 <RiArrowRightDoubleLine />
                 <p className="text-gray-900 dark:text-neutral-100 tracking-tight hover:text-red-500 hover:underline">
