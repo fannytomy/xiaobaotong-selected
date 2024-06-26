@@ -16,7 +16,7 @@ export default function Faq() {
                     <div className="mb-4 flex cursor-pointer items-start justify-between">
                         <p className="text-xl font-semibold">小报童 订阅以后能退订吗?</p>
                     </div>
-                    <p className="text-[#636262]">专栏在付费后 24 小时内申请无理由退款。退款申请会在 48 小时内人工进行审核，通过后费用将会原路退回。<br/>请注意，连续退款三次，账号将会进入冷静期，无法进行支付操作。<br/>如需退款，请按照以下操作方式，在小报童微信服务号内，点击菜单「我的」- 「申请退款」，根据提示操作即可。</p>
+                    <p className="text-[#636262]">专栏在付费后 48 小时内可以申请无理由退款。退款申请会在 48 小时内人工进行审核，通过后费用将会原路退回。<br/>请注意，连续退款三次，账号将会进入冷静期，无法进行支付操作。<br/>如需退款，请按照以下操作方式，在小报童微信服务号内，点击菜单「我的」- 「申请退款」，根据提示操作即可。</p>
                 </div>
                 <div className="mb-6 rounded-xl border border-solid border-black p-8">
                     <div className="mb-4 flex cursor-pointer items-start justify-between">
