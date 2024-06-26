@@ -14,23 +14,9 @@ export default async function Page() {
   const choicePosts = posts.filter(post => post.metadata.isChoice)
   const recentPosts = posts.filter(post => !post.metadata.isChoice) 
 
-  const handleMouseOver = (event: any) => {
-    const img = event.currentTarget.querySelector('img');
-    const h2 = event.currentTarget.querySelector('h2');
-    if (img) img.style.transform = 'scale(1.1)';
-    if (h2) h2.style.textDecoration = 'underline';
-  };
-  
-  const handleMouseOut = (event: any) => {
-    const img = event.currentTarget.querySelector('img');
-    const h2 = event.currentTarget.querySelector('h2');
-    if (img) img.style.transform = 'scale(1)';
-    if (h2) h2.style.textDecoration = 'none';
-  };
-
   return (
     <div className="container mx-auto px-4 py-8 w-4/5">
-      <ChoicePost choicePosts={choicePosts}/>
+      <ChoicePost title='精选文章' choicePosts={choicePosts}/>
       <section className="min-h-screen">
         <h1 className="text-3xl font-bold mb-12 mt-12">最近的文章</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">

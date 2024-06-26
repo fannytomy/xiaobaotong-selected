@@ -9,7 +9,6 @@ import rehypePrettyCode from "rehype-pretty-code";
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
 import { getUrl } from '@/lib/utils';
-import TableofContent from "@/components/TableOfContent";
 
 const options = {
   parseFrontmatter: true,
@@ -130,25 +129,6 @@ export default async function Blog({ params }: { params: { slug: string } }) {
             </div>
           </div>
         </div>
-        {/* <div className="sticky top-0 pt-10 h-screen">
-          <div className="hidden xl:block">
-            <p className="text-gray-800 text-xl font-bold py-4 mt-4">
-              目录
-            </p>
-            {post.headings.map((heading) => {
-              return (
-                <div key={heading.text}>
-                  <TableofContent heading={heading} />
-                </div>
-              );
-            })}
-          </div>
-          <Link href="/blog">
-            <p className="py-2 text-sm text-right sm:text-left text-zinc-500 dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-200 transition duration-400">
-              ← 返回
-            </p>
-          </Link>
-        </div> */}
       </div>  
     </section>
   )
