@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { Metadata } from "@/lib/mdx-utils";
 
-export default function ChoicePost({ choicePosts }: {
+export default function ChoicePost({ title = '', choicePosts = [] }: {
+    title: string,
     choicePosts: {
         metadata: Metadata;
         slug: string;
@@ -12,7 +13,7 @@ export default function ChoicePost({ choicePosts }: {
 }) {
     return (
         <section>
-            <h1 className="text-3xl font-bold mb-12">精选文章</h1>
+            <h1 className="text-3xl font-bold mb-12">{title}</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {choicePosts.map(post => {
                     return (

@@ -2,6 +2,7 @@ import { Aside } from "@/components/mdx/Aside";
 import { Callout } from "@/components/mdx/Callout";
 import { MdxCard } from "@/components/mdx/MdxCard";
 import React, { ReactNode } from "react";
+import Image from "next/image";
 
 interface HeadingProps {
   level: 1 | 2 | 3 | 4 | 5 | 6;
@@ -26,19 +27,19 @@ interface MDXComponentsProps {
 
 const MDXComponents: MDXComponentsProps = {
   h1: (props) => (
-    <Heading level={1} className="text-4xl font-bold mt-6 mb-4" {...props} />
+    <Heading level={1} className="text-4xl font-bold mt-12 mb-8" {...props} />
   ),
   h2: (props) => (
     <Heading
       level={2}
-      className="text-3xl font-semibold mt-6 mb-4 border-b-2 border-gray-200 pb-2"
+      className="text-3xl font-semibold mt-12 mb-8 border-b-2 border-gray-200 pb-2"
       {...props}
     />
   ),
   h3: (props) => (
     <Heading
       level={3}
-      className="text-2xl font-semibold mt-6 mb-4"
+      className="text-2xl font-semibold mt-12 mb-8"
       {...props}
     />
   ),
@@ -59,7 +60,7 @@ const MDXComponents: MDXComponentsProps = {
   p: (props) => <p className="mt-4 mb-4" {...props} />,
   a: (props) => (
     <a
-      className="link-underline"
+      className="text-red-400 hover:text-red-600 hover:underline"
       target="_blank"
       rel="noopener noreferrer nofollow"
       {...props}
@@ -84,7 +85,9 @@ const MDXComponents: MDXComponentsProps = {
     />
   ),
   img: (props) => (
-    <img width="70%" className="rounded border-4 border-main" {...props} />
+    <div className="flex items-center justify-center rounded-2xl">
+      <Image width={480} height={600} className="rounded border-4 border-main" {...props} />
+    </div>
   ),
   strong: (props) => <strong className="font-bold" {...props} />,
   table: (props) => (
