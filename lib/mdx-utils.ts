@@ -39,7 +39,7 @@ function parseFrontmatter(fileContent: string) {
   return { metadata: metadata as Metadata, content }
 }
 
-function get_headings(fileContent: string) {
+export function get_headings(fileContent: string) {
   const regXHeader = /\n(#{2,6})\s+(.+)/g;
   const headings = Array.from(fileContent.matchAll(regXHeader)).map(
     (groups) => {
