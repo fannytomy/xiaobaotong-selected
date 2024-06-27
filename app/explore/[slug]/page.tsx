@@ -51,8 +51,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   } = post.metadata
 
   return {
-    title: `小报童专栏-${title}`,
-    description: `小报童专栏-${title}`,
+    title: `小报童-${title}`,
+    description: `小报童-${title}`,
     openGraph: {
       title,
       description,
@@ -133,7 +133,7 @@ export default async function Blog({ params }: { params: { slug: string } }) {
       </div>
       <div className='relative w-4/5 mx-auto'>
         <hr className="border-t-2 border-gray-300 w-full mx-0 my-8" />
-        <h1 className="text-3xl font-bold mb-12 text-center">相关文章</h1>
+        <h1 className="text-3xl font-bold text-red-500 mb-12 text-center">相关文章</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {recentPosts.map(post => {
             const imageUrl = baseUrl + '/' + post.metadata.image
