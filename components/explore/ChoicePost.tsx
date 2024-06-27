@@ -19,7 +19,7 @@ export default function ChoicePost({ title = '', choicePosts = [] }: {
                     return (
                         <Link key={post.slug} className="w-full h-full col-span-2 relative hover:scale-105 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" href={`/explore/${post.slug}`} >
                             <div key={post.slug} >
-                                <img src={post.metadata.image} className="rounded-3xl object-cover" />
+                                <img src={post.metadata.image} className="w-full h-full rounded-3xl object-cover" />
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center rounded-3xl">
                                     <h2 className="text-white text-3xl font-bold mb-16">{post.metadata.title}</h2>
                                 </div>
