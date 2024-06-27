@@ -10,7 +10,7 @@ import Tags from '@/components/Tags'
 import Header from '@/components/Header';
 import Brand from '@/components/Brand';
 
-export default async function TagContentPage({ params }: { params: { slug: string } }) {
+export default function TagContentPage({ params }: { params: { slug: string } }) {
   const tags_alias_index = tags_alias.indexOf(params.slug);
   const selectedTag = tags_alias_index === -1 ? '全部' : tags[tags_alias_index];
 
