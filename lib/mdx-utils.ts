@@ -2,11 +2,12 @@ import fs, { PathLike } from 'fs'
 import path from 'path'
 import {tags_alias, last_update_time} from '@/data/data'
 
-type Metadata = {
+export type Metadata = {
   title: string
   publishedAt: string
   summary: string
   image?: string
+  isChoice?: boolean
 }
 
 function parseFrontmatter(fileContent: string) {
@@ -21,10 +22,38 @@ function parseFrontmatter(fileContent: string) {
     let [key, ...valueArr] = line.split(': ')
     let value = valueArr.join(': ').trim()
     value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value
+    if (key.trim() === 'title') {
+      metadata.title = value;
+    } else if (key.trim() === 'publishedAt') {
+      metadata.publishedAt = value;
+    } else if (key.trim() === 'summary') {
+      metadata.summary = value;
+    } else if (key.trim() === 'image') {
+      metadata.image = value;
+    } else if (key.trim() === 'isChoice') {
+      metadata.isChoice = value === "true";
+    }
+    // metadata[key.trim() as keyof Metadata] = value
   })
 
   return { metadata: metadata as Metadata, content }
+}
+
+export function get_headings(fileContent: string) {
+  const regXHeader = /\n(#{2,6})\s+(.+)/g;
+  const headings = Array.from(fileContent.matchAll(regXHeader)).map(
+    (groups) => {
+      const flag = groups[1];
+      const content = groups[2];
+      return {
+        level:
+          flag?.length == 1 ? "one" : flag?.length == 2 ? "two" : "three",
+        text: content,
+        id: content.split(" ").join("-").toLowerCase(),
+      };
+    }
+  );
+  return headings;
 }
 
 function getMDXFiles(dir : PathLike) {
@@ -61,6 +90,10 @@ export function getTags() {
 
 export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
+}
+
+export function getExplorePosts() {
+  return getMDXData(path.join(process.cwd(), 'app', 'explore', 'posts'))
 }
 
 export function formatDate(date: string, includeRelative = false) {

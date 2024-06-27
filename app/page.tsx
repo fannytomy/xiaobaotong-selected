@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import {columns} from '@/data/data'
+import { columns } from '@/data/data'
 import Faq from '@/components/Faq';
 import BackToTopButton from '@/components/Back2Top';
 import Cards from '@/components/Cards';
@@ -9,7 +9,7 @@ import CountColumn from '@/components/CountColumn'
 import Tags from '@/components/Tags';
 import Brand from '@/components/Brand';
 
-const Page = () => {
+export default function Page() {
   const [inputValue, setInputValue] = useState<string>('');
   const handlerSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
@@ -73,5 +73,3 @@ const Page = () => {
     </>
   );
 };
-
-export default Page;

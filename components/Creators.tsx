@@ -2,7 +2,7 @@ import { columns } from "@/data/data"
 import Link from "next/link"
 import { getUrl } from '@/lib/utils';
 
-export default function Creators() {
+export default async function Creators() {
 
     const creators = Array.from(new Map(columns.map(item => [item.owner, item])).values());
 

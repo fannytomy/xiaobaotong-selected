@@ -8,6 +8,7 @@ const navigation = {
   ],
   blog: [
     { name: '上新', href: '/blog' },
+    { name: '发现', href: '/explore' },
     { name: '创作者', href: '/creators' },
   ],
   credit: [
