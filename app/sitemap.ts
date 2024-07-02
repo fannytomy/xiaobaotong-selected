@@ -1,4 +1,4 @@
-import { getBlogPosts, getTags } from '@/lib/mdx-utils'
+import { getBlogPosts, getTags, getExplorePosts } from '@/lib/mdx-utils'
 import { navigation } from "@/data/config";
 
 export const baseUrl = `${process.env.SITE_URL}`
@@ -7,6 +7,11 @@ export default async function sitemap() {
 
   let blogs = getBlogPosts().map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: post.metadata.publishedAt,
+  }))
+
+  let explore = getExplorePosts().map((post) => ({
+    url: `${baseUrl}/explore/${post.slug}`,
     lastModified: post.metadata.publishedAt,
   }))
 
@@ -25,5 +30,5 @@ export default async function sitemap() {
     lastModified: new Date().toISOString().split('T')[0],
   }))
 
-  return [...routes, ...blogs, ...tags, ...navRoutes]
+  return [...routes, ...blogs, ...explore, ...tags, ...navRoutes]
 }
