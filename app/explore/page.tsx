@@ -22,7 +22,7 @@ export default async function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {recentPosts.map(post => {
             return (
-              <Link key={post.slug} className='hover:scale-105 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg'  href={`/explore/${post.slug}`} >
+              <Link key={post.slug} className='hover:scale-105 transition duration-300 border-red-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg'  href={`/explore/${post.slug}`} >
                 <div key={post.slug} >
                   <img src={post.metadata.image} className="w-full object-cover rounded-3xl mb-2"/>
                   <div>
