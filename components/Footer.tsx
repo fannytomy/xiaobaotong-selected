@@ -12,8 +12,7 @@ const navigation = {
     { name: '创作者', href: '/creators' },
   ],
   credit: [
-    { name: 'xiaobot.net', href: 'https://xiaobot.net' },
-    { name: 'xiaobaot.top', href: 'https://xiaobaot.top' },
+    { name: 'Cookie Clicker Unblocked', href: 'https://cookieclickerunblocked.site' },
   ],
 };
 
@@ -72,13 +71,17 @@ export default function Footer() {
               </div>
               <div className="my-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10 lg:mt-0">
                 <p className="font-inter font-bold text-red-600">友情链接</p>
-                {/* <a
-                  href="https://aiwallpaper.shop"
-                  target="_blank"
-                  className="font-inter font-light text-gray-500"
-                >
-                  AI Wallpaper
-                </a> */}
+                <ul role="list" className="mt-6 space-y-2 w-48">
+                  {navigation.credit.map((item) => {
+                    return (
+                      <li key={item.name}>
+                        <a href={item.href} target="_blank" className="font-inter whitespace-nowrap text-red-400 hover:underline">
+                        {item.name}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </div>
             {/* <div className="mt-10 flex flex-col lg:mt-0">
