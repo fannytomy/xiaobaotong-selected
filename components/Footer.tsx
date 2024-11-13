@@ -12,8 +12,7 @@ const navigation = {
     { name: '创作者', href: '/creators' },
   ],
   credit: [
-    { name: 'xiaobot.net', href: 'https://xiaobot.net' },
-    { name: 'xiaobaot.top', href: 'https://xiaobaot.top' },
+    { name: 'Cookie Clicker Unblocked', href: 'https://cookieclickerunblocked.site' },
   ],
 };
 
@@ -23,9 +22,9 @@ export default function Footer() {
       <div id="footer-heading" className="sr-only">
         Footer
       </div>
-      <div className="mx-auto max-w-5xl px-6 py-4 pt-10 border-t border-gray-300 text-sm">
-        <div className="xl:grid xl:grid-cols-4 xl:gap-8">
-          <div className="space-y-6">
+      <section>
+        <div className="mx-auto max-w-5xl px-6 py-4 pt-10 border-t border-gray-300 text-sm">
+          <div className="lg:flex lg:flex-row lg:justify-between">
             <div className="flex items-center lg:flex-1">
               <Link href={`/`} className="-m-0 p-1.5">
                 <Image
@@ -37,12 +36,10 @@ export default function Footer() {
                 />
               </Link>
               <Link href={`/`} className="text-xl text-red-600 font-bold">小报童专栏<br/>精选导航站</Link>
-            </div>            
-          </div>
-          <div className="mt-2 flex grid-cols-1 gap-8 xl:col-span-2 xl:mt-0 justify-end">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <div className="text-sm font-bold leading-6 text-red-600">Blog</div>
+            </div>
+            <div className="flex grow flex-row flex-wrap lg:mx-10 lg:flex-nowrap lg:justify-center">
+              <div className="my-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10 lg:mt-0">
+                <p className="font-inter font-bold text-red-600">Blog</p>
                 <ul role="list" className="mt-6 space-y-2">
                   {navigation.blog.map((item) => {
                     return (
@@ -55,51 +52,61 @@ export default function Footer() {
                   })}
                 </ul>
               </div>
-              <div className="md:grid md:grid-cols-1 md:gap-8">
-                <div>
-                  <div className="text-medium leading-6 text-red-600 font-bold">
-                    Legal
-                  </div>
-                  <ul role="list" className="mt-6 space-y-2">
-                    {navigation.legal.map((item) => {
-                      return (
-                        <li key={item.name}>
-                          <Link
-                            href={`${item.href}`}
-                            className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline"
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
+              <div className="my-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10 lg:mt-0">
+                <p className="font-inter font-bold text-red-600">隐私条款</p>
+                <ul role="list" className="mt-6 space-y-2">
+                  {navigation.legal.map((item) => {
+                    return (
+                      <li key={item.name}>
+                        <Link
+                          href={`${item.href}`}
+                          className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline"
+                        >
+                          {item.name}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+              <div className="my-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10 lg:mt-0">
+                <p className="font-inter font-bold text-red-600">友情链接</p>
+                <ul role="list" className="mt-6 space-y-2 w-48">
+                  {navigation.credit.map((item) => {
+                    return (
+                      <li key={item.name}>
+                        <a href={item.href} target="_blank" className="font-inter whitespace-nowrap text-red-400 hover:underline">
+                        {item.name}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </div>
+            {/* <div className="mt-10 flex flex-col lg:mt-0">
+              <div className="mb-4 flex flex-row items-center">
+                <p className="block">联系作者: </p>
+                <p className="font-inter ml-4 text-black"></p>
+              </div>
+            </div> */}
           </div>
-          <div className="mt-10 md:mt-0">
-            <div>
-              <div className="text-medium font-semibold leading-6 text-red-600">CREDIT TO</div>
-              <ul role="list" className="mt-6 space-y-2">
-                {navigation.credit.map((item) => {
-                  return (
-                    <li key={item.name}>
-                      <Link
-                        href={`${item.href}`}
-                        target={"_blank"}
-                        className="text-sm leading-6 whitespace-nowrap text-red-400 hover:underline"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+          <div className="mx-auto my-12 w-full border-t border-gray-300 lg:my-4"></div>
+          <div>
+            <p className="font-inter text-center text-sm text-red-600 lg:mt-0">
+              © Copyright 2024.{" "}
+              <a
+                href="https://xiaobaotong.store"
+                target="_blank"
+                className="text-red-400 hover:underline hidden md:inline-block"
+              >
+                xiaobaotong.store
+              </a>{" "}
+              All rights reserved.
+            </p>
           </div>
         </div>
-      </div>
+      </section>
     </footer>
   );
 }

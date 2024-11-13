@@ -4,7 +4,7 @@ import { getBlogPosts } from '@/lib/mdx-utils'
 export const metadata = {
   title: '小报童专栏精选导航站 | 上新',
   description: '小报童专栏精选导航站上新.',
-  keywords: '小报童, 小报童精选, 小报童专栏, 小报童导航, 小报童导航站, 小报童专栏精选导航站'
+  keywords: '小报童, 小报童精选, 小报童排行榜, 小报童专栏, 小报童导航, 小报童导航站, 小报童专栏精选导航站'
 }
 
 export default async function Page() {

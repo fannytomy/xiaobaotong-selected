@@ -1,0 +1,337 @@
+---
+title: 'Chrome插件全栈开发实战'
+publishedAt: '2024-11-04'
+---
+
+## 专栏介绍
+
+![](https://static.xiaobot.net/file/2024-10-07/520982/d086d34a1c7131c901d30800e04ec66a.webp)
+本专栏一共17章，已全部完结。
+
+专栏完整目录和代码结构可在文末查看，通过它们你可以对专栏即将讲解的知识有初步的认识。
+
+大家好，我是程普，即刻App、微信公众号[「BigYe程普」](https://okjk.co/dVoA04)，推特[「weijunext」](https://x.com/weijunext)。
+
+本专栏是以我的出海产品[「PH Copilot」](https://phcopilot.ai/)为例，讲解 Chrome 插件开发和 Next.js 全栈开发的知识，教你最适合独立开发者的出海技术栈组合，帮助你半个月内成为全栈出海工程师。
+
+**专栏配套源码，购买专栏即额外获得一份Chrome开发模板、Next.js SaaS 全栈模板。**
+
+这是我的微信，购买后可以加我微信，备注「**小报童**」，方便拉你加入GitHub仓库，以及后续反馈和交流：
+
+![](https://static.xiaobot.net/file/2024-09-22/520982/3df56a5b9dd9e6ac3622573d2389f833.png)开发背景
+----
+
+了解过出海玩法的朋友都知道，[ProductHunt](https://www.producthunt.com/)（后面简称PH）是出海产品的重要宣传渠道，如果你在PH能够拥有足够的影响力，既可以在自己宣传产品时获得获得更多曝光，也可以以此收费帮助别人发布产品。
+
+PH账号的影响力和它们的账号等级规则息息相关，账号等级是以积分值（points）的高低来划分，积分值和用户等级对应关系如下：
+
+0-99：新手用户
+
+100-499：铜牌用户
+
+500-999：银牌用户
+
+1000及以上：金牌用户
+
+用户可以通过参与产品评论、讨论来获取别人的 upvote，一个 upvote 就会带来一个积分。
+
+例如，👇这个人获得1个 upvote，就会相对应获得一个积分。
+
+![](https://static.xiaobot.net/file/2024-09-22/520982/1d1a508e3b8e917e0f28eeddba56611d.png)当一个用户升级成为铜牌、银牌和金牌用户的时候，也就变成PH的优质用户了，这样的账号投票和评论的权重比较大；你的PH的粉丝关注数也会变多，以后你发布产品的时候你的粉丝都会收到系统通知。
+
+因为我正在研究出海，所以了解完规则后，就想养个PH账号，等以后发布产品的时候用。
+
+刚开始，我是手动挡操作：把产品信息复制粘贴到到GPT对话框，然后让GPT帮助我写评论，再把评论复制到PH评论区，我每天评论3-5个产品，这样的重复动作我执行了1个月，评论了100个左右的产品，升级到了铜牌，也总结出了一个成熟的的 Prompt。
+
+有了输出稳定的 Prompt 我就决定开发个Chrome插件，让身边出海的朋友也养养号。这就是「PH Copilot」的开发背景了。
+
+技术栈选型
+-----
+
+比较早关注我的朋友都知道，2023年开始，我就分享 Next.js/React 的知识，也发布了几个 Next.js 的开源项目，这里面涉及到 Prisma、LemonSqueezy、next-auth 一些主流的数据库、支付、授权方面的技术栈。
+
+这一次开发插件，我就想继续尝试一些没用过的技术栈，这样我才有新的东西可写。一顿选择后，选定了如下的技术栈：
+
+* Chrome 插件 - Plasmo
+* 授权/登录 - Firebase
+* 数据库 - Firebase
+* 支付 - Paddle
+* 落地页 - Next.js
+* 样式 - tailwindcss
+* 组件库 - Shadcn、NextUI
+
+等我真正开发完之后，回头看使用这套技术栈爬过的坑，我觉得我写出来后肯定是一系列高价值的教程——可以让 Chrome 插件开发初学者半个月内学习并上线一个生产可用的产品；所以考虑之后，我决定写一套完整技术方案和实现过程，通过付费专栏来让自己获得回报。
+
+你的收获
+----
+
+学完本专栏，除了能学到上面提到的技术栈，
+
+你还将有能力：
+
+* 自己搭建同类插件
+* 用同类方案开发推特/Reddit回复插件
+* 用同类方案做保存页面内容的插件
+
+还将拥有：
+
+* **「PH Copilot」正在使用的 Prompt**
+* **本专栏实践的完整源码（包含 Chrome 插件端和 Next.js 全栈项目）**
+
+本专栏的代码按照模块化开发的理念，做了合理的分层和拆分，你还能在潜移默化中学会更好的代码设计。
+
+适用人群
+----
+
+本专栏不是0基础入门教程，不提供基础的环境安装和开发工具使用指导，所以不适合 React/Next.js 技术0基础的朋友。
+
+本专栏适合以下人群学习：
+
+* 有 React 或 Next.js 基础，想要找项目实战的开发者
+* 想要学习 Chrome 插件和 Next.js 全栈技术的开发者
+* 想要学习 SaaS 产品设计和开发的开发者
+
+专栏资源
+----
+
+* 本专栏教程
+* 配套的源码，实现和「PH Copilot」一模一样的功能（购买48小时后可获得 Github 仓库访问权限）：
+	+ 插件端源码：https://github.com/weijunext/ph-copilot-dev-guide，按模块建分支，你得到的不仅是一份完整的源码，还是能根据你的学习需求，研究你所需要的模块分支代码
+	+ 本项目落地页源码： https://github.com/weijunext/ph-copilot-guide-landing-page
+
+* 专属答疑微信群，为购买专栏的朋友提供答疑服务
+	+ 本专栏的知识，有问必答
+	+ 非专栏知识，但属于相关技术问题，只要在能力范围内都尽力解答
+	+ 非专栏知识，且非技术问题，原则上不答
+
+专栏目录
+----
+
+
+```
+1. 介绍Chrome 插件和认识Plasmo
+    1. Chrome插件的基本概念
+    2. Chrome插件的工作原理
+    3. 发布与维护的简单介绍
+    4. 认识Plasmo
+    5. Plasmo的主要优势
+2. 搭建插件基础模板
+    1. 环境准备
+    2. 创建Plasmo项目
+    3. 启用src目录
+    4. 构建常用项目结构
+    5. 引入Tailwind CSS
+    6. 引入Shadcn/ui 
+    7. 整理公共方法
+3. Firebase资源创建和配置全过程
+    1. 创建 Google Cloud 项目
+    2. 创建 Google OAuth 同意屏幕
+    3. 创建 OAuth 客户端凭据
+    4. 插件端保存客户端凭据
+    5. 创建 Firebase 资源
+    6. 配置 Firebase 授权
+    7. 了解 Firestore(数据库)
+    8. 为什么使用Firebase和计费规则介绍
+4. Chrome插件登录方案
+    1. 方案一：在新标签页登录
+    2. 方案二：使用 firebase/auth/web-extension
+    3. 方案三：结合 chrome.identity 和 firebase/auth/web-extension
+5. Plasmo 插件端集成 Firestore 数据库
+    1. 认识 Firestore
+    2. 设计用户表和数据入库
+    3. token 本地缓存
+    4. token 刷新方案
+    5. 页面用户信息展示和登录逻辑
+6. Next.js 落地页集成 Firebase
+    1. 前置知识
+    2. 启动落地页
+    3. 集成 Firebase
+    4. 移动端登录处理
+    5. 上线前准备
+7. Firestore 安全规则
+    1. 基本结构
+    2. 匹配路径
+    3. 基本操作
+    4. 规则函数
+    5. 内置变量
+    6. 常见规则示例
+    7. 复用函数
+    8. 测试规则
+    9. 安全规则最佳实践
+    10. PH Copilot安全规则参考
+8. 插件多语言的实现
+    1. 多语言配置
+    2. 语言存储
+    3. 语言上下文
+    4. 语言切换器组件
+    5. 翻译功能实现
+    6. 翻译功能使用
+9. 插件端抓取页面内容
+    1. 分析需求
+    2. 分析要抓取的元素
+    3. 修改权限
+10. sidepanel 集成AI对话功能生成产品总结和评论
+    1. Markdown 内容渲染
+    2. sidepanel 创建生成产品总结入口
+    3. sidepanel 创建生成评论入口
+    4. background 处理消息和响应隔离
+11. content 集成AI对话功能生成产品总结和评论
+    1. 编写适用于 ProductHunt 的 content 入口
+    2. content 创建生成产品总结入口
+    3. content 创建生成评论入口
+12. 服务端集成 AI 对话功能并和插件端通信
+    1. 插件端请求服务端的安全措施
+    2. Prompt 准备
+    3. AI 对话接口设计和开发
+    4. 验证 credits 消耗
+    5. 延长请求超时时间
+13. Paddle申请流程介绍
+14. Paddle后台功能介绍
+15. 集成Paddle一次性支付，用户可购买 Credits
+    1. Paddle 后台设置产品
+    2. 接入 Paddle 支付
+    3. 分析和处理一次性付款通知（Webhook），完成 credits 购买
+    4. 处理监听退款通知（Webhook），自动扣除 credits
+16. 集成Paddle订阅，设计会员权限
+    1. 分析 Paddle 订阅事件
+    2. 处理订阅与续订
+    3. 处理取消订阅
+    4. 处理退款
+    5. 落地页端信息展示与取消订阅
+    6. 插件端提供订阅用户高级功能
+    7. 订阅用户的 AI 对话处理逻辑
+17. 发布产品
+    1. 发布 Chrome 插件
+    2. 使用 Vercel 部署 Next.js 项目
+```
+插件端代码结构（仅展示src部分）
+-----------------
+
+
+```
+ph-copilot-dev-guide
+├─ src
+│  ├─ background
+│  │  ├─ firebase
+│  │  │  ├─ authService.ts
+│  │  │  ├─ config.ts
+│  │  │  ├─ index.ts
+│  │  │  ├─ tokenManager.ts
+│  │  │  └─ userService.ts
+│  │  ├─ aiResponseHandler.ts
+│  │  ├─ index.ts
+│  │  ├─ messageHandler.ts
+│  │  ├─ sendMessageToSource.ts
+│  │  ├─ storageManager.ts
+│  │  └─ updateChecker.ts
+│  ├─ components
+│  │  ├─ LanguageSwitcher
+│  │  │  ├─ LanguageContext.tsx
+│  │  │  ├─ index.tsx
+│  │  │  ├─ translations.ts
+│  │  │  └─ useTranslation.ts
+│  │  └─ ui
+│  │     ├─ avatar.tsx
+│  │     ├─ button.tsx
+│  │     ├─ card.tsx
+│  │     ├─ popover.tsx
+│  │     ├─ select.tsx
+│  │     ├─ toggle.tsx
+│  │     └─ tooltip.tsx
+│  ├─ contents
+│  │  ├─ components
+│  │  │  ├─ ContentCommentGenerator.tsx
+│  │  │  ├─ ContentOverviewGenerator.tsx
+│  │  │  └─ CopilotTools.tsx
+│  │  ├─ hooks
+│  │  │  ├─ useDOMObserver.ts
+│  │  │  └─ useUrlChangeListener.ts
+│  │  ├─ styles
+│  │  │  └─ content.css
+│  │  ├─ utils
+│  │  │  └─ constants.ts
+│  │  └─ index.tsx
+│  ├─ lib
+│  │  ├─ constant.ts
+│  │  ├─ prefixByEnv.ts
+│  │  ├─ useProductDetails.ts
+│  │  └─ utils.ts
+│  ├─ popup
+│  │  ├─ components
+│  │  ├─ hooks
+│  │  ├─ styles
+│  │  ├─ utils
+│  │  └─ index.tsx
+│  ├─ sidepanel
+│  │  ├─ components
+│  │  │  ├─ CommentCard.tsx
+│  │  │  ├─ Header.tsx
+│  │  │  ├─ OverviewCard.tsx
+│  │  │  └─ UserInfoCard.tsx
+│  │  ├─ hooks
+│  │  ├─ styles
+│  │  ├─ utils
+│  │  └─ index.tsx
+│  ├─ store
+│  │  ├─ firebaseAuthStorage.ts
+│  │  ├─ useCommentLength.ts
+│  │  ├─ useLanguageStorage.ts
+│  │  └─ useUserData.ts
+│  ├─ types
+│  │  ├─ product.ts
+│  │  └─ user.ts
+│  └─ style.css
+```
+Next.js 端代码结构
+-------------
+
+Next.js 端基于我的落地页模板开发，代码结构可以直接参考：https://github.com/weijunext/landing-page-boilerplate
+
+## 附加章节2：PH Copilot的插件提交信息
+第一次发布插件的时候，很多人可能会因为需要填写的信息太多而没有头绪，所以我把 PH Copilot 第一个版本填写的所有信息整理了出来，供大家参考，特别是权限的部分，如果你的插件里权限用途差不多......
+
+## 附加章节1：安全的加密策略
+在第 16 章，设计会员功能的时候，为了把重点放在订阅功能的设计上面，我们使用最方便的 AES 加密方案对用户的 aiKeys 进行加密。因为把密钥放在 Chrome 插件代码里实际上有被逆向找......
+
+## 第17章：发布产品
+发布 Chrome 插件每一次打包前，都需要更新一下插件版本号，在 package.json 文件的 version 字段配置：
+
+使用 plasmo 开发的插件，可以使......
+
+## 第16章：集成Paddle订阅，设计会员权限
+上一章一次性付款的流程跑通后，很多支付功能的开发问题你就会有比较好的理解了。本章我们接着开发订阅功能。
+
+因为 PH Copilot 已经有一次性付款购买 credits 的功能了，后......
+
+## 第15章：集成Paddle一次性支付，用户可购买 Credits
+支付功能会设计服务端 api key，不适合在插件端实现，所以支付功能我们只在 Next.js 端开发，插件端只提供购买按钮跳转到定价卡片位置。
+
+产品定价方案多种多样，PH Copi......
+
+## 第14章：Paddle后台功能介绍
+Paddle后台左侧菜单功能介绍如下：
+
+Overview：账户数据总揽
+
+Transactions：交易订单，默认展示完成交易的订单，可以选择查询其它状态的订单
+
+## 第13章：Paddle申请流程介绍
+海外支付平台认可度最高的是 Stripe，但是申请门槛比较高，一般需要海外公司的主体去注册。其次是 LemonSqueezy 和 Paddle，LemonSqueezy 最近对中国大陆的用户有明......
+
+## 第12章：服务端集成 AI 对话功能并和插件端通信
+开始开发服务端集成 AI 对话功能前，还是先做好功能设计。这个功能点看起来只是调用第三方 AI，实际落地起来有很多细节需要处理。
+
+我们的需求有这些：
+
+prompt 要支持......
+
+## 第11章：content 集成AI对话功能生成产品总结和评论
+content 是在页面注入的内容，所以第一步还是来看看我们要注入到哪个位置，以及它的原始标签内容：
+
+注入的最佳位置就是在原始的评论框的范围内，这样对用户来说最容易理解......
+
+## 第10章：sidepanel 集成AI对话功能生成产品总结和评论
+集成 AI 对话功能看似只需要调用 SDK，实际上整个流程要更加复杂。
+
+首先考虑的是 AI 平台的 key 不能丢失，那就要把对话功能放在服务端，但是 Chrome 插件的代码都不属......
+
