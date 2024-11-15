@@ -28,7 +28,7 @@ export default async function Page() {
                   <div>
                     <h3 className="text-lg font-semibold">{post.metadata.title}</h3>
                     <p className="text-gray-500 text-sm">{post.metadata.publishedAt}</p>
-                  </div>
+                  </div>  
                 </div>
               </Link>
             );
