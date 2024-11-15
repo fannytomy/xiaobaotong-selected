@@ -9251,7 +9251,7 @@ export const columns =
             "lastupdated": "2024-08-05",
             "type": "BOOKLET",
             "new": 1,
-            "tags": "AI、绘画、案例库"
+            "tags": "AI、绘画、电商、案例库"
         },
         {
             "columnid": "caogenjun00",

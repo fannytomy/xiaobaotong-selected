@@ -23,7 +23,6 @@ export default function Page() {
   }
   filterResult = filterResult.sort((a, b) => b.num.readers - a.num.readers);
   const cloumn_size = inputValue.length > 0 ? filterResult.length : columns.length;
-  const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
   return (
     <>
@@ -65,7 +64,7 @@ export default function Page() {
         </section>
 
         <Tags selectedTag={selectedTag} />
-        <CountColumn name={name} num={cloumn_size} />
+        <CountColumn tag={selectedTag} inputValue = {inputValue} num={cloumn_size} />
         <Cards filteredData={filterResult} />
       </div>
       <Faq />
