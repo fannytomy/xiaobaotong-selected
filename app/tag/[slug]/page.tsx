@@ -30,7 +30,6 @@ export default function TagContentPage({ params }: { params: { slug: string } })
     return tagMatchResult;
   });
   filteredData = filteredData.sort((a, b) => b.num.readers - a.num.readers);
-  const name = inputValue.length > 0 ? `【${selectedTag}】—> ${inputValue}` : `【${selectedTag}】`;
 
   return (
     <>
@@ -72,7 +71,7 @@ export default function TagContentPage({ params }: { params: { slug: string } })
         </section>
 
         <Tags selectedTag={selectedTag} />
-        <CountColumn name={name} num={filteredData.length} />
+        <CountColumn tag={selectedTag} inputValue = {inputValue} num={filteredData.length} />
         <Cards filteredData={filteredData} />       
       </div>
       <Faq />

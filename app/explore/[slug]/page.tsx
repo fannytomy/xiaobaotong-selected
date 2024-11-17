@@ -7,8 +7,6 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypePrettyCode from "rehype-pretty-code";
 import Link from "next/link";
-import { Button } from "@nextui-org/button";
-import { getUrl } from '@/lib/utils';
 import TableofContent from "@/components/TableOfContent";
 
 const options = {
