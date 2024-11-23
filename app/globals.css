@@ -37,14 +37,16 @@ body {
       transform: translateX(20%);
   }
   100% {
-      transform: translateX(-50%);
+      transform: translateX(-200%);
   }
 }
 
 .animate-scroll {
-  animation: scroll 10s linear infinite;
+  animation: scroll var(--scroll-duration, 10s) linear infinite;
   display: flex;
   white-space: nowrap;
+  animation-fill-mode: forwards;  /* 保持在最后一帧 */
+  animation-delay: 0;  /* 确保没有延迟 */
 }
 
 /* 鼠标悬停时暂停动画 */

@@ -13,6 +13,7 @@ const navigation = {
   ],
   credit: [
     { name: 'Cookie Clicker Unblocked', href: 'https://cookieclickerunblocked.site' },
+    { name: 'sprunki', href: 'https://sprunki.today' },
   ],
 };
 
